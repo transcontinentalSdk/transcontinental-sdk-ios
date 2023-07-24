@@ -1,1 +1,226 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"collectionView"},{"kind":"text","text":"("},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"collectionView"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"UICollectionView","preciseIdentifier":"c:objc(cs)UICollectionView"},{"kind":"text","text":", "},{"kind":"externalParam","text":"viewForSupplementaryElementOfKind"},{"kind":"text","text":" "},{"kind":"internalParam","text":"kind"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":", "},{"kind":"externalParam","text":"at"},{"kind":"text","text":" "},{"kind":"internalParam","text":"indexPath"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"IndexPath","preciseIdentifier":"s:10Foundation9IndexPathV"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"UICollectionReusableView","preciseIdentifier":"c:objc(cs)UICollectionReusableView"}],"languages":["swift"],"platforms":["iOS"]}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/tcdigitalflyer\/flyerview\/collectionview(_:viewforsupplementaryelementofkind:at:)"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:viewForSupplementaryElementOfKind:at:)","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"UICollectionViewDataSource.collectionView(_:viewForSupplementaryElementOfKind:at:)"},{"type":"text","text":"."}],"kind":"symbol","metadata":{"role":"symbol","title":"collectionView(_:viewForSupplementaryElementOfKind:at:)","roleHeading":"Instance Method","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"collectionView"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"UICollectionView","preciseIdentifier":"c:objc(cs)UICollectionView"},{"kind":"text","text":", "},{"kind":"externalParam","text":"viewForSupplementaryElementOfKind"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":", "},{"kind":"externalParam","text":"at"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"IndexPath","preciseIdentifier":"s:10Foundation9IndexPathV"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"UICollectionReusableView","preciseIdentifier":"c:objc(cs)UICollectionReusableView"}],"symbolKind":"method","externalID":"c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:viewForSupplementaryElementOfKind:atIndexPath:","extendedModule":"TCDigitalFlyer","modules":[{"name":"TCDigitalFlyer"}]},"hierarchy":{"paths":[["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations"]]},"references":{"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations":{"role":"collectionGroup","title":"UICollectionViewDataSource Implementations","abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations","kind":"article","type":"topic","url":"\/documentation\/tcdigitalflyer\/flyerview\/uicollectionviewdatasource-implementations"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:viewForSupplementaryElementOfKind:at:)":{"role":"symbol","title":"collectionView(_:viewForSupplementaryElementOfKind:at:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"collectionView"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"UICollectionView","preciseIdentifier":"c:objc(cs)UICollectionView"},{"kind":"text","text":", "},{"kind":"externalParam","text":"viewForSupplementaryElementOfKind"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":", "},{"kind":"externalParam","text":"at"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"IndexPath","preciseIdentifier":"s:10Foundation9IndexPathV"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"UICollectionReusableView","preciseIdentifier":"c:objc(cs)UICollectionReusableView"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:viewForSupplementaryElementOfKind:at:)","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer\/flyerview\/collectionview(_:viewforsupplementaryelementofkind:at:)"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView":{"role":"symbol","title":"FlyerView","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"FlyerView"}],"abstract":[{"type":"text","text":"A custom view that displays the Digital Flyer."},{"type":"text","text":" "},{"type":"text","text":"This view is the entrypoint for the Digital Flyer."}],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"FlyerView"}],"url":"\/documentation\/tcdigitalflyer\/flyerview"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer":{"role":"collection","title":"TCDigitalFlyer","abstract":[{"type":"text","text":"The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."}],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer"}}}
+{
+  "primaryContentSections": [
+    {
+      "kind": "declarations",
+      "declarations": [
+        {
+          "tokens": [
+            { "kind": "keyword", "text": "func" },
+            { "kind": "text", "text": " " },
+            { "kind": "identifier", "text": "collectionView" },
+            { "kind": "text", "text": "(" },
+            { "kind": "externalParam", "text": "_" },
+            { "kind": "text", "text": " " },
+            { "kind": "internalParam", "text": "collectionView" },
+            { "kind": "text", "text": ": " },
+            {
+              "kind": "typeIdentifier",
+              "text": "UICollectionView",
+              "preciseIdentifier": "c:objc(cs)UICollectionView"
+            },
+            { "kind": "text", "text": ", " },
+            {
+              "kind": "externalParam",
+              "text": "viewForSupplementaryElementOfKind"
+            },
+            { "kind": "text", "text": " " },
+            { "kind": "internalParam", "text": "kind" },
+            { "kind": "text", "text": ": " },
+            {
+              "kind": "typeIdentifier",
+              "text": "String",
+              "preciseIdentifier": "s:SS"
+            },
+            { "kind": "text", "text": ", " },
+            { "kind": "externalParam", "text": "at" },
+            { "kind": "text", "text": " " },
+            { "kind": "internalParam", "text": "indexPath" },
+            { "kind": "text", "text": ": " },
+            {
+              "kind": "typeIdentifier",
+              "text": "IndexPath",
+              "preciseIdentifier": "s:10Foundation9IndexPathV"
+            },
+            { "kind": "text", "text": ") -> " },
+            {
+              "kind": "typeIdentifier",
+              "text": "UICollectionReusableView",
+              "preciseIdentifier": "c:objc(cs)UICollectionReusableView"
+            }
+          ],
+          "languages": ["swift"],
+          "platforms": ["iOS"]
+        }
+      ]
+    }
+  ],
+  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
+  "sections": [],
+  "variants": [
+    {
+      "paths": [
+        "/documentation/tcdigitalflyer/flyerview/collectionview(_:viewforsupplementaryelementofkind:at:)"
+      ],
+      "traits": [{ "interfaceLanguage": "swift" }]
+    }
+  ],
+  "identifier": {
+    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:viewForSupplementaryElementOfKind:at:)",
+    "interfaceLanguage": "swift"
+  },
+  "abstract": [
+    { "type": "text", "text": "Inherited from " },
+    {
+      "type": "codeVoice",
+      "code": "UICollectionViewDataSource.collectionView(_:viewForSupplementaryElementOfKind:at:)"
+    },
+    { "type": "text", "text": "." }
+  ],
+  "kind": "symbol",
+  "metadata": {
+    "role": "symbol",
+    "title": "collectionView(_:viewForSupplementaryElementOfKind:at:)",
+    "roleHeading": "Instance Method",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "collectionView" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "UICollectionView",
+        "preciseIdentifier": "c:objc(cs)UICollectionView"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "viewForSupplementaryElementOfKind" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "at" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "IndexPath",
+        "preciseIdentifier": "s:10Foundation9IndexPathV"
+      },
+      { "kind": "text", "text": ") -> " },
+      {
+        "kind": "typeIdentifier",
+        "text": "UICollectionReusableView",
+        "preciseIdentifier": "c:objc(cs)UICollectionReusableView"
+      }
+    ],
+    "symbolKind": "method",
+    "externalID": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:viewForSupplementaryElementOfKind:atIndexPath:",
+    "extendedModule": "TCDigitalFlyer",
+    "modules": [{ "name": "TCDigitalFlyer" }]
+  },
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations"
+      ]
+    ]
+  },
+  "references": {
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:viewForSupplementaryElementOfKind:at:)": {
+      "role": "symbol",
+      "title": "collectionView(_:viewForSupplementaryElementOfKind:at:)",
+      "fragments": [
+        { "kind": "keyword", "text": "func" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "collectionView" },
+        { "kind": "text", "text": "(" },
+        {
+          "kind": "typeIdentifier",
+          "text": "UICollectionView",
+          "preciseIdentifier": "c:objc(cs)UICollectionView"
+        },
+        { "kind": "text", "text": ", " },
+        {
+          "kind": "externalParam",
+          "text": "viewForSupplementaryElementOfKind"
+        },
+        { "kind": "text", "text": ": " },
+        {
+          "kind": "typeIdentifier",
+          "text": "String",
+          "preciseIdentifier": "s:SS"
+        },
+        { "kind": "text", "text": ", " },
+        { "kind": "externalParam", "text": "at" },
+        { "kind": "text", "text": ": " },
+        {
+          "kind": "typeIdentifier",
+          "text": "IndexPath",
+          "preciseIdentifier": "s:10Foundation9IndexPathV"
+        },
+        { "kind": "text", "text": ") -> " },
+        {
+          "kind": "typeIdentifier",
+          "text": "UICollectionReusableView",
+          "preciseIdentifier": "c:objc(cs)UICollectionReusableView"
+        }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:viewForSupplementaryElementOfKind:at:)",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/flyerview/collectionview(_:viewforsupplementaryelementofkind:at:)"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+      "role": "collection",
+      "title": "TCDigitalFlyer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
+        }
+      ],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations": {
+      "role": "collectionGroup",
+      "title": "UICollectionViewDataSource Implementations",
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations",
+      "kind": "article",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/flyerview/uicollectionviewdatasource-implementations"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+      "role": "symbol",
+      "title": "FlyerView",
+      "fragments": [
+        { "kind": "keyword", "text": "class" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "FlyerView" }
+      ],
+      "abstract": [
+        {
+          "type": "text",
+          "text": "A custom view that displays the Digital Flyer."
+        },
+        { "type": "text", "text": " " },
+        {
+          "type": "text",
+          "text": "This view is the entrypoint for the Digital Flyer."
+        }
+      ],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
+      "kind": "symbol",
+      "type": "topic",
+      "navigatorTitle": [{ "kind": "identifier", "text": "FlyerView" }],
+      "url": "/documentation/tcdigitalflyer/flyerview"
+    }
+  }
+}

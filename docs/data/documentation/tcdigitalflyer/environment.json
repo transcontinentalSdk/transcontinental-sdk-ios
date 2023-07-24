@@ -1,1 +1,264 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"Environment"}],"languages":["swift"],"platforms":["iOS"]}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/tcdigitalflyer\/environment"],"traits":[{"interfaceLanguage":"swift"}]}],"relationshipsSections":[{"identifiers":["doc:\/\/TCDigitalFlyer\/s12CaseIterableP","doc:\/\/TCDigitalFlyer\/SQ","doc:\/\/TCDigitalFlyer\/SH","doc:\/\/TCDigitalFlyer\/s12IdentifiableP","doc:\/\/TCDigitalFlyer\/SY"],"kind":"relationships","title":"Conforms To","type":"conformsTo"}],"identifier":{"url":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"The API environments supported by the SDK"}],"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"Environment"}],"title":"Environment","roleHeading":"Enumeration","role":"symbol","symbolKind":"enum","externalID":"s:14TCDigitalFlyer11EnvironmentO","modules":[{"name":"TCDigitalFlyer"}],"navigatorTitle":[{"kind":"identifier","text":"Environment"}]},"hierarchy":{"paths":[["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"]]},"topicSections":[{"title":"Enumeration Cases","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/staging","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/uat"]},{"title":"Initializers","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/init(rawValue:)"]},{"title":"Instance Properties","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id-37rdw"]},{"title":"Default Implementations","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Equatable-Implementations","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Identifiable-Implementations","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations"],"generated":true}],"references":{"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Identifiable-Implementations":{"role":"collectionGroup","title":"Identifiable Implementations","abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Identifiable-Implementations","kind":"article","type":"topic","url":"\/documentation\/tcdigitalflyer\/environment\/identifiable-implementations"},"doc://TCDigitalFlyer/SY":{"type":"unresolvable","title":"Swift.RawRepresentable","identifier":"doc:\/\/TCDigitalFlyer\/SY"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/uat":{"role":"symbol","title":"Environment.uat","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"uat"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/uat","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer\/environment\/uat"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Equatable-Implementations":{"role":"collectionGroup","title":"Equatable Implementations","abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Equatable-Implementations","kind":"article","type":"topic","url":"\/documentation\/tcdigitalflyer\/environment\/equatable-implementations"},"doc://TCDigitalFlyer/SH":{"type":"unresolvable","title":"Swift.Hashable","identifier":"doc:\/\/TCDigitalFlyer\/SH"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations":{"role":"collectionGroup","title":"RawRepresentable Implementations","abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations","kind":"article","type":"topic","url":"\/documentation\/tcdigitalflyer\/environment\/rawrepresentable-implementations"},"doc://TCDigitalFlyer/s12IdentifiableP":{"type":"unresolvable","title":"Swift.Identifiable","identifier":"doc:\/\/TCDigitalFlyer\/s12IdentifiableP"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live":{"role":"symbol","title":"Environment.live","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"live"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer\/environment\/live"},"doc://TCDigitalFlyer/SQ":{"type":"unresolvable","title":"Swift.Equatable","identifier":"doc:\/\/TCDigitalFlyer\/SQ"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/staging":{"role":"symbol","title":"Environment.staging","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"staging"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/staging","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer\/environment\/staging"},"doc://TCDigitalFlyer/s12CaseIterableP":{"type":"unresolvable","title":"Swift.CaseIterable","identifier":"doc:\/\/TCDigitalFlyer\/s12CaseIterableP"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/init(rawValue:)":{"role":"symbol","title":"init(rawValue:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"?("},{"kind":"externalParam","text":"rawValue"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/init(rawValue:)","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer\/environment\/init(rawvalue:)"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer":{"role":"collection","title":"TCDigitalFlyer","abstract":[{"type":"text","text":"The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."}],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment":{"role":"symbol","title":"Environment","fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"Environment"}],"abstract":[{"type":"text","text":"The API environments supported by the SDK"}],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"Environment"}],"url":"\/documentation\/tcdigitalflyer\/environment"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/id-37rdw":{"role":"symbol","title":"id","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"id"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id-37rdw","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer\/environment\/id-37rdw"}}}
+{
+  "primaryContentSections": [
+    {
+      "kind": "declarations",
+      "declarations": [
+        {
+          "tokens": [
+            { "kind": "keyword", "text": "enum" },
+            { "kind": "text", "text": " " },
+            { "kind": "identifier", "text": "Environment" }
+          ],
+          "languages": ["swift"],
+          "platforms": ["iOS"]
+        }
+      ]
+    }
+  ],
+  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
+  "sections": [],
+  "variants": [
+    {
+      "paths": ["/documentation/tcdigitalflyer/environment"],
+      "traits": [{ "interfaceLanguage": "swift" }]
+    }
+  ],
+  "relationshipsSections": [
+    {
+      "identifiers": [
+        "doc://TCDigitalFlyer/s12CaseIterableP",
+        "doc://TCDigitalFlyer/SQ",
+        "doc://TCDigitalFlyer/SH",
+        "doc://TCDigitalFlyer/s12IdentifiableP",
+        "doc://TCDigitalFlyer/SY"
+      ],
+      "kind": "relationships",
+      "title": "Conforms To",
+      "type": "conformsTo"
+    }
+  ],
+  "identifier": {
+    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment",
+    "interfaceLanguage": "swift"
+  },
+  "abstract": [
+    { "type": "text", "text": "The API environments supported by the SDK" }
+  ],
+  "kind": "symbol",
+  "metadata": {
+    "fragments": [
+      { "kind": "keyword", "text": "enum" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "Environment" }
+    ],
+    "title": "Environment",
+    "roleHeading": "Enumeration",
+    "role": "symbol",
+    "symbolKind": "enum",
+    "externalID": "s:14TCDigitalFlyer11EnvironmentO",
+    "modules": [{ "name": "TCDigitalFlyer" }],
+    "navigatorTitle": [{ "kind": "identifier", "text": "Environment" }]
+  },
+  "hierarchy": {
+    "paths": [["doc://TCDigitalFlyer/documentation/TCDigitalFlyer"]]
+  },
+  "topicSections": [
+    {
+      "title": "Enumeration Cases",
+      "identifiers": [
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live",
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/staging",
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/uat"
+      ]
+    },
+    {
+      "title": "Initializers",
+      "identifiers": [
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/init(rawValue:)"
+      ]
+    },
+    {
+      "title": "Instance Properties",
+      "identifiers": [
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/id-37rdw"
+      ]
+    },
+    {
+      "title": "Default Implementations",
+      "identifiers": [
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Equatable-Implementations",
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Identifiable-Implementations",
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations"
+      ],
+      "generated": true
+    }
+  ],
+  "references": {
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/uat": {
+      "role": "symbol",
+      "title": "Environment.uat",
+      "fragments": [
+        { "kind": "keyword", "text": "case" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "uat" }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/uat",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/environment/uat"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/id-37rdw": {
+      "role": "symbol",
+      "title": "id",
+      "fragments": [
+        { "kind": "keyword", "text": "var" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "id" },
+        { "kind": "text", "text": ": " },
+        {
+          "kind": "typeIdentifier",
+          "text": "String",
+          "preciseIdentifier": "s:SS"
+        }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/id-37rdw",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/environment/id-37rdw"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/init(rawValue:)": {
+      "role": "symbol",
+      "title": "init(rawValue:)",
+      "fragments": [
+        { "kind": "identifier", "text": "init" },
+        { "kind": "text", "text": "?(" },
+        { "kind": "externalParam", "text": "rawValue" },
+        { "kind": "text", "text": ": " },
+        {
+          "kind": "typeIdentifier",
+          "text": "String",
+          "preciseIdentifier": "s:SS"
+        },
+        { "kind": "text", "text": ")" }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/init(rawValue:)",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/environment/init(rawvalue:)"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Identifiable-Implementations": {
+      "role": "collectionGroup",
+      "title": "Identifiable Implementations",
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Identifiable-Implementations",
+      "kind": "article",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/environment/identifiable-implementations"
+    },
+    "doc://TCDigitalFlyer/SH": {
+      "type": "unresolvable",
+      "title": "Swift.Hashable",
+      "identifier": "doc://TCDigitalFlyer/SH"
+    },
+    "doc://TCDigitalFlyer/s12IdentifiableP": {
+      "type": "unresolvable",
+      "title": "Swift.Identifiable",
+      "identifier": "doc://TCDigitalFlyer/s12IdentifiableP"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
+      "role": "symbol",
+      "title": "Environment",
+      "fragments": [
+        { "kind": "keyword", "text": "enum" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "Environment" }
+      ],
+      "abstract": [
+        { "type": "text", "text": "The API environments supported by the SDK" }
+      ],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment",
+      "kind": "symbol",
+      "type": "topic",
+      "navigatorTitle": [{ "kind": "identifier", "text": "Environment" }],
+      "url": "/documentation/tcdigitalflyer/environment"
+    },
+    "doc://TCDigitalFlyer/SQ": {
+      "type": "unresolvable",
+      "title": "Swift.Equatable",
+      "identifier": "doc://TCDigitalFlyer/SQ"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live": {
+      "role": "symbol",
+      "title": "Environment.live",
+      "fragments": [
+        { "kind": "keyword", "text": "case" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "live" }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/environment/live"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/staging": {
+      "role": "symbol",
+      "title": "Environment.staging",
+      "fragments": [
+        { "kind": "keyword", "text": "case" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "staging" }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/staging",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/environment/staging"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+      "role": "collection",
+      "title": "TCDigitalFlyer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
+        }
+      ],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer"
+    },
+    "doc://TCDigitalFlyer/s12CaseIterableP": {
+      "type": "unresolvable",
+      "title": "Swift.CaseIterable",
+      "identifier": "doc://TCDigitalFlyer/s12CaseIterableP"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Equatable-Implementations": {
+      "role": "collectionGroup",
+      "title": "Equatable Implementations",
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Equatable-Implementations",
+      "kind": "article",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/environment/equatable-implementations"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations": {
+      "role": "collectionGroup",
+      "title": "RawRepresentable Implementations",
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations",
+      "kind": "article",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/environment/rawrepresentable-implementations"
+    },
+    "doc://TCDigitalFlyer/SY": {
+      "type": "unresolvable",
+      "title": "Swift.RawRepresentable",
+      "identifier": "doc://TCDigitalFlyer/SY"
+    }
+  }
+}

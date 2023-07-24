@@ -1,1 +1,1517 @@
-[{"title":"UICollectionViewDataSource Implementations","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations","language":"swift","taskGroups":[{"title":"Instance Methods","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:cellForItemAt:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:viewForSupplementaryElementOfKind:at:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/numberOfSections(in:)"]}],"path":"\/documentation\/tcdigitalflyer\/flyerview\/uicollectionviewdatasource-implementations","kind":"org.swift.docc.kind.collectionGroup","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer0B4ViewC5frame11publication13configuration7onEventACSo6CGRectV_6Domain11PublicationVSgAC13ConfigurationVyAC0H0OcSgtcfc","fragments":[{"kind":"keyword","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"frame"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CGRect","preciseIdentifier":"c:@S@CGRect"},{"kind":"text","text":", "},{"kind":"externalParam","text":"publication"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Publication","preciseIdentifier":"s:14TCDigitalFlyer11Publicationa"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"configuration"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Configuration","preciseIdentifier":"s:14TCDigitalFlyer0B4ViewC13ConfigurationV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"onEvent"},{"kind":"text","text":": (("},{"kind":"typeIdentifier","text":"Event","preciseIdentifier":"s:14TCDigitalFlyer0B4ViewC5EventO"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"Void","preciseIdentifier":"s:s4Voida"},{"kind":"text","text":")?)"}],"title":"init(frame:publication:configuration:onEvent:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:publication:configuration:onEvent:)","language":"swift","abstract":[{"type":"text","text":"Creates a new FlyerView with the given parameters. The view will be empty until a publication is set."}],"path":"\/documentation\/tcdigitalflyer\/flyerview\/init(frame:publication:configuration:onevent:)","kind":"org.swift.docc.kind.initializer","availableLanguages":["swift"],"taskGroups":[]},{"usr":"s:14TCDigitalFlyer07DigitalB0C14getPublication4from10completiony6Domain0E0V10AttributesV_ys6ResultOyAiG7DFErrorOGctF","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"getPublication"},{"kind":"text","text":"("},{"kind":"externalParam","text":"from"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Publication","preciseIdentifier":"s:14TCDigitalFlyer11Publicationa"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Attributes","preciseIdentifier":"s:6Domain11PublicationV10AttributesV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": ("},{"kind":"typeIdentifier","text":"Result","preciseIdentifier":"s:s6ResultO"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Publication","preciseIdentifier":"s:14TCDigitalFlyer11Publicationa"},{"kind":"text","text":", "},{"kind":"typeIdentifier","text":"DFError","preciseIdentifier":"s:14TCDigitalFlyer7DFErrora"},{"kind":"text","text":">) -> "},{"kind":"typeIdentifier","text":"Void","preciseIdentifier":"s:s4Voida"},{"kind":"text","text":")"}],"title":"getPublication(from:completion:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/getPublication(from:completion:)","language":"swift","abstract":[{"type":"text","text":"Retrieve the full "},{"type":"reference","isActive":true,"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication"},{"type":"text","text":", including attributes and page content."}],"path":"\/documentation\/tcdigitalflyer\/digitalflyer\/getpublication(from:completion:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"],"taskGroups":[]},{"usr":"s:SYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF::SYNTHESIZED::s:14TCDigitalFlyer11EnvironmentO","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"hash"},{"kind":"text","text":"("},{"kind":"externalParam","text":"into"},{"kind":"text","text":": "},{"kind":"keyword","text":"inout"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"Hasher","preciseIdentifier":"s:s6HasherV"},{"kind":"text","text":")"}],"title":"hash(into:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/hash(into:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/environment\/hash(into:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer0B4ViewC13ConfigurationV10showHeaderSbvp","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"showHeader"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"}],"title":"showHeader","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/showHeader","language":"swift","abstract":[{"type":"text","text":"Whether to show the Header on the first page."}],"path":"\/documentation\/tcdigitalflyer\/flyerview\/configuration\/showheader","kind":"org.swift.docc.kind.instanceProperty","availableLanguages":["swift"],"taskGroups":[]},{"usr":"s:14TCDigitalFlyer0B4ViewC13ConfigurationV10showHeader12headerHeightAESb_14CoreFoundation7CGFloatVtcfc","fragments":[{"kind":"keyword","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"showHeader"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":", "},{"kind":"externalParam","text":"headerHeight"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CGFloat","preciseIdentifier":"s:14CoreFoundation7CGFloatV"},{"kind":"text","text":")"}],"title":"init(showHeader:headerHeight:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/init(showHeader:headerHeight:)","language":"swift","abstract":[{"type":"text","text":"Creates a new configuration with the given parameters."}],"path":"\/documentation\/tcdigitalflyer\/flyerview\/configuration\/init(showheader:headerheight:)","kind":"org.swift.docc.kind.initializer","availableLanguages":["swift"],"taskGroups":[]},{"usr":"s:14TCDigitalFlyer6LoggerP7verboseyySSF","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"verbose"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"title":"verbose(_:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/verbose(_:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/logger-swift.protocol\/verbose(_:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"s:SYsSHRzSH8RawValueSYRpzrlE04hashB0Sivp::SYNTHESIZED::s:14TCDigitalFlyer11EnvironmentO","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"hashValue"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Int","preciseIdentifier":"s:Si"}],"title":"hashValue","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/hashValue","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/environment\/hashvalue","kind":"org.swift.docc.kind.instanceProperty","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer0B4ViewC5EventO","fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"Event"}],"title":"FlyerView.Event","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event","language":"swift","abstract":[{"type":"text","text":"The events that can be emitted by the FlyerView."}],"path":"\/documentation\/tcdigitalflyer\/flyerview\/event","kind":"org.swift.docc.kind.enumeration","availableLanguages":["swift"],"taskGroups":[{"title":"Enumeration Cases","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/sku(_:)"]}]},{"usr":"s:14TCDigitalFlyer0B4ViewC13ConfigurationV12headerHeight14CoreFoundation7CGFloatVvp","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"headerHeight"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CGFloat","preciseIdentifier":"s:14CoreFoundation7CGFloatV"}],"title":"headerHeight","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/headerHeight","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/flyerview\/configuration\/headerheight","kind":"org.swift.docc.kind.instanceProperty","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer6LoggerP5debugyySSF","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"debug"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"title":"debug(_:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/debug(_:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/logger-swift.protocol\/debug(_:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"title":"Identifiable Implementations","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Identifiable-Implementations","language":"swift","taskGroups":[{"title":"Instance Properties","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id-9fihf"]}],"path":"\/documentation\/tcdigitalflyer\/environment\/identifiable-implementations","kind":"org.swift.docc.kind.collectionGroup","availableLanguages":["swift"]},{"usr":"TCDigitalFlyer","title":"TCDigitalFlyer","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer","language":"swift","abstract":[{"type":"text","text":"The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."}],"path":"\/documentation\/tcdigitalflyer","kind":"org.swift.docc.kind.module","availableLanguages":["swift"],"taskGroups":[{"title":"Getting Started","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/installation","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk"]},{"title":"Migrating from v1.x","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide"]},{"title":"Classes","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"]},{"title":"Protocols","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol"]},{"title":"Variables","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/logger-swift.var"]},{"title":"Type Aliases","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication"]},{"title":"Enumerations","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment"]}]},{"title":"Equatable Implementations","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Equatable-Implementations","language":"swift","taskGroups":[{"title":"Operators","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/!=(_:_:)"]}],"path":"\/documentation\/tcdigitalflyer\/environment\/equatable-implementations","kind":"org.swift.docc.kind.collectionGroup","availableLanguages":["swift"]},{"usr":"c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)scrollViewWillBeginZooming:withView:","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"scrollViewWillBeginZooming"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"UIScrollView","preciseIdentifier":"c:objc(cs)UIScrollView"},{"kind":"text","text":", "},{"kind":"externalParam","text":"with"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"UIView","preciseIdentifier":"c:objc(cs)UIView"},{"kind":"text","text":"?)"}],"title":"scrollViewWillBeginZooming(_:with:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewWillBeginZooming(_:with:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/flyerview\/scrollviewwillbeginzooming(_:with:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:didSelectItemAtIndexPath:","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"collectionView"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"UICollectionView","preciseIdentifier":"c:objc(cs)UICollectionView"},{"kind":"text","text":", "},{"kind":"externalParam","text":"didSelectItemAt"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"IndexPath","preciseIdentifier":"s:10Foundation9IndexPathV"},{"kind":"text","text":")"}],"title":"collectionView(_:didSelectItemAt:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:didSelectItemAt:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/flyerview\/collectionview(_:didselectitemat:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer11EnvironmentO3uatyA2CmF","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"uat"}],"title":"Environment.uat","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/uat","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/environment\/uat","kind":"org.swift.docc.kind.enumerationCase","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer11EnvironmentO8rawValueACSgSS_tcfc","fragments":[{"kind":"keyword","text":"init"},{"kind":"text","text":"?("},{"kind":"externalParam","text":"rawValue"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"title":"init(rawValue:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/init(rawValue:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/environment\/init(rawvalue:)","kind":"org.swift.docc.kind.initializer","availableLanguages":["swift"]},{"usr":"c:@M@TCDigitalFlyer@objc(cs)FlyerView(im)initWithFrame:","fragments":[{"kind":"keyword","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"frame"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CGRect","preciseIdentifier":"c:@S@CGRect"},{"kind":"text","text":")"}],"title":"init(frame:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:)","language":"swift","abstract":[{"type":"text","text":"<#Description#>"}],"path":"\/documentation\/tcdigitalflyer\/flyerview\/init(frame:)","kind":"org.swift.docc.kind.initializer","availableLanguages":["swift"],"taskGroups":[]},{"usr":"s:14TCDigitalFlyer11EnvironmentO4liveyA2CmF","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"live"}],"title":"Environment.live","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/environment\/live","kind":"org.swift.docc.kind.enumerationCase","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer7DFErrora","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"DFError"}],"title":"DFError","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/dferror","kind":"org.swift.docc.kind.typeAlias","availableLanguages":["swift"]},{"usr":"c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)scrollViewDidScroll:","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"scrollViewDidScroll"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"UIScrollView","preciseIdentifier":"c:objc(cs)UIScrollView"},{"kind":"text","text":")"}],"title":"scrollViewDidScroll(_:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidScroll(_:)","language":"swift","abstract":[{"type":"text","text":"The scrollView handles zooming and scrolling through the content, while the collectionView’s scrolling is explicitly disabled."},{"type":"text","text":" "},{"type":"text","text":"As scrolling occurs, we manually offset the collectionView so that it knows to calculate and render upcoming images"},{"type":"text","text":" "},{"type":"text","text":"and to recycle off-screen images."}],"path":"\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidscroll(_:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"],"taskGroups":[]},{"usr":"s:14TCDigitalFlyer0B4ViewC5EventO3skuyAESScAEmF","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"sku"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"title":"FlyerView.Event.sku(_:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/sku(_:)","language":"swift","abstract":[{"type":"text","text":"A product’s click region was tapped - the SKU is emitted."}],"path":"\/documentation\/tcdigitalflyer\/flyerview\/event\/sku(_:)","kind":"org.swift.docc.kind.enumerationCase","availableLanguages":["swift"],"taskGroups":[]},{"usr":"s:14TCDigitalFlyer11EnvironmentO2idSSvp","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"id"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"title":"id","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id-37rdw","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/environment\/id-37rdw","kind":"org.swift.docc.kind.instanceProperty","availableLanguages":["swift"]},{"title":"RawRepresentable Implementations","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations","language":"swift","taskGroups":[{"title":"Instance Properties","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/hashValue"]},{"title":"Instance Methods","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/hash(into:)"]}],"path":"\/documentation\/tcdigitalflyer\/environment\/rawrepresentable-implementations","kind":"org.swift.docc.kind.collectionGroup","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer6LoggerP","fragments":[{"kind":"keyword","text":"protocol"},{"kind":"text","text":" "},{"kind":"identifier","text":"Logger"}],"title":"Logger","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol","language":"swift","abstract":[{"type":"text","text":"A logger that can be injected to log messages from the DigitalFlyer."}],"path":"\/documentation\/tcdigitalflyer\/logger-swift.protocol","kind":"org.swift.docc.kind.protocol","availableLanguages":["swift"],"taskGroups":[{"title":"Instance Methods","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/debug(_:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/error(_:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/info(_:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/verbose(_:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/warning(_:)"]}]},{"usr":"s:14TCDigitalFlyer6loggerAA6Logger_pSgvp","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"logger"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Logger","preciseIdentifier":"s:14TCDigitalFlyer6LoggerP"},{"kind":"text","text":"?"}],"title":"logger","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/logger-swift.var","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/logger-swift.var","kind":"org.swift.docc.kind.globalVariable","availableLanguages":["swift"]},{"usr":"c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:viewForSupplementaryElementOfKind:atIndexPath:","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"collectionView"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"UICollectionView","preciseIdentifier":"c:objc(cs)UICollectionView"},{"kind":"text","text":", "},{"kind":"externalParam","text":"viewForSupplementaryElementOfKind"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":", "},{"kind":"externalParam","text":"at"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"IndexPath","preciseIdentifier":"s:10Foundation9IndexPathV"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"UICollectionReusableView","preciseIdentifier":"c:objc(cs)UICollectionReusableView"}],"title":"collectionView(_:viewForSupplementaryElementOfKind:at:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:viewForSupplementaryElementOfKind:at:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/flyerview\/collectionview(_:viewforsupplementaryelementofkind:at:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)numberOfSectionsInCollectionView:","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"numberOfSections"},{"kind":"text","text":"("},{"kind":"externalParam","text":"in"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"UICollectionView","preciseIdentifier":"c:objc(cs)UICollectionView"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"Int","preciseIdentifier":"s:Si"}],"title":"numberOfSections(in:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/numberOfSections(in:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/flyerview\/numberofsections(in:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer6LoggerP5erroryySSF","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"error"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"title":"error(_:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/error(_:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/logger-swift.protocol\/error(_:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)viewForZoomingInScrollView:","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"viewForZooming"},{"kind":"text","text":"("},{"kind":"externalParam","text":"in"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"UIScrollView","preciseIdentifier":"c:objc(cs)UIScrollView"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"UIView","preciseIdentifier":"c:objc(cs)UIView"},{"kind":"text","text":"?"}],"title":"viewForZooming(in:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/viewForZooming(in:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/flyerview\/viewforzooming(in:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"title":"UIScrollViewDelegate Implementations","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations","language":"swift","taskGroups":[{"title":"Instance Methods","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndZooming(_:with:atScale:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidScroll(_:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidZoom(_:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewWillBeginZooming(_:with:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/viewForZooming(in:)"]}],"path":"\/documentation\/tcdigitalflyer\/flyerview\/uiscrollviewdelegate-implementations","kind":"org.swift.docc.kind.collectionGroup","availableLanguages":["swift"]},{"usr":"c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:numberOfItemsInSection:","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"collectionView"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"UICollectionView","preciseIdentifier":"c:objc(cs)UICollectionView"},{"kind":"text","text":", "},{"kind":"externalParam","text":"numberOfItemsInSection"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Int","preciseIdentifier":"s:Si"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"Int","preciseIdentifier":"s:Si"}],"title":"collectionView(_:numberOfItemsInSection:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/flyerview\/collectionview(_:numberofitemsinsection:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:cellForItemAtIndexPath:","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"collectionView"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"UICollectionView","preciseIdentifier":"c:objc(cs)UICollectionView"},{"kind":"text","text":", "},{"kind":"externalParam","text":"cellForItemAt"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"IndexPath","preciseIdentifier":"s:10Foundation9IndexPathV"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"UICollectionViewCell","preciseIdentifier":"c:objc(cs)UICollectionViewCell"}],"title":"collectionView(_:cellForItemAt:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:cellForItemAt:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/flyerview\/collectionview(_:cellforitemat:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"title":"Using the SDK","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/using-the-sdk","kind":"org.swift.docc.kind.article","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer11EnvironmentO","fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"Environment"}],"title":"Environment","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment","language":"swift","abstract":[{"type":"text","text":"The API environments supported by the SDK"}],"path":"\/documentation\/tcdigitalflyer\/environment","kind":"org.swift.docc.kind.enumeration","availableLanguages":["swift"],"taskGroups":[{"title":"Enumeration Cases","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/staging","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/uat"]},{"title":"Initializers","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/init(rawValue:)"]},{"title":"Instance Properties","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id-37rdw"]},{"title":"Default Implementations","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Equatable-Implementations","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Identifiable-Implementations","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations"]}]},{"usr":"s:14TCDigitalFlyer6LoggerP7warningyySSF","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"warning"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"title":"warning(_:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/warning(_:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/logger-swift.protocol\/warning(_:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)scrollViewDidEndZooming:withView:atScale:","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"scrollViewDidEndZooming"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"UIScrollView","preciseIdentifier":"c:objc(cs)UIScrollView"},{"kind":"text","text":", "},{"kind":"externalParam","text":"with"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"UIView","preciseIdentifier":"c:objc(cs)UIView"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"atScale"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CGFloat","preciseIdentifier":"s:14CoreFoundation7CGFloatV"},{"kind":"text","text":")"}],"title":"scrollViewDidEndZooming(_:with:atScale:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndZooming(_:with:atScale:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidendzooming(_:with:atscale:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)scrollViewDidZoom:","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"scrollViewDidZoom"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"UIScrollView","preciseIdentifier":"c:objc(cs)UIScrollView"},{"kind":"text","text":")"}],"title":"scrollViewDidZoom(_:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidZoom(_:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidzoom(_:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer8Languagea","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"Language"}],"title":"Language","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/language","kind":"org.swift.docc.kind.typeAlias","availableLanguages":["swift"]},{"usr":"s:s12IdentifiablePsRlzCrlE2idSOvp::SYNTHESIZED::s:14TCDigitalFlyer11EnvironmentO","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"id"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ObjectIdentifier","preciseIdentifier":"s:SO"}],"title":"id","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id-9fihf","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/environment\/id-9fihf","kind":"org.swift.docc.kind.instanceProperty","availableLanguages":["swift"],"platforms":[{"beta":false,"unavailable":false,"name":"iOS","introducedAt":"13.0","deprecated":false},{"beta":false,"unavailable":false,"name":"macOS","introducedAt":"10.15","deprecated":false},{"beta":false,"unavailable":false,"name":"tvOS","introducedAt":"13.0","deprecated":false},{"beta":false,"unavailable":false,"name":"watchOS","introducedAt":"6.0","deprecated":false}]},{"usr":"s:14TCDigitalFlyer0B4ViewC13ConfigurationV","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Configuration"}],"title":"FlyerView.Configuration","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration","language":"swift","abstract":[{"type":"text","text":"The FlyerView configuration with defaults."}],"path":"\/documentation\/tcdigitalflyer\/flyerview\/configuration","kind":"org.swift.docc.kind.structure","availableLanguages":["swift"],"taskGroups":[{"title":"Initializers","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/init(showHeader:headerHeight:)"]},{"title":"Instance Properties","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/headerHeight","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/showHeader"]}]},{"title":"Migration Guide","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide","language":"swift","abstract":[{"type":"text","text":"Transition existing apps from v1.x to 2.0.0"}],"path":"\/documentation\/tcdigitalflyer\/migration-guide","kind":"org.swift.docc.kind.article","availableLanguages":["swift"],"taskGroups":[]},{"usr":"c:@M@TCDigitalFlyer@objc(cs)FlyerView","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"FlyerView"}],"title":"FlyerView","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView","language":"swift","abstract":[{"type":"text","text":"A custom view that displays the Digital Flyer."},{"type":"text","text":" "},{"type":"text","text":"This view is the entrypoint for the Digital Flyer."}],"path":"\/documentation\/tcdigitalflyer\/flyerview","kind":"org.swift.docc.kind.class","availableLanguages":["swift"],"taskGroups":[{"title":"Structures","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration"]},{"title":"Initializers","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:publication:configuration:onEvent:)"]},{"title":"Enumerations","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event"]},{"title":"Default Implementations","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDelegate-Implementations","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations"]}]},{"usr":"s:14TCDigitalFlyer07DigitalB0C15subscriptionKey6client6banner11environmentACSS_S2SSgAA11EnvironmentOtKcfc","fragments":[{"kind":"keyword","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"subscriptionKey"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":", "},{"kind":"externalParam","text":"client"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":", "},{"kind":"externalParam","text":"banner"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"environment"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Environment","preciseIdentifier":"s:14TCDigitalFlyer11EnvironmentO"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"}],"title":"init(subscriptionKey:client:banner:environment:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)","language":"swift","abstract":[{"type":"text","text":"Creates a "},{"type":"reference","isActive":true,"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer"},{"type":"text","text":" instance"}],"path":"\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:)","kind":"org.swift.docc.kind.initializer","availableLanguages":["swift"],"taskGroups":[]},{"usr":"s:14TCDigitalFlyer11Publicationa","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"Publication"}],"title":"Publication","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/publication","kind":"org.swift.docc.kind.typeAlias","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer07DigitalB0C16listPublications7storeId8language4date10completionySS_6Domain8LanguageO10Foundation4DateVys6ResultOySayAI11PublicationV10AttributesVGAI7DFErrorOGctF","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"listPublications"},{"kind":"text","text":"("},{"kind":"externalParam","text":"storeId"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":", "},{"kind":"externalParam","text":"language"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Language","preciseIdentifier":"s:14TCDigitalFlyer8Languagea"},{"kind":"text","text":", "},{"kind":"externalParam","text":"date"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Date","preciseIdentifier":"s:10Foundation4DateV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": ("},{"kind":"typeIdentifier","text":"Result","preciseIdentifier":"s:s6ResultO"},{"kind":"text","text":"<["},{"kind":"typeIdentifier","text":"Publication","preciseIdentifier":"s:14TCDigitalFlyer11Publicationa"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Attributes","preciseIdentifier":"s:6Domain11PublicationV10AttributesV"},{"kind":"text","text":"], "},{"kind":"typeIdentifier","text":"DFError","preciseIdentifier":"s:14TCDigitalFlyer7DFErrora"},{"kind":"text","text":">) -> "},{"kind":"typeIdentifier","text":"Void","preciseIdentifier":"s:s4Voida"},{"kind":"text","text":")"}],"title":"listPublications(storeId:language:date:completion:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/listPublications(storeId:language:date:completion:)","language":"swift","abstract":[{"type":"text","text":"Retrieve a list of all active publications."}],"path":"\/documentation\/tcdigitalflyer\/digitalflyer\/listpublications(storeid:language:date:completion:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"],"taskGroups":[]},{"title":"UICollectionViewDelegate Implementations","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDelegate-Implementations","language":"swift","taskGroups":[{"title":"Instance Methods","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:didSelectItemAt:)"]}],"path":"\/documentation\/tcdigitalflyer\/flyerview\/uicollectionviewdelegate-implementations","kind":"org.swift.docc.kind.collectionGroup","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer11EnvironmentO7stagingyA2CmF","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"staging"}],"title":"Environment.staging","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/staging","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/environment\/staging","kind":"org.swift.docc.kind.enumerationCase","availableLanguages":["swift"]},{"title":"Installation","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/installation","language":"swift","abstract":[{"type":"text","text":"Using SPM to install the SDK as a binary target."}],"path":"\/documentation\/tcdigitalflyer\/installation","kind":"org.swift.docc.kind.article","availableLanguages":["swift"],"taskGroups":[]},{"usr":"s:14TCDigitalFlyer6LoggerP4infoyySSF","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"info"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"title":"info(_:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/info(_:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/logger-swift.protocol\/info(_:)","kind":"org.swift.docc.kind.instanceMethod","availableLanguages":["swift"]},{"usr":"s:14TCDigitalFlyer07DigitalB0C","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"DigitalFlyer"}],"title":"DigitalFlyer","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer","language":"swift","abstract":[{"type":"text","text":"The entry-point for interacting with the SDK."}],"path":"\/documentation\/tcdigitalflyer\/digitalflyer","kind":"org.swift.docc.kind.class","availableLanguages":["swift"],"taskGroups":[{"title":"Initializers","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)"]},{"title":"Instance Methods","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/getPublication(from:completion:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/listPublications(storeId:language:date:completion:)"]}]},{"usr":"s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:14TCDigitalFlyer11EnvironmentO","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"!="},{"kind":"text","text":" "},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":", "},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"}],"title":"!=(_:_:)","referenceURL":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/!=(_:_:)","language":"swift","taskGroups":[],"path":"\/documentation\/tcdigitalflyer\/environment\/!=(_:_:)","kind":"org.swift.docc.kind.operator","availableLanguages":["swift"]}]
+[
+  {
+    "usr": "s:14TCDigitalFlyer8Languagea",
+    "fragments": [
+      { "kind": "keyword", "text": "typealias" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "Language" }
+    ],
+    "title": "Language",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/language",
+    "kind": "org.swift.docc.kind.typeAlias",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "title": "RawRepresentable Implementations",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations",
+    "language": "swift",
+    "taskGroups": [
+      {
+        "title": "Instance Properties",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/hashValue"
+        ]
+      },
+      {
+        "title": "Instance Methods",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/hash(into:)"
+        ]
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/environment/rawrepresentable-implementations",
+    "kind": "org.swift.docc.kind.collectionGroup",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)scrollViewWillBeginZooming:withView:",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "scrollViewWillBeginZooming" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "UIScrollView",
+        "preciseIdentifier": "c:objc(cs)UIScrollView"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "with" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "UIView",
+        "preciseIdentifier": "c:objc(cs)UIView"
+      },
+      { "kind": "text", "text": "?)" }
+    ],
+    "title": "scrollViewWillBeginZooming(_:with:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewWillBeginZooming(_:with:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/flyerview/scrollviewwillbeginzooming(_:with:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer7DFErrora",
+    "fragments": [
+      { "kind": "keyword", "text": "typealias" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "DFError" }
+    ],
+    "title": "DFError",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/dferror",
+    "kind": "org.swift.docc.kind.typeAlias",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer07DigitalB0C",
+    "fragments": [
+      { "kind": "keyword", "text": "class" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "DigitalFlyer" }
+    ],
+    "title": "DigitalFlyer",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer",
+    "language": "swift",
+    "abstract": [
+      {
+        "type": "text",
+        "text": "The entry-point for interacting with the SDK."
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/digitalflyer",
+    "kind": "org.swift.docc.kind.class",
+    "availableLanguages": ["swift"],
+    "taskGroups": [
+      {
+        "title": "Initializers",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)"
+        ]
+      },
+      {
+        "title": "Instance Methods",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/getPublication(from:completion:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/listPublications(storeId:language:date:completion:)"
+        ]
+      }
+    ]
+  },
+  {
+    "usr": "s:SYsSHRzSH8RawValueSYRpzrlE04hashB0Sivp::SYNTHESIZED::s:14TCDigitalFlyer11EnvironmentO",
+    "fragments": [
+      { "kind": "keyword", "text": "var" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "hashValue" },
+      { "kind": "text", "text": ": " },
+      { "kind": "typeIdentifier", "text": "Int", "preciseIdentifier": "s:Si" }
+    ],
+    "title": "hashValue",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/hashValue",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/environment/hashvalue",
+    "kind": "org.swift.docc.kind.instanceProperty",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer11EnvironmentO",
+    "fragments": [
+      { "kind": "keyword", "text": "enum" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "Environment" }
+    ],
+    "title": "Environment",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment",
+    "language": "swift",
+    "abstract": [
+      { "type": "text", "text": "The API environments supported by the SDK" }
+    ],
+    "path": "/documentation/tcdigitalflyer/environment",
+    "kind": "org.swift.docc.kind.enumeration",
+    "availableLanguages": ["swift"],
+    "taskGroups": [
+      {
+        "title": "Enumeration Cases",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/staging",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/uat"
+        ]
+      },
+      {
+        "title": "Initializers",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/init(rawValue:)"
+        ]
+      },
+      {
+        "title": "Instance Properties",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/id-37rdw"
+        ]
+      },
+      {
+        "title": "Default Implementations",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Equatable-Implementations",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Identifiable-Implementations",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations"
+        ]
+      }
+    ]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer07DigitalB0C15subscriptionKey6client6banner11environmentACSS_S2SSgAA11EnvironmentOtKcfc",
+    "fragments": [
+      { "kind": "keyword", "text": "init" },
+      { "kind": "text", "text": "(" },
+      { "kind": "externalParam", "text": "subscriptionKey" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "client" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "banner" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": "?, " },
+      { "kind": "externalParam", "text": "environment" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "Environment",
+        "preciseIdentifier": "s:14TCDigitalFlyer11EnvironmentO"
+      },
+      { "kind": "text", "text": ") " },
+      { "kind": "keyword", "text": "throws" }
+    ],
+    "title": "init(subscriptionKey:client:banner:environment:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)",
+    "language": "swift",
+    "abstract": [
+      { "type": "text", "text": "Creates a " },
+      {
+        "type": "reference",
+        "isActive": true,
+        "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer"
+      },
+      { "type": "text", "text": " instance" }
+    ],
+    "path": "/documentation/tcdigitalflyer/digitalflyer/init(subscriptionkey:client:banner:environment:)",
+    "kind": "org.swift.docc.kind.initializer",
+    "availableLanguages": ["swift"],
+    "taskGroups": []
+  },
+  {
+    "usr": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:cellForItemAtIndexPath:",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "collectionView" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "UICollectionView",
+        "preciseIdentifier": "c:objc(cs)UICollectionView"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "cellForItemAt" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "IndexPath",
+        "preciseIdentifier": "s:10Foundation9IndexPathV"
+      },
+      { "kind": "text", "text": ") -> " },
+      {
+        "kind": "typeIdentifier",
+        "text": "UICollectionViewCell",
+        "preciseIdentifier": "c:objc(cs)UICollectionViewCell"
+      }
+    ],
+    "title": "collectionView(_:cellForItemAt:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:cellForItemAt:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/flyerview/collectionview(_:cellforitemat:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "title": "Migration Guide",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide",
+    "language": "swift",
+    "abstract": [
+      { "type": "text", "text": "Transition existing apps from v1.x to 2.0.0" }
+    ],
+    "path": "/documentation/tcdigitalflyer/migration-guide",
+    "kind": "org.swift.docc.kind.article",
+    "availableLanguages": ["swift"],
+    "taskGroups": []
+  },
+  {
+    "usr": "s:SYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF::SYNTHESIZED::s:14TCDigitalFlyer11EnvironmentO",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "hash" },
+      { "kind": "text", "text": "(" },
+      { "kind": "externalParam", "text": "into" },
+      { "kind": "text", "text": ": " },
+      { "kind": "keyword", "text": "inout" },
+      { "kind": "text", "text": " " },
+      {
+        "kind": "typeIdentifier",
+        "text": "Hasher",
+        "preciseIdentifier": "s:s6HasherV"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "hash(into:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/hash(into:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/environment/hash(into:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:viewForSupplementaryElementOfKind:atIndexPath:",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "collectionView" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "UICollectionView",
+        "preciseIdentifier": "c:objc(cs)UICollectionView"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "viewForSupplementaryElementOfKind" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "at" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "IndexPath",
+        "preciseIdentifier": "s:10Foundation9IndexPathV"
+      },
+      { "kind": "text", "text": ") -> " },
+      {
+        "kind": "typeIdentifier",
+        "text": "UICollectionReusableView",
+        "preciseIdentifier": "c:objc(cs)UICollectionReusableView"
+      }
+    ],
+    "title": "collectionView(_:viewForSupplementaryElementOfKind:at:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:viewForSupplementaryElementOfKind:at:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/flyerview/collectionview(_:viewforsupplementaryelementofkind:at:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer6LoggerP4infoyySSF",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "info" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "info(_:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/info(_:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/logger-swift.protocol/info(_:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "title": "UICollectionViewDelegate Implementations",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDelegate-Implementations",
+    "language": "swift",
+    "taskGroups": [
+      {
+        "title": "Instance Methods",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:didSelectItemAt:)"
+        ]
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/flyerview/uicollectionviewdelegate-implementations",
+    "kind": "org.swift.docc.kind.collectionGroup",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer6LoggerP7warningyySSF",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "warning" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "warning(_:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/warning(_:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/logger-swift.protocol/warning(_:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "title": "UICollectionViewDataSource Implementations",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations",
+    "language": "swift",
+    "taskGroups": [
+      {
+        "title": "Instance Methods",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:cellForItemAt:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:numberOfItemsInSection:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:viewForSupplementaryElementOfKind:at:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/numberOfSections(in:)"
+        ]
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/flyerview/uicollectionviewdatasource-implementations",
+    "kind": "org.swift.docc.kind.collectionGroup",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)scrollViewDidScroll:",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "scrollViewDidScroll" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "UIScrollView",
+        "preciseIdentifier": "c:objc(cs)UIScrollView"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "scrollViewDidScroll(_:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidScroll(_:)",
+    "language": "swift",
+    "abstract": [
+      {
+        "type": "text",
+        "text": "The scrollView handles zooming and scrolling through the content, while the collectionView’s scrolling is explicitly disabled."
+      },
+      { "type": "text", "text": " " },
+      {
+        "type": "text",
+        "text": "As scrolling occurs, we manually offset the collectionView so that it knows to calculate and render upcoming images"
+      },
+      { "type": "text", "text": " " },
+      { "type": "text", "text": "and to recycle off-screen images." }
+    ],
+    "path": "/documentation/tcdigitalflyer/flyerview/scrollviewdidscroll(_:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"],
+    "taskGroups": []
+  },
+  {
+    "usr": "s:14TCDigitalFlyer0B4ViewC5EventO3skuyAESScAEmF",
+    "fragments": [
+      { "kind": "keyword", "text": "case" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "sku" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "FlyerView.Event.sku(_:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event/sku(_:)",
+    "language": "swift",
+    "abstract": [
+      {
+        "type": "text",
+        "text": "A product’s click region was tapped - the SKU is emitted."
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/flyerview/event/sku(_:)",
+    "kind": "org.swift.docc.kind.enumerationCase",
+    "availableLanguages": ["swift"],
+    "taskGroups": []
+  },
+  {
+    "usr": "TCDigitalFlyer",
+    "title": "TCDigitalFlyer",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
+    "language": "swift",
+    "abstract": [
+      {
+        "type": "text",
+        "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer",
+    "kind": "org.swift.docc.kind.module",
+    "availableLanguages": ["swift"],
+    "taskGroups": [
+      {
+        "title": "Getting Started",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk"
+        ]
+      },
+      {
+        "title": "Migrating from v1.x",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide"
+        ]
+      },
+      {
+        "title": "Classes",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView"
+        ]
+      },
+      {
+        "title": "Protocols",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol"
+        ]
+      },
+      {
+        "title": "Variables",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/logger-swift.var"
+        ]
+      },
+      {
+        "title": "Type Aliases",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication"
+        ]
+      },
+      {
+        "title": "Enumerations",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment"
+        ]
+      }
+    ]
+  },
+  {
+    "usr": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:didSelectItemAtIndexPath:",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "collectionView" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "UICollectionView",
+        "preciseIdentifier": "c:objc(cs)UICollectionView"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "didSelectItemAt" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "IndexPath",
+        "preciseIdentifier": "s:10Foundation9IndexPathV"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "collectionView(_:didSelectItemAt:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:didSelectItemAt:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/flyerview/collectionview(_:didselectitemat:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer11EnvironmentO4liveyA2CmF",
+    "fragments": [
+      { "kind": "keyword", "text": "case" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "live" }
+    ],
+    "title": "Environment.live",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/environment/live",
+    "kind": "org.swift.docc.kind.enumerationCase",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer11EnvironmentO8rawValueACSgSS_tcfc",
+    "fragments": [
+      { "kind": "keyword", "text": "init" },
+      { "kind": "text", "text": "?(" },
+      { "kind": "externalParam", "text": "rawValue" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "init(rawValue:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/init(rawValue:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/environment/init(rawvalue:)",
+    "kind": "org.swift.docc.kind.initializer",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)viewForZoomingInScrollView:",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "viewForZooming" },
+      { "kind": "text", "text": "(" },
+      { "kind": "externalParam", "text": "in" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "UIScrollView",
+        "preciseIdentifier": "c:objc(cs)UIScrollView"
+      },
+      { "kind": "text", "text": ") -> " },
+      {
+        "kind": "typeIdentifier",
+        "text": "UIView",
+        "preciseIdentifier": "c:objc(cs)UIView"
+      },
+      { "kind": "text", "text": "?" }
+    ],
+    "title": "viewForZooming(in:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/viewForZooming(in:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/flyerview/viewforzooming(in:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer11EnvironmentO2idSSvp",
+    "fragments": [
+      { "kind": "keyword", "text": "var" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "id" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      }
+    ],
+    "title": "id",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/id-37rdw",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/environment/id-37rdw",
+    "kind": "org.swift.docc.kind.instanceProperty",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer0B4ViewC5frame11publication13configuration7onEventACSo6CGRectV_6Domain11PublicationVSgAC13ConfigurationVyAC0H0OcSgtcfc",
+    "fragments": [
+      { "kind": "keyword", "text": "init" },
+      { "kind": "text", "text": "(" },
+      { "kind": "externalParam", "text": "frame" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "CGRect",
+        "preciseIdentifier": "c:@S@CGRect"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "publication" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "Publication",
+        "preciseIdentifier": "s:14TCDigitalFlyer11Publicationa"
+      },
+      { "kind": "text", "text": "?, " },
+      { "kind": "externalParam", "text": "configuration" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "Configuration",
+        "preciseIdentifier": "s:14TCDigitalFlyer0B4ViewC13ConfigurationV"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "onEvent" },
+      { "kind": "text", "text": ": ((" },
+      {
+        "kind": "typeIdentifier",
+        "text": "Event",
+        "preciseIdentifier": "s:14TCDigitalFlyer0B4ViewC5EventO"
+      },
+      { "kind": "text", "text": ") -> " },
+      {
+        "kind": "typeIdentifier",
+        "text": "Void",
+        "preciseIdentifier": "s:s4Voida"
+      },
+      { "kind": "text", "text": ")?)" }
+    ],
+    "title": "init(frame:publication:configuration:onEvent:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:publication:configuration:onEvent:)",
+    "language": "swift",
+    "abstract": [
+      {
+        "type": "text",
+        "text": "Creates a new FlyerView with the given parameters. The view will be empty until a publication is set."
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/flyerview/init(frame:publication:configuration:onevent:)",
+    "kind": "org.swift.docc.kind.initializer",
+    "availableLanguages": ["swift"],
+    "taskGroups": []
+  },
+  {
+    "usr": "s:s12IdentifiablePsRlzCrlE2idSOvp::SYNTHESIZED::s:14TCDigitalFlyer11EnvironmentO",
+    "fragments": [
+      { "kind": "keyword", "text": "var" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "id" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "ObjectIdentifier",
+        "preciseIdentifier": "s:SO"
+      }
+    ],
+    "title": "id",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/id-9fihf",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/environment/id-9fihf",
+    "kind": "org.swift.docc.kind.instanceProperty",
+    "availableLanguages": ["swift"],
+    "platforms": [
+      {
+        "beta": false,
+        "unavailable": false,
+        "name": "iOS",
+        "introducedAt": "13.0",
+        "deprecated": false
+      },
+      {
+        "beta": false,
+        "unavailable": false,
+        "name": "macOS",
+        "introducedAt": "10.15",
+        "deprecated": false
+      },
+      {
+        "beta": false,
+        "unavailable": false,
+        "name": "tvOS",
+        "introducedAt": "13.0",
+        "deprecated": false
+      },
+      {
+        "beta": false,
+        "unavailable": false,
+        "name": "watchOS",
+        "introducedAt": "6.0",
+        "deprecated": false
+      }
+    ]
+  },
+  {
+    "usr": "c:@M@TCDigitalFlyer@objc(cs)FlyerView",
+    "fragments": [
+      { "kind": "keyword", "text": "class" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "FlyerView" }
+    ],
+    "title": "FlyerView",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
+    "language": "swift",
+    "abstract": [
+      {
+        "type": "text",
+        "text": "A custom view that displays the Digital Flyer."
+      },
+      { "type": "text", "text": " " },
+      {
+        "type": "text",
+        "text": "This view is the entrypoint for the Digital Flyer."
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/flyerview",
+    "kind": "org.swift.docc.kind.class",
+    "availableLanguages": ["swift"],
+    "taskGroups": [
+      {
+        "title": "Structures",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration"
+        ]
+      },
+      {
+        "title": "Initializers",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:publication:configuration:onEvent:)"
+        ]
+      },
+      {
+        "title": "Enumerations",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event"
+        ]
+      },
+      {
+        "title": "Default Implementations",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDelegate-Implementations",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UIScrollViewDelegate-Implementations"
+        ]
+      }
+    ]
+  },
+  {
+    "usr": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)numberOfSectionsInCollectionView:",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "numberOfSections" },
+      { "kind": "text", "text": "(" },
+      { "kind": "externalParam", "text": "in" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "UICollectionView",
+        "preciseIdentifier": "c:objc(cs)UICollectionView"
+      },
+      { "kind": "text", "text": ") -> " },
+      { "kind": "typeIdentifier", "text": "Int", "preciseIdentifier": "s:Si" }
+    ],
+    "title": "numberOfSections(in:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/numberOfSections(in:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/flyerview/numberofsections(in:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "title": "Identifiable Implementations",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Identifiable-Implementations",
+    "language": "swift",
+    "taskGroups": [
+      {
+        "title": "Instance Properties",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/id-9fihf"
+        ]
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/environment/identifiable-implementations",
+    "kind": "org.swift.docc.kind.collectionGroup",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "c:@M@TCDigitalFlyer@objc(cs)FlyerView(im)initWithFrame:",
+    "fragments": [
+      { "kind": "keyword", "text": "init" },
+      { "kind": "text", "text": "(" },
+      { "kind": "externalParam", "text": "frame" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "CGRect",
+        "preciseIdentifier": "c:@S@CGRect"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "init(frame:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:)",
+    "language": "swift",
+    "abstract": [{ "type": "text", "text": "<#Description#>" }],
+    "path": "/documentation/tcdigitalflyer/flyerview/init(frame:)",
+    "kind": "org.swift.docc.kind.initializer",
+    "availableLanguages": ["swift"],
+    "taskGroups": []
+  },
+  {
+    "usr": "s:14TCDigitalFlyer07DigitalB0C14getPublication4from10completiony6Domain0E0V10AttributesV_ys6ResultOyAiG7DFErrorOGctF",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "getPublication" },
+      { "kind": "text", "text": "(" },
+      { "kind": "externalParam", "text": "from" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "Publication",
+        "preciseIdentifier": "s:14TCDigitalFlyer11Publicationa"
+      },
+      { "kind": "text", "text": "." },
+      {
+        "kind": "typeIdentifier",
+        "text": "Attributes",
+        "preciseIdentifier": "s:6Domain11PublicationV10AttributesV"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "completion" },
+      { "kind": "text", "text": ": (" },
+      {
+        "kind": "typeIdentifier",
+        "text": "Result",
+        "preciseIdentifier": "s:s6ResultO"
+      },
+      { "kind": "text", "text": "<" },
+      {
+        "kind": "typeIdentifier",
+        "text": "Publication",
+        "preciseIdentifier": "s:14TCDigitalFlyer11Publicationa"
+      },
+      { "kind": "text", "text": ", " },
+      {
+        "kind": "typeIdentifier",
+        "text": "DFError",
+        "preciseIdentifier": "s:14TCDigitalFlyer7DFErrora"
+      },
+      { "kind": "text", "text": ">) -> " },
+      {
+        "kind": "typeIdentifier",
+        "text": "Void",
+        "preciseIdentifier": "s:s4Voida"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "getPublication(from:completion:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/getPublication(from:completion:)",
+    "language": "swift",
+    "abstract": [
+      { "type": "text", "text": "Retrieve the full " },
+      {
+        "type": "reference",
+        "isActive": true,
+        "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication"
+      },
+      { "type": "text", "text": ", including attributes and page content." }
+    ],
+    "path": "/documentation/tcdigitalflyer/digitalflyer/getpublication(from:completion:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"],
+    "taskGroups": []
+  },
+  {
+    "title": "Installation",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation",
+    "language": "swift",
+    "abstract": [
+      {
+        "type": "text",
+        "text": "Using SPM to install the SDK as a binary target."
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/installation",
+    "kind": "org.swift.docc.kind.article",
+    "availableLanguages": ["swift"],
+    "taskGroups": []
+  },
+  {
+    "usr": "s:14TCDigitalFlyer6LoggerP",
+    "fragments": [
+      { "kind": "keyword", "text": "protocol" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "Logger" }
+    ],
+    "title": "Logger",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol",
+    "language": "swift",
+    "abstract": [
+      {
+        "type": "text",
+        "text": "A logger that can be injected to log messages from the DigitalFlyer."
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/logger-swift.protocol",
+    "kind": "org.swift.docc.kind.protocol",
+    "availableLanguages": ["swift"],
+    "taskGroups": [
+      {
+        "title": "Instance Methods",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/debug(_:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/error(_:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/info(_:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/verbose(_:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/warning(_:)"
+        ]
+      }
+    ]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer0B4ViewC5EventO",
+    "fragments": [
+      { "kind": "keyword", "text": "enum" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "Event" }
+    ],
+    "title": "FlyerView.Event",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event",
+    "language": "swift",
+    "abstract": [
+      {
+        "type": "text",
+        "text": "The events that can be emitted by the FlyerView."
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/flyerview/event",
+    "kind": "org.swift.docc.kind.enumeration",
+    "availableLanguages": ["swift"],
+    "taskGroups": [
+      {
+        "title": "Enumeration Cases",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event/sku(_:)"
+        ]
+      }
+    ]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer0B4ViewC13ConfigurationV12headerHeight14CoreFoundation7CGFloatVvp",
+    "fragments": [
+      { "kind": "keyword", "text": "let" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "headerHeight" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "CGFloat",
+        "preciseIdentifier": "s:14CoreFoundation7CGFloatV"
+      }
+    ],
+    "title": "headerHeight",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/headerHeight",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/flyerview/configuration/headerheight",
+    "kind": "org.swift.docc.kind.instanceProperty",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer6LoggerP5debugyySSF",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "debug" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "debug(_:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/debug(_:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/logger-swift.protocol/debug(_:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer07DigitalB0C16listPublications7storeId8language4date10completionySS_6Domain8LanguageO10Foundation4DateVys6ResultOySayAI11PublicationV10AttributesVGAI7DFErrorOGctF",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "listPublications" },
+      { "kind": "text", "text": "(" },
+      { "kind": "externalParam", "text": "storeId" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "language" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "Language",
+        "preciseIdentifier": "s:14TCDigitalFlyer8Languagea"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "date" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "Date",
+        "preciseIdentifier": "s:10Foundation4DateV"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "completion" },
+      { "kind": "text", "text": ": (" },
+      {
+        "kind": "typeIdentifier",
+        "text": "Result",
+        "preciseIdentifier": "s:s6ResultO"
+      },
+      { "kind": "text", "text": "<[" },
+      {
+        "kind": "typeIdentifier",
+        "text": "Publication",
+        "preciseIdentifier": "s:14TCDigitalFlyer11Publicationa"
+      },
+      { "kind": "text", "text": "." },
+      {
+        "kind": "typeIdentifier",
+        "text": "Attributes",
+        "preciseIdentifier": "s:6Domain11PublicationV10AttributesV"
+      },
+      { "kind": "text", "text": "], " },
+      {
+        "kind": "typeIdentifier",
+        "text": "DFError",
+        "preciseIdentifier": "s:14TCDigitalFlyer7DFErrora"
+      },
+      { "kind": "text", "text": ">) -> " },
+      {
+        "kind": "typeIdentifier",
+        "text": "Void",
+        "preciseIdentifier": "s:s4Voida"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "listPublications(storeId:language:date:completion:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/listPublications(storeId:language:date:completion:)",
+    "language": "swift",
+    "abstract": [
+      { "type": "text", "text": "Retrieve a list of all active publications." }
+    ],
+    "path": "/documentation/tcdigitalflyer/digitalflyer/listpublications(storeid:language:date:completion:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"],
+    "taskGroups": []
+  },
+  {
+    "usr": "s:14TCDigitalFlyer0B4ViewC13ConfigurationV",
+    "fragments": [
+      { "kind": "keyword", "text": "struct" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "Configuration" }
+    ],
+    "title": "FlyerView.Configuration",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration",
+    "language": "swift",
+    "abstract": [
+      { "type": "text", "text": "The FlyerView configuration with defaults." }
+    ],
+    "path": "/documentation/tcdigitalflyer/flyerview/configuration",
+    "kind": "org.swift.docc.kind.structure",
+    "availableLanguages": ["swift"],
+    "taskGroups": [
+      {
+        "title": "Initializers",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/init(showHeader:headerHeight:)"
+        ]
+      },
+      {
+        "title": "Instance Properties",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/headerHeight",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/showHeader"
+        ]
+      }
+    ]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer6loggerAA6Logger_pSgvp",
+    "fragments": [
+      { "kind": "keyword", "text": "var" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "logger" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "Logger",
+        "preciseIdentifier": "s:14TCDigitalFlyer6LoggerP"
+      },
+      { "kind": "text", "text": "?" }
+    ],
+    "title": "logger",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/logger-swift.var",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/logger-swift.var",
+    "kind": "org.swift.docc.kind.globalVariable",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer11EnvironmentO7stagingyA2CmF",
+    "fragments": [
+      { "kind": "keyword", "text": "case" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "staging" }
+    ],
+    "title": "Environment.staging",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/staging",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/environment/staging",
+    "kind": "org.swift.docc.kind.enumerationCase",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "title": "Equatable Implementations",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Equatable-Implementations",
+    "language": "swift",
+    "taskGroups": [
+      {
+        "title": "Operators",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/!=(_:_:)"
+        ]
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/environment/equatable-implementations",
+    "kind": "org.swift.docc.kind.collectionGroup",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer6LoggerP5erroryySSF",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "error" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "error(_:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/error(_:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/logger-swift.protocol/error(_:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "title": "UIScrollViewDelegate Implementations",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UIScrollViewDelegate-Implementations",
+    "language": "swift",
+    "taskGroups": [
+      {
+        "title": "Instance Methods",
+        "identifiers": [
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidEndZooming(_:with:atScale:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidScroll(_:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidZoom(_:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewWillBeginZooming(_:with:)",
+          "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/viewForZooming(in:)"
+        ]
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/flyerview/uiscrollviewdelegate-implementations",
+    "kind": "org.swift.docc.kind.collectionGroup",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:14TCDigitalFlyer11EnvironmentO",
+    "fragments": [
+      { "kind": "keyword", "text": "static" },
+      { "kind": "text", "text": " " },
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "!=" },
+      { "kind": "text", "text": " " },
+      { "kind": "text", "text": "(" },
+      { "kind": "typeIdentifier", "text": "Self" },
+      { "kind": "text", "text": ", " },
+      { "kind": "typeIdentifier", "text": "Self" },
+      { "kind": "text", "text": ") -> " },
+      { "kind": "typeIdentifier", "text": "Bool", "preciseIdentifier": "s:Sb" }
+    ],
+    "title": "!=(_:_:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/!=(_:_:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/environment/!=(_:_:)",
+    "kind": "org.swift.docc.kind.operator",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer0B4ViewC13ConfigurationV10showHeader12headerHeightAESb_14CoreFoundation7CGFloatVtcfc",
+    "fragments": [
+      { "kind": "keyword", "text": "init" },
+      { "kind": "text", "text": "(" },
+      { "kind": "externalParam", "text": "showHeader" },
+      { "kind": "text", "text": ": " },
+      { "kind": "typeIdentifier", "text": "Bool", "preciseIdentifier": "s:Sb" },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "headerHeight" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "CGFloat",
+        "preciseIdentifier": "s:14CoreFoundation7CGFloatV"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "init(showHeader:headerHeight:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/init(showHeader:headerHeight:)",
+    "language": "swift",
+    "abstract": [
+      {
+        "type": "text",
+        "text": "Creates a new configuration with the given parameters."
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/flyerview/configuration/init(showheader:headerheight:)",
+    "kind": "org.swift.docc.kind.initializer",
+    "availableLanguages": ["swift"],
+    "taskGroups": []
+  },
+  {
+    "usr": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:numberOfItemsInSection:",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "collectionView" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "UICollectionView",
+        "preciseIdentifier": "c:objc(cs)UICollectionView"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "numberOfItemsInSection" },
+      { "kind": "text", "text": ": " },
+      { "kind": "typeIdentifier", "text": "Int", "preciseIdentifier": "s:Si" },
+      { "kind": "text", "text": ") -> " },
+      { "kind": "typeIdentifier", "text": "Int", "preciseIdentifier": "s:Si" }
+    ],
+    "title": "collectionView(_:numberOfItemsInSection:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:numberOfItemsInSection:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/flyerview/collectionview(_:numberofitemsinsection:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)scrollViewDidZoom:",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "scrollViewDidZoom" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "UIScrollView",
+        "preciseIdentifier": "c:objc(cs)UIScrollView"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "scrollViewDidZoom(_:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidZoom(_:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/flyerview/scrollviewdidzoom(_:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer0B4ViewC13ConfigurationV10showHeaderSbvp",
+    "fragments": [
+      { "kind": "keyword", "text": "let" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "showHeader" },
+      { "kind": "text", "text": ": " },
+      { "kind": "typeIdentifier", "text": "Bool", "preciseIdentifier": "s:Sb" }
+    ],
+    "title": "showHeader",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/showHeader",
+    "language": "swift",
+    "abstract": [
+      {
+        "type": "text",
+        "text": "Whether to show the Header on the first page."
+      }
+    ],
+    "path": "/documentation/tcdigitalflyer/flyerview/configuration/showheader",
+    "kind": "org.swift.docc.kind.instanceProperty",
+    "availableLanguages": ["swift"],
+    "taskGroups": []
+  },
+  {
+    "usr": "s:14TCDigitalFlyer11EnvironmentO3uatyA2CmF",
+    "fragments": [
+      { "kind": "keyword", "text": "case" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "uat" }
+    ],
+    "title": "Environment.uat",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/uat",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/environment/uat",
+    "kind": "org.swift.docc.kind.enumerationCase",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer6LoggerP7verboseyySSF",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "verbose" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "String",
+        "preciseIdentifier": "s:SS"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "verbose(_:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/verbose(_:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/logger-swift.protocol/verbose(_:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)scrollViewDidEndZooming:withView:atScale:",
+    "fragments": [
+      { "kind": "keyword", "text": "func" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "scrollViewDidEndZooming" },
+      { "kind": "text", "text": "(" },
+      {
+        "kind": "typeIdentifier",
+        "text": "UIScrollView",
+        "preciseIdentifier": "c:objc(cs)UIScrollView"
+      },
+      { "kind": "text", "text": ", " },
+      { "kind": "externalParam", "text": "with" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "UIView",
+        "preciseIdentifier": "c:objc(cs)UIView"
+      },
+      { "kind": "text", "text": "?, " },
+      { "kind": "externalParam", "text": "atScale" },
+      { "kind": "text", "text": ": " },
+      {
+        "kind": "typeIdentifier",
+        "text": "CGFloat",
+        "preciseIdentifier": "s:14CoreFoundation7CGFloatV"
+      },
+      { "kind": "text", "text": ")" }
+    ],
+    "title": "scrollViewDidEndZooming(_:with:atScale:)",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidEndZooming(_:with:atScale:)",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/flyerview/scrollviewdidendzooming(_:with:atscale:)",
+    "kind": "org.swift.docc.kind.instanceMethod",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "title": "Using the SDK",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/using-the-sdk",
+    "kind": "org.swift.docc.kind.article",
+    "availableLanguages": ["swift"]
+  },
+  {
+    "usr": "s:14TCDigitalFlyer11Publicationa",
+    "fragments": [
+      { "kind": "keyword", "text": "typealias" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "Publication" }
+    ],
+    "title": "Publication",
+    "referenceURL": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication",
+    "language": "swift",
+    "taskGroups": [],
+    "path": "/documentation/tcdigitalflyer/publication",
+    "kind": "org.swift.docc.kind.typeAlias",
+    "availableLanguages": ["swift"]
+  }
+]

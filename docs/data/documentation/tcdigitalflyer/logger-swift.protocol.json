@@ -1,1 +1,212 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"protocol"},{"kind":"text","text":" "},{"kind":"identifier","text":"Logger"}],"languages":["swift"],"platforms":["iOS"]}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/tcdigitalflyer\/logger-swift.protocol"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"A logger that can be injected to log messages from the DigitalFlyer."}],"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"protocol"},{"kind":"text","text":" "},{"kind":"identifier","text":"Logger"}],"title":"Logger","roleHeading":"Protocol","role":"symbol","symbolKind":"protocol","externalID":"s:14TCDigitalFlyer6LoggerP","modules":[{"name":"TCDigitalFlyer"}],"navigatorTitle":[{"kind":"identifier","text":"Logger"}]},"hierarchy":{"paths":[["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"]]},"topicSections":[{"title":"Instance Methods","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/debug(_:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/error(_:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/info(_:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/verbose(_:)","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/warning(_:)"]}],"references":{"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/info(_:)":{"role":"symbol","title":"info(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"info"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/info(_:)","kind":"symbol","required":true,"type":"topic","url":"\/documentation\/tcdigitalflyer\/logger-swift.protocol\/info(_:)"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/debug(_:)":{"role":"symbol","title":"debug(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"debug"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/debug(_:)","kind":"symbol","required":true,"type":"topic","url":"\/documentation\/tcdigitalflyer\/logger-swift.protocol\/debug(_:)"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/error(_:)":{"role":"symbol","title":"error(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"error"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/error(_:)","kind":"symbol","required":true,"type":"topic","url":"\/documentation\/tcdigitalflyer\/logger-swift.protocol\/error(_:)"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol":{"role":"symbol","title":"Logger","fragments":[{"kind":"keyword","text":"protocol"},{"kind":"text","text":" "},{"kind":"identifier","text":"Logger"}],"abstract":[{"type":"text","text":"A logger that can be injected to log messages from the DigitalFlyer."}],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"Logger"}],"url":"\/documentation\/tcdigitalflyer\/logger-swift.protocol"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer":{"role":"collection","title":"TCDigitalFlyer","abstract":[{"type":"text","text":"The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."}],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/verbose(_:)":{"role":"symbol","title":"verbose(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"verbose"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/verbose(_:)","kind":"symbol","required":true,"type":"topic","url":"\/documentation\/tcdigitalflyer\/logger-swift.protocol\/verbose(_:)"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/warning(_:)":{"role":"symbol","title":"warning(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"warning"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/warning(_:)","kind":"symbol","required":true,"type":"topic","url":"\/documentation\/tcdigitalflyer\/logger-swift.protocol\/warning(_:)"}}}
+{
+  "primaryContentSections": [
+    {
+      "kind": "declarations",
+      "declarations": [
+        {
+          "tokens": [
+            { "kind": "keyword", "text": "protocol" },
+            { "kind": "text", "text": " " },
+            { "kind": "identifier", "text": "Logger" }
+          ],
+          "languages": ["swift"],
+          "platforms": ["iOS"]
+        }
+      ]
+    }
+  ],
+  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
+  "sections": [],
+  "variants": [
+    {
+      "paths": ["/documentation/tcdigitalflyer/logger-swift.protocol"],
+      "traits": [{ "interfaceLanguage": "swift" }]
+    }
+  ],
+  "identifier": {
+    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol",
+    "interfaceLanguage": "swift"
+  },
+  "abstract": [
+    {
+      "type": "text",
+      "text": "A logger that can be injected to log messages from the DigitalFlyer."
+    }
+  ],
+  "kind": "symbol",
+  "metadata": {
+    "fragments": [
+      { "kind": "keyword", "text": "protocol" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "Logger" }
+    ],
+    "title": "Logger",
+    "roleHeading": "Protocol",
+    "role": "symbol",
+    "symbolKind": "protocol",
+    "externalID": "s:14TCDigitalFlyer6LoggerP",
+    "modules": [{ "name": "TCDigitalFlyer" }],
+    "navigatorTitle": [{ "kind": "identifier", "text": "Logger" }]
+  },
+  "hierarchy": {
+    "paths": [["doc://TCDigitalFlyer/documentation/TCDigitalFlyer"]]
+  },
+  "topicSections": [
+    {
+      "title": "Instance Methods",
+      "identifiers": [
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/debug(_:)",
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/error(_:)",
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/info(_:)",
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/verbose(_:)",
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/warning(_:)"
+      ]
+    }
+  ],
+  "references": {
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+      "role": "collection",
+      "title": "TCDigitalFlyer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
+        }
+      ],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/verbose(_:)": {
+      "role": "symbol",
+      "title": "verbose(_:)",
+      "fragments": [
+        { "kind": "keyword", "text": "func" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "verbose" },
+        { "kind": "text", "text": "(" },
+        {
+          "kind": "typeIdentifier",
+          "text": "String",
+          "preciseIdentifier": "s:SS"
+        },
+        { "kind": "text", "text": ")" }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/verbose(_:)",
+      "kind": "symbol",
+      "required": true,
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/logger-swift.protocol/verbose(_:)"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/warning(_:)": {
+      "role": "symbol",
+      "title": "warning(_:)",
+      "fragments": [
+        { "kind": "keyword", "text": "func" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "warning" },
+        { "kind": "text", "text": "(" },
+        {
+          "kind": "typeIdentifier",
+          "text": "String",
+          "preciseIdentifier": "s:SS"
+        },
+        { "kind": "text", "text": ")" }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/warning(_:)",
+      "kind": "symbol",
+      "required": true,
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/logger-swift.protocol/warning(_:)"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/info(_:)": {
+      "role": "symbol",
+      "title": "info(_:)",
+      "fragments": [
+        { "kind": "keyword", "text": "func" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "info" },
+        { "kind": "text", "text": "(" },
+        {
+          "kind": "typeIdentifier",
+          "text": "String",
+          "preciseIdentifier": "s:SS"
+        },
+        { "kind": "text", "text": ")" }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/info(_:)",
+      "kind": "symbol",
+      "required": true,
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/logger-swift.protocol/info(_:)"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/debug(_:)": {
+      "role": "symbol",
+      "title": "debug(_:)",
+      "fragments": [
+        { "kind": "keyword", "text": "func" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "debug" },
+        { "kind": "text", "text": "(" },
+        {
+          "kind": "typeIdentifier",
+          "text": "String",
+          "preciseIdentifier": "s:SS"
+        },
+        { "kind": "text", "text": ")" }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/debug(_:)",
+      "kind": "symbol",
+      "required": true,
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/logger-swift.protocol/debug(_:)"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol": {
+      "role": "symbol",
+      "title": "Logger",
+      "fragments": [
+        { "kind": "keyword", "text": "protocol" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "Logger" }
+      ],
+      "abstract": [
+        {
+          "type": "text",
+          "text": "A logger that can be injected to log messages from the DigitalFlyer."
+        }
+      ],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol",
+      "kind": "symbol",
+      "type": "topic",
+      "navigatorTitle": [{ "kind": "identifier", "text": "Logger" }],
+      "url": "/documentation/tcdigitalflyer/logger-swift.protocol"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/error(_:)": {
+      "role": "symbol",
+      "title": "error(_:)",
+      "fragments": [
+        { "kind": "keyword", "text": "func" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "error" },
+        { "kind": "text", "text": "(" },
+        {
+          "kind": "typeIdentifier",
+          "text": "String",
+          "preciseIdentifier": "s:SS"
+        },
+        { "kind": "text", "text": ")" }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/error(_:)",
+      "kind": "symbol",
+      "required": true,
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/logger-swift.protocol/error(_:)"
+    }
+  }
+}

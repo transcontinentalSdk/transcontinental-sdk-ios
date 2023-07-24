@@ -1,1 +1,86 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"Publication"},{"kind":"text","text":" = Domain"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Publication","preciseIdentifier":"s:6Domain11PublicationV"}],"languages":["swift"],"platforms":["iOS"]}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/tcdigitalflyer\/publication"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication","interfaceLanguage":"swift"},"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"Publication"}],"title":"Publication","roleHeading":"Type Alias","role":"symbol","symbolKind":"typealias","externalID":"s:14TCDigitalFlyer11Publicationa","modules":[{"name":"TCDigitalFlyer"}],"navigatorTitle":[{"kind":"identifier","text":"Publication"}]},"hierarchy":{"paths":[["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"]]},"references":{"doc://TCDigitalFlyer/documentation/TCDigitalFlyer":{"role":"collection","title":"TCDigitalFlyer","abstract":[{"type":"text","text":"The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."}],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication":{"role":"symbol","title":"Publication","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"Publication"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"Publication"}],"url":"\/documentation\/tcdigitalflyer\/publication"}}}
+{
+  "primaryContentSections": [
+    {
+      "kind": "declarations",
+      "declarations": [
+        {
+          "tokens": [
+            { "kind": "keyword", "text": "typealias" },
+            { "kind": "text", "text": " " },
+            { "kind": "identifier", "text": "Publication" },
+            { "kind": "text", "text": " = Domain" },
+            { "kind": "text", "text": "." },
+            {
+              "kind": "typeIdentifier",
+              "text": "Publication",
+              "preciseIdentifier": "s:6Domain11PublicationV"
+            }
+          ],
+          "languages": ["swift"],
+          "platforms": ["iOS"]
+        }
+      ]
+    }
+  ],
+  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
+  "sections": [],
+  "variants": [
+    {
+      "paths": ["/documentation/tcdigitalflyer/publication"],
+      "traits": [{ "interfaceLanguage": "swift" }]
+    }
+  ],
+  "identifier": {
+    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication",
+    "interfaceLanguage": "swift"
+  },
+  "kind": "symbol",
+  "metadata": {
+    "fragments": [
+      { "kind": "keyword", "text": "typealias" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "Publication" }
+    ],
+    "title": "Publication",
+    "roleHeading": "Type Alias",
+    "role": "symbol",
+    "symbolKind": "typealias",
+    "externalID": "s:14TCDigitalFlyer11Publicationa",
+    "modules": [{ "name": "TCDigitalFlyer" }],
+    "navigatorTitle": [{ "kind": "identifier", "text": "Publication" }]
+  },
+  "hierarchy": {
+    "paths": [["doc://TCDigitalFlyer/documentation/TCDigitalFlyer"]]
+  },
+  "references": {
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
+      "role": "symbol",
+      "title": "Publication",
+      "fragments": [
+        { "kind": "keyword", "text": "typealias" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "Publication" }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication",
+      "kind": "symbol",
+      "type": "topic",
+      "navigatorTitle": [{ "kind": "identifier", "text": "Publication" }],
+      "url": "/documentation/tcdigitalflyer/publication"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+      "role": "collection",
+      "title": "TCDigitalFlyer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
+        }
+      ],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer"
+    }
+  }
+}

@@ -1,1 +1,179 @@
-{"primaryContentSections":[{"kind":"content","content":[{"anchor":"Overview","level":2,"type":"heading","text":"Overview"},{"type":"paragraph","inlineContent":[{"type":"text","text":"The latest iOS XCFramework resides in a private repository, accessible through Swift Package Manager. Upon registering your application with Transcontinental, you’ll receive an authentication token to download the SDK."}]},{"anchor":"Authentication","level":2,"type":"heading","text":"Authentication"},{"type":"paragraph","inlineContent":[{"type":"text","text":"Save your authentication details in a "},{"type":"codeVoice","code":".netrc"},{"type":"text","text":" file located in your home directory ("},{"type":"codeVoice","code":"~\/.netrc"},{"type":"text","text":"). Replace "},{"type":"codeVoice","code":"my-authentication-login"},{"type":"text","text":" and "},{"type":"codeVoice","code":"my-authentication-password"},{"type":"text","text":" with the credentials provided to you:"}]},{"type":"codeListing","syntax":"bash","code":["machine transfer.tds.transcontinental.ca","    login my-authentication-login","    password my-authentication-password"]},{"anchor":"Packageswift","level":2,"type":"heading","text":"Package.swift"},{"type":"paragraph","inlineContent":[{"type":"text","text":"The Transcontinental (TC) SDK Package.swift file connects to the private XCFramework as a binaryTarget. Swift Package Manager uses "},{"type":"codeVoice","code":"netrc"},{"type":"text","text":" internally to download private binaries."}]},{"type":"codeListing","syntax":"swift","code":["\/\/ Package.swift","\/\/ https:\/\/github.com\/transcontinentalSdk\/tcdigitalflyer-ios-agent-spm\/blob\/1.9.9\/Package.swift","...","targets: [","    .binaryTarget(","        name: \"TCDigitalFlyer\",","        url:\"https:\/\/transfer.tds.transcontinental.ca\/TCDigitalFlyer-1.9.9-14.2.xcframework.zip\",","        checksum: \"7a969b08b3c5d3ff21398358df997f13495008d32655c8a0ee25bfbdc4608684\"),","]","..."]},{"type":"paragraph","inlineContent":[{"type":"text","text":"Add the dependency to your "},{"type":"codeVoice","code":"Package.swift"},{"type":"text","text":" or "},{"type":"codeVoice","code":"Package Dependencies"},{"type":"text","text":" (if using XCode for package management):"}]},{"type":"codeListing","syntax":"bash","code":["dependencies: [","    .package(url: \"https:\/\/github.com\/transcontinentalSdk\/tcdigitalflyer-ios-agent-spm.git\", .exact(\"1.9.9\")),","],"]}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/tcdigitalflyer\/installation"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/installation","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"Using SPM to install the SDK as a binary target."}],"kind":"article","metadata":{"roleHeading":"Article","title":"Installation","role":"article","modules":[{"name":"TCDigitalFlyer"}]},"hierarchy":{"paths":[["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"]]},"seeAlsoSections":[{"title":"Getting Started","identifiers":["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk"],"generated":true}],"references":{"doc://TCDigitalFlyer/documentation/TCDigitalFlyer":{"role":"collection","title":"TCDigitalFlyer","abstract":[{"type":"text","text":"The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."}],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk":{"role":"article","title":"Using the SDK","abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk","kind":"article","type":"topic","url":"\/documentation\/tcdigitalflyer\/using-the-sdk"}}}
+{
+  "primaryContentSections": [
+    {
+      "kind": "content",
+      "content": [
+        {
+          "anchor": "Overview",
+          "level": 2,
+          "type": "heading",
+          "text": "Overview"
+        },
+        {
+          "type": "paragraph",
+          "inlineContent": [
+            {
+              "type": "text",
+              "text": "The latest iOS XCFramework resides in a private repository, accessible through Swift Package Manager. Upon registering your application with Transcontinental, you’ll receive an authentication token to download the SDK."
+            }
+          ]
+        },
+        {
+          "anchor": "Authentication",
+          "level": 2,
+          "type": "heading",
+          "text": "Authentication"
+        },
+        {
+          "type": "paragraph",
+          "inlineContent": [
+            {
+              "type": "text",
+              "text": "Save your authentication details in a "
+            },
+            { "type": "codeVoice", "code": ".netrc" },
+            {
+              "type": "text",
+              "text": " file located in your home directory ("
+            },
+            { "type": "codeVoice", "code": "~/.netrc" },
+            { "type": "text", "text": "). Replace " },
+            { "type": "codeVoice", "code": "my-authentication-login" },
+            { "type": "text", "text": " and " },
+            { "type": "codeVoice", "code": "my-authentication-password" },
+            { "type": "text", "text": " with the credentials provided to you:" }
+          ]
+        },
+        {
+          "type": "codeListing",
+          "syntax": "bash",
+          "code": [
+            "machine transfer.tds.transcontinental.ca",
+            "    login my-authentication-login",
+            "    password my-authentication-password"
+          ]
+        },
+        {
+          "anchor": "Packageswift",
+          "level": 2,
+          "type": "heading",
+          "text": "Package.swift"
+        },
+        {
+          "type": "paragraph",
+          "inlineContent": [
+            {
+              "type": "text",
+              "text": "The Transcontinental (TC) SDK Package.swift file connects to the private XCFramework as a binaryTarget. Swift Package Manager uses "
+            },
+            { "type": "codeVoice", "code": "netrc" },
+            {
+              "type": "text",
+              "text": " internally to download private binaries."
+            }
+          ]
+        },
+        {
+          "type": "codeListing",
+          "syntax": "swift",
+          "code": [
+            "// Package.swift",
+            "// https://github.com/transcontinentalSdk/tcdigitalflyer-ios-agent-spm/blob/1.9.9/Package.swift",
+            "...",
+            "targets: [",
+            "    .binaryTarget(",
+            "        name: \"TCDigitalFlyer\",",
+            "        url:\"https://transfer.tds.transcontinental.ca/TCDigitalFlyer-1.9.9-14.2.xcframework.zip\",",
+            "        checksum: \"7a969b08b3c5d3ff21398358df997f13495008d32655c8a0ee25bfbdc4608684\"),",
+            "]",
+            "..."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "inlineContent": [
+            { "type": "text", "text": "Add the dependency to your " },
+            { "type": "codeVoice", "code": "Package.swift" },
+            { "type": "text", "text": " or " },
+            { "type": "codeVoice", "code": "Package Dependencies" },
+            {
+              "type": "text",
+              "text": " (if using XCode for package management):"
+            }
+          ]
+        },
+        {
+          "type": "codeListing",
+          "syntax": "bash",
+          "code": [
+            "dependencies: [",
+            "    .package(url: \"https://github.com/transcontinentalSdk/tcdigitalflyer-ios-agent-spm.git\", .exact(\"1.9.9\")),",
+            "],"
+          ]
+        }
+      ]
+    }
+  ],
+  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
+  "sections": [],
+  "variants": [
+    {
+      "paths": ["/documentation/tcdigitalflyer/installation"],
+      "traits": [{ "interfaceLanguage": "swift" }]
+    }
+  ],
+  "identifier": {
+    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation",
+    "interfaceLanguage": "swift"
+  },
+  "abstract": [
+    {
+      "type": "text",
+      "text": "Using SPM to install the SDK as a binary target."
+    }
+  ],
+  "kind": "article",
+  "metadata": {
+    "roleHeading": "Article",
+    "title": "Installation",
+    "role": "article",
+    "modules": [{ "name": "TCDigitalFlyer" }]
+  },
+  "hierarchy": {
+    "paths": [["doc://TCDigitalFlyer/documentation/TCDigitalFlyer"]]
+  },
+  "seeAlsoSections": [
+    {
+      "title": "Getting Started",
+      "identifiers": [
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk"
+      ],
+      "generated": true
+    }
+  ],
+  "references": {
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk": {
+      "role": "article",
+      "title": "Using the SDK",
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk",
+      "kind": "article",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/using-the-sdk"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+      "role": "collection",
+      "title": "TCDigitalFlyer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
+        }
+      ],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer"
+    }
+  }
+}

@@ -1,1 +1,99 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"live"}],"languages":["swift"],"platforms":["iOS"]}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/tcdigitalflyer\/environment\/live"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live","interfaceLanguage":"swift"},"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"live"}],"title":"Environment.live","roleHeading":"Case","role":"symbol","symbolKind":"case","externalID":"s:14TCDigitalFlyer11EnvironmentO4liveyA2CmF","modules":[{"name":"TCDigitalFlyer"}]},"hierarchy":{"paths":[["doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer","doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment"]]},"references":{"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment":{"role":"symbol","title":"Environment","fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"Environment"}],"abstract":[{"type":"text","text":"The API environments supported by the SDK"}],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"Environment"}],"url":"\/documentation\/tcdigitalflyer\/environment"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live":{"role":"symbol","title":"Environment.live","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"live"}],"abstract":[],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer\/environment\/live"},"doc://TCDigitalFlyer/documentation/TCDigitalFlyer":{"role":"collection","title":"TCDigitalFlyer","abstract":[{"type":"text","text":"The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."}],"identifier":"doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer","kind":"symbol","type":"topic","url":"\/documentation\/tcdigitalflyer"}}}
+{
+  "primaryContentSections": [
+    {
+      "kind": "declarations",
+      "declarations": [
+        {
+          "tokens": [
+            { "kind": "keyword", "text": "case" },
+            { "kind": "text", "text": " " },
+            { "kind": "identifier", "text": "live" }
+          ],
+          "languages": ["swift"],
+          "platforms": ["iOS"]
+        }
+      ]
+    }
+  ],
+  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
+  "sections": [],
+  "variants": [
+    {
+      "paths": ["/documentation/tcdigitalflyer/environment/live"],
+      "traits": [{ "interfaceLanguage": "swift" }]
+    }
+  ],
+  "identifier": {
+    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live",
+    "interfaceLanguage": "swift"
+  },
+  "kind": "symbol",
+  "metadata": {
+    "fragments": [
+      { "kind": "keyword", "text": "case" },
+      { "kind": "text", "text": " " },
+      { "kind": "identifier", "text": "live" }
+    ],
+    "title": "Environment.live",
+    "roleHeading": "Case",
+    "role": "symbol",
+    "symbolKind": "case",
+    "externalID": "s:14TCDigitalFlyer11EnvironmentO4liveyA2CmF",
+    "modules": [{ "name": "TCDigitalFlyer" }]
+  },
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
+        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment"
+      ]
+    ]
+  },
+  "references": {
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
+      "role": "symbol",
+      "title": "Environment",
+      "fragments": [
+        { "kind": "keyword", "text": "enum" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "Environment" }
+      ],
+      "abstract": [
+        { "type": "text", "text": "The API environments supported by the SDK" }
+      ],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment",
+      "kind": "symbol",
+      "type": "topic",
+      "navigatorTitle": [{ "kind": "identifier", "text": "Environment" }],
+      "url": "/documentation/tcdigitalflyer/environment"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+      "role": "collection",
+      "title": "TCDigitalFlyer",
+      "abstract": [
+        {
+          "type": "text",
+          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
+        }
+      ],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer"
+    },
+    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live": {
+      "role": "symbol",
+      "title": "Environment.live",
+      "fragments": [
+        { "kind": "keyword", "text": "case" },
+        { "kind": "text", "text": " " },
+        { "kind": "identifier", "text": "live" }
+      ],
+      "abstract": [],
+      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live",
+      "kind": "symbol",
+      "type": "topic",
+      "url": "/documentation/tcdigitalflyer/environment/live"
+    }
+  }
+}
