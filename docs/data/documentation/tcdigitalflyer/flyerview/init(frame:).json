@@ -1,147 +1,249 @@
 {
-  "primaryContentSections": [
+  "abstract" : [
     {
-      "kind": "declarations",
-      "declarations": [
-        {
-          "tokens": [
-            { "kind": "keyword", "text": "override" },
-            { "kind": "text", "text": " " },
-            { "kind": "keyword", "text": "init" },
-            { "kind": "text", "text": "(" },
-            { "kind": "externalParam", "text": "frame" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "text": "CGRect",
-              "preciseIdentifier": "c:@S@CGRect"
-            },
-            { "kind": "text", "text": ")" }
-          ],
-          "languages": ["swift"],
-          "platforms": ["iOS"]
-        }
-      ]
-    },
-    {
-      "kind": "parameters",
-      "parameters": [
-        {
-          "name": "frame",
-          "content": [
-            {
-              "type": "paragraph",
-              "inlineContent": [
-                { "type": "text", "text": "<#frame description#>" }
-              ]
-            }
-          ]
-        }
-      ]
+      "text" : "<#Description#>",
+      "type" : "text"
     }
   ],
-  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
-  "sections": [],
-  "variants": [
-    {
-      "paths": ["/documentation/tcdigitalflyer/flyerview/init(frame:)"],
-      "traits": [{ "interfaceLanguage": "swift" }]
-    }
-  ],
-  "identifier": {
-    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:)",
-    "interfaceLanguage": "swift"
-  },
-  "abstract": [{ "type": "text", "text": "<#Description#>" }],
-  "kind": "symbol",
-  "metadata": {
-    "fragments": [
-      { "kind": "identifier", "text": "init" },
-      { "kind": "text", "text": "(" },
-      { "kind": "externalParam", "text": "frame" },
-      { "kind": "text", "text": ": " },
-      {
-        "kind": "typeIdentifier",
-        "text": "CGRect",
-        "preciseIdentifier": "c:@S@CGRect"
-      },
-      { "kind": "text", "text": ")" }
-    ],
-    "title": "init(frame:)",
-    "roleHeading": "Initializer",
-    "role": "symbol",
-    "symbolKind": "init",
-    "externalID": "c:@M@TCDigitalFlyer@objc(cs)FlyerView(im)initWithFrame:",
-    "modules": [{ "name": "TCDigitalFlyer" }]
-  },
-  "hierarchy": {
-    "paths": [
+  "hierarchy" : {
+    "paths" : [
       [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView"
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
       ]
     ]
   },
-  "references": {
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
-      "role": "collection",
-      "title": "TCDigitalFlyer",
-      "abstract": [
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@TCDigitalFlyer@objc(cs)FlyerView(im)initWithFrame:",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "frame"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@S@CGRect",
+        "text" : "CGRect"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(frame:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
         {
-          "type": "text",
-          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "frame"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@S@CGRect",
+              "text" : "CGRect"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
         }
       ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer"
+      "kind" : "declarations"
     },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:)": {
-      "role": "symbol",
-      "title": "init(frame:)",
-      "fragments": [
-        { "kind": "identifier", "text": "init" },
-        { "kind": "text", "text": "(" },
-        { "kind": "externalParam", "text": "frame" },
-        { "kind": "text", "text": ": " },
+    {
+      "kind" : "parameters",
+      "parameters" : [
         {
-          "kind": "typeIdentifier",
-          "text": "CGRect",
-          "preciseIdentifier": "c:@S@CGRect"
-        },
-        { "kind": "text", "text": ")" }
-      ],
-      "abstract": [{ "type": "text", "text": "<#Description#>" }],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:)",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/flyerview/init(frame:)"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
-      "role": "symbol",
-      "title": "FlyerView",
-      "fragments": [
-        { "kind": "keyword", "text": "class" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "FlyerView" }
-      ],
-      "abstract": [
-        {
-          "type": "text",
-          "text": "A custom view that displays the Digital Flyer."
-        },
-        { "type": "text", "text": " " },
-        {
-          "type": "text",
-          "text": "This view is the entrypoint for the Digital Flyer."
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "<#frame description#>",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "frame"
         }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "FlyerView" }],
-      "url": "/documentation/tcdigitalflyer/flyerview"
+      ]
     }
-  }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/flyerview\/init(frame:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+  "abstract" : [
+    {
+      "text" : "A custom view that displays the Digital Flyer.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This view is the entrypoint for the Digital Flyer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:)": {
+  "abstract" : [
+    {
+      "text" : "<#Description#>",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "frame"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@S@CGRect",
+      "text" : "CGRect"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(frame:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/init(frame:)"
+}
+}
 }

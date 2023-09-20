@@ -1,179 +1,308 @@
 {
-  "primaryContentSections": [
+  "abstract" : [
     {
-      "kind": "declarations",
-      "declarations": [
-        {
-          "tokens": [
-            { "kind": "keyword", "text": "init" },
-            { "kind": "text", "text": "(" },
-            { "kind": "externalParam", "text": "showHeader" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "text": "Bool",
-              "preciseIdentifier": "s:Sb"
-            },
-            { "kind": "text", "text": " = true, " },
-            { "kind": "externalParam", "text": "headerHeight" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "text": "CGFloat",
-              "preciseIdentifier": "s:14CoreFoundation7CGFloatV"
-            },
-            { "kind": "text", "text": " = 50.0)" }
-          ],
-          "languages": ["swift"],
-          "platforms": ["iOS"]
-        }
-      ]
+      "text" : "Creates a new configuration with the given parameters.",
+      "type" : "text"
     }
   ],
-  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
-  "sections": [],
-  "variants": [
-    {
-      "paths": [
-        "/documentation/tcdigitalflyer/flyerview/configuration/init(showheader:headerheight:)"
-      ],
-      "traits": [{ "interfaceLanguage": "swift" }]
-    }
-  ],
-  "identifier": {
-    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/init(showHeader:headerHeight:)",
-    "interfaceLanguage": "swift"
-  },
-  "abstract": [
-    {
-      "type": "text",
-      "text": "Creates a new configuration with the given parameters."
-    }
-  ],
-  "kind": "symbol",
-  "metadata": {
-    "fragments": [
-      { "kind": "identifier", "text": "init" },
-      { "kind": "text", "text": "(" },
-      { "kind": "externalParam", "text": "showHeader" },
-      { "kind": "text", "text": ": " },
-      { "kind": "typeIdentifier", "text": "Bool", "preciseIdentifier": "s:Sb" },
-      { "kind": "text", "text": ", " },
-      { "kind": "externalParam", "text": "headerHeight" },
-      { "kind": "text", "text": ": " },
-      {
-        "kind": "typeIdentifier",
-        "text": "CGFloat",
-        "preciseIdentifier": "s:14CoreFoundation7CGFloatV"
-      },
-      { "kind": "text", "text": ")" }
-    ],
-    "title": "init(showHeader:headerHeight:)",
-    "roleHeading": "Initializer",
-    "role": "symbol",
-    "symbolKind": "init",
-    "externalID": "s:14TCDigitalFlyer0B4ViewC13ConfigurationV10showHeader12headerHeightAESb_14CoreFoundation7CGFloatVtcfc",
-    "modules": [{ "name": "TCDigitalFlyer" }]
-  },
-  "hierarchy": {
-    "paths": [
+  "hierarchy" : {
+    "paths" : [
       [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration"
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration"
       ]
     ]
   },
-  "references": {
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration": {
-      "role": "symbol",
-      "title": "FlyerView.Configuration",
-      "fragments": [
-        { "kind": "keyword", "text": "struct" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "Configuration" }
-      ],
-      "abstract": [
-        { "type": "text", "text": "The FlyerView configuration with defaults." }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "Configuration" }],
-      "url": "/documentation/tcdigitalflyer/flyerview/configuration"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/init(showHeader:headerHeight:)": {
-      "role": "symbol",
-      "title": "init(showHeader:headerHeight:)",
-      "fragments": [
-        { "kind": "identifier", "text": "init" },
-        { "kind": "text", "text": "(" },
-        { "kind": "externalParam", "text": "showHeader" },
-        { "kind": "text", "text": ": " },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/init(showHeader:headerHeight:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14TCDigitalFlyer0B4ViewC13ConfigurationV10showHeader12headerHeightAESb_14CoreFoundation7CGFloatVtcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "showHeader"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "headerHeight"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+        "text" : "CGFloat"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(showHeader:headerHeight:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
         {
-          "kind": "typeIdentifier",
-          "text": "Bool",
-          "preciseIdentifier": "s:Sb"
-        },
-        { "kind": "text", "text": ", " },
-        { "kind": "externalParam", "text": "headerHeight" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "CGFloat",
-          "preciseIdentifier": "s:14CoreFoundation7CGFloatV"
-        },
-        { "kind": "text", "text": ")" }
-      ],
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Creates a new configuration with the given parameters."
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "showHeader"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "headerHeight"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+              "text" : "CGFloat"
+            },
+            {
+              "kind" : "text",
+              "text" : " = 50.0)"
+            }
+          ]
         }
       ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/init(showHeader:headerHeight:)",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/flyerview/configuration/init(showheader:headerheight:)"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
-      "role": "symbol",
-      "title": "FlyerView",
-      "fragments": [
-        { "kind": "keyword", "text": "class" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "FlyerView" }
-      ],
-      "abstract": [
-        {
-          "type": "text",
-          "text": "A custom view that displays the Digital Flyer."
-        },
-        { "type": "text", "text": " " },
-        {
-          "type": "text",
-          "text": "This view is the entrypoint for the Digital Flyer."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "FlyerView" }],
-      "url": "/documentation/tcdigitalflyer/flyerview"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
-      "role": "collection",
-      "title": "TCDigitalFlyer",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer"
+      "kind" : "declarations"
     }
-  }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/flyerview\/configuration\/init(showheader:headerheight:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+  "abstract" : [
+    {
+      "text" : "A custom view that displays the Digital Flyer.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This view is the entrypoint for the Digital Flyer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration": {
+  "abstract" : [
+    {
+      "text" : "The FlyerView configuration with defaults.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView.Configuration",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/configuration"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/init(showHeader:headerHeight:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new configuration with the given parameters.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "showHeader"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "headerHeight"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/init(showHeader:headerHeight:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(showHeader:headerHeight:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/configuration\/init(showheader:headerheight:)"
+}
+}
 }

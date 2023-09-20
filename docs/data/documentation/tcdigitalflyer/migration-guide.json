@@ -1,154 +1,191 @@
 {
-  "primaryContentSections": [
+  "abstract" : [
     {
-      "kind": "content",
-      "content": [
+      "text" : "Transition existing apps from v1.x to 2.0.0",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Migration Guide"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
         {
-          "anchor": "Overview",
-          "level": 2,
-          "type": "heading",
-          "text": "Overview"
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "The v2.0.0 update introduces substantial performance improvements for the SDK, driven by several optimizations and technical enhancements:"
+              "text" : "The v2.0.0 update introduces substantial performance improvements for the SDK, driven by several optimizations and technical enhancements:",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "unorderedList",
-          "items": [
+          "items" : [
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": "Reduced time to first image when opening a flyer with the new rendering engine by re-writing manifest parsing"
+                      "text" : "Reduced time to first image when opening a flyer with the new rendering engine by re-writing manifest parsing",
+                      "type" : "text"
                     }
-                  ]
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             },
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": "Reduced total memory usage by 5-10x by eagerly caching to disk and evicting off-screen images from memory"
+                      "text" : "Reduced total memory usage by 5-10x by eagerly caching to disk and evicting off-screen images from memory",
+                      "type" : "text"
                     }
-                  ]
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             },
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": "Improved scrolling responsiveness by moving most/all download/parsing/rendering-related actions to worker threads. This results in less “janky” scrolling when viewing very large flyers"
+                      "text" : "Improved scrolling responsiveness by moving most\/all download\/parsing\/rendering-related actions to worker threads. This results in less “janky” scrolling when viewing very large flyers",
+                      "type" : "text"
                     }
-                  ]
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             },
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": "Reduced bandwidth requirements by enabling HTTP Range Requests to allow partial downloads, instead of re-downloads"
+                      "text" : "Reduced bandwidth requirements by enabling HTTP Range Requests to allow partial downloads, instead of re-downloads",
+                      "type" : "text"
                     }
-                  ]
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             },
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": "Reduced likelihood of temporarily blank screens by dynamically changing download/rendering priorities to prefer what should be currently on-screen, and deferring all off-screen images"
+                      "text" : "Reduced likelihood of temporarily blank screens by dynamically changing download\/rendering priorities to prefer what should be currently on-screen, and deferring all off-screen images",
+                      "type" : "text"
                     }
-                  ]
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             }
-          ]
+          ],
+          "type" : "unorderedList"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "These updates will facilitate some upcoming performance enhancements, namely pre-fetching. Pre-fetching will allow the SDK to optionally download and cache images before they are needed, resulting in a much smoother user experience and an even lower time to first image."
+              "text" : "These updates will facilitate some upcoming performance enhancements, namely pre-fetching. Pre-fetching will allow the SDK to optionally download and cache images before they are needed, resulting in a much smoother user experience and an even lower time to first image.",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "These improvements are the result of a significant re-write of the SDK’s rendering engine, and as such, we are releasing this as a breaking version change."
+              "text" : "These improvements are the result of a significant re-write of the SDK’s rendering engine, and as such, we are releasing this as a breaking version change.",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "anchor": "Initializing-the-SDK",
-          "level": 2,
-          "type": "heading",
-          "text": "Initializing the SDK"
+          "anchor" : "Initializing-the-SDK",
+          "level" : 2,
+          "text" : "Initializing the SDK",
+          "type" : "heading"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "In v1.x, the SDK was initialized via a singleton and using two methods. In v2.x, interaction with the SDK occurs through an instance of "
+              "text" : "In v1.x, the SDK was initialized via a singleton and using two methods. In v2.x, interaction with the SDK occurs through an instance of ",
+              "type" : "text"
             },
-            { "type": "codeVoice", "code": "DigitalFlyer" },
             {
-              "type": "text",
-              "text": ", and it’s up to the consumer to manage the lifecycle of this object however fits their workflow."
+              "code" : "DigitalFlyer",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ", and it’s up to the consumer to manage the lifecycle of this object however fits their workflow.",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
-            { "type": "text", "text": "Refer to " },
+          "inlineContent" : [
             {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)"
+              "text" : "Refer to ",
+              "type" : "text"
             },
-            { "type": "text", "text": " and " },
             {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk"
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)",
+              "isActive" : true,
+              "type" : "reference"
             },
-            { "type": "text", "text": " for more information." }
-          ]
+            {
+              "text" : " and ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " for more information.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "codeListing",
-          "syntax": "swift",
-          "code": [
-            "// v1.x",
+          "code" : [
+            "\/\/ v1.x",
             "DFManager.shared.initializeWith(\"MY_SUBSCRIPTION_KEY\")",
             "DFManager.shared.setSdkParams(",
             "    \"myBanner\",",
@@ -159,59 +196,80 @@
             "    Date(),",
             "    .black,",
             ") { (response, error) in",
-            "    // ... other SDK calls ...",
+            "    \/\/ ... other SDK calls ...",
             "},",
             "",
-            "// v2.x",
+            "\/\/ v2.x",
             "let digitalFlyer = try DigitalFlyer(",
             "    subscriptionKey: \"mySubscriptionKey\",",
             "    client: \"myClient\",",
             ")"
-          ]
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
         },
         {
-          "anchor": "Listing-Available-Publications",
-          "level": 2,
-          "type": "heading",
-          "text": "Listing Available Publications"
+          "anchor" : "Listing-Available-Publications",
+          "level" : 2,
+          "text" : "Listing Available Publications",
+          "type" : "heading"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "In v1.x, available Publications were retrieved via the "
-            },
-            { "type": "codeVoice", "code": "onLandingResponse" },
-            {
-              "type": "text",
-              "text": " using static SDK parameters and helper methods. In lieu of this, v2.x provides a "
+              "text" : "In v1.x, available Publications were retrieved via the ",
+              "type" : "text"
             },
             {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/listPublications(storeId:language:date:completion:)"
+              "code" : "onLandingResponse",
+              "type" : "codeVoice"
             },
-            { "type": "text", "text": " method on the " },
-            { "type": "codeVoice", "code": "DigitalFlyer" },
-            { "type": "text", "text": " object, which returns a list of " },
-            { "type": "codeVoice", "code": "Publication.Attributes" },
-            { "type": "text", "text": " objects. Refer to " },
             {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk"
+              "text" : " using static SDK parameters and helper methods. In lieu of this, v2.x provides a ",
+              "type" : "text"
             },
-            { "type": "text", "text": " for details." }
-          ]
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/listPublications(storeId:language:date:completion:)",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " method on the ",
+              "type" : "text"
+            },
+            {
+              "code" : "DigitalFlyer",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " object, which returns a list of ",
+              "type" : "text"
+            },
+            {
+              "code" : "Publication.Attributes",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " objects. Refer to ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " for details.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "codeListing",
-          "syntax": "swift",
-          "code": [
+          "code" : [
             "",
             "```swift",
-            "// v1.x",
+            "\/\/ v1.x",
             "DFManager.shared.changeStoreId(\"myStoreId\")",
             "DFManager.shared.changeLang(\"en\")",
             "DFManager.shared.setStoreIdAndLanguage(\"myStoreId\", \"en\")",
@@ -224,91 +282,121 @@
             "    Date(),",
             "    .black,",
             ") { (response, error) in",
-            "    // ... other SDK calls ...",
+            "    \/\/ ... other SDK calls ...",
             "}",
             "",
-            "// v2.x",
+            "\/\/ v2.x",
             "digitalFlyer.listPublications(storeId: storeId) { result in",
             "    ...",
             "}"
-          ]
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
         },
         {
-          "anchor": "Retrieving-and-Rendering-a-Publication",
-          "level": 2,
-          "type": "heading",
-          "text": "Retrieving and Rendering a Publication"
+          "anchor" : "Retrieving-and-Rendering-a-Publication",
+          "level" : 2,
+          "text" : "Retrieving and Rendering a Publication",
+          "type" : "heading"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "The v1.x SDK did not have an explicit method for retrieving a Publication. Instead, the "
+              "text" : "The v1.x SDK did not have an explicit method for retrieving a Publication. Instead, the ",
+              "type" : "text"
             },
-            { "type": "codeVoice", "code": "onLandingResponse" },
             {
-              "type": "text",
-              "text": " callback provided an object that was used to populate the parameters of a "
+              "code" : "onLandingResponse",
+              "type" : "codeVoice"
             },
-            { "type": "codeVoice", "code": "VerticalView" },
-            { "type": "text", "text": " or " },
-            { "type": "codeVoice", "code": "horizontalController" },
             {
-              "type": "text",
-              "text": ". The publication would be downloaded and rendered in one step (with a lot of boilerplate)."
+              "text" : " callback provided an object that was used to populate the parameters of a ",
+              "type" : "text"
+            },
+            {
+              "code" : "VerticalView",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " or ",
+              "type" : "text"
+            },
+            {
+              "code" : "horizontalController",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ". The publication would be downloaded and rendered in one step (with a lot of boilerplate).",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "In lieu of this, v2.x provides an explicit "
+              "text" : "In lieu of this, v2.x provides an explicit ",
+              "type" : "text"
             },
             {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/getPublication(from:completion:)"
-            },
-            { "type": "text", "text": " method on the " },
-            { "type": "codeVoice", "code": "DigitalFlyer" },
-            { "type": "text", "text": " object, which returns a " },
-            {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication"
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/getPublication(from:completion:)",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
-              "type": "text",
-              "text": " object. This object is passed downstream to the "
+              "text" : " method on the ",
+              "type" : "text"
             },
             {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView"
+              "code" : "DigitalFlyer",
+              "type" : "codeVoice"
             },
-            { "type": "text", "text": " renderer, along with an optional " },
             {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration"
+              "text" : " object, which returns a ",
+              "type" : "text"
             },
-            { "type": "text", "text": " object. Refer to " },
             {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk"
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+              "isActive" : true,
+              "type" : "reference"
             },
-            { "type": "text", "text": " for more details." }
-          ]
+            {
+              "text" : " object. This object is passed downstream to the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " renderer, along with an optional ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " object. Refer to ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " for more details.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "codeListing",
-          "syntax": "swift",
-          "code": [
-            "// v1.x - vertical",
+          "code" : [
+            "\/\/ v1.x - vertical",
             "let flyerView = VerticalView.instanceFromNib()",
             "flyerView.delegate = self",
             "flyerView.title = titleid",
@@ -321,7 +409,7 @@
             "myView.addSubview(flyerView)",
             "flyerView.frame = myView!.bounds",
             "",
-            "// v1.x - horizontal",
+            "\/\/ v1.x - horizontal",
             "let flyerViewController = DFManager.shared.horizontalController()",
             "flyerViewController.delegate = self",
             "flyerViewController.titleId = titleid",
@@ -333,7 +421,7 @@
             "flyerViewController.didMove(toParent: self)",
             "NotificationCenter.default.post(name: Notification.Name(rawValue: \"removeFromSuberView\"), object: nil)",
             "",
-            "// v2.x",
+            "\/\/ v2.x",
             "digitalFlyer.getPublication(from: attributes) { result in",
             "    ... stash the publication on a variable ...",
             "}",
@@ -345,329 +433,632 @@
             " ) { event in",
             "    ... handle events ...",
             "}"
-          ]
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/migration-guide"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
         }
       ]
     }
-  ],
-  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
-  "sections": [],
-  "variants": [
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
     {
-      "paths": ["/documentation/tcdigitalflyer/migration-guide"],
-      "traits": [{ "interfaceLanguage": "swift" }]
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
     }
   ],
-  "identifier": {
-    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide",
-    "interfaceLanguage": "swift"
-  },
-  "abstract": [
-    { "type": "text", "text": "Transition existing apps from v1.x to 2.0.0" }
-  ],
-  "kind": "article",
-  "metadata": {
-    "roleHeading": "Article",
-    "title": "Migration Guide",
-    "role": "article",
-    "modules": [{ "name": "TCDigitalFlyer" }]
-  },
-  "hierarchy": {
-    "paths": [["doc://TCDigitalFlyer/documentation/TCDigitalFlyer"]]
-  },
-  "references": {
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/listPublications(storeId:language:date:completion:)": {
-      "role": "symbol",
-      "title": "listPublications(storeId:language:date:completion:)",
-      "fragments": [
-        { "kind": "keyword", "text": "func" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "listPublications" },
-        { "kind": "text", "text": "(" },
-        { "kind": "externalParam", "text": "storeId" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "String",
-          "preciseIdentifier": "s:SS"
-        },
-        { "kind": "text", "text": ", " },
-        { "kind": "externalParam", "text": "language" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "Language",
-          "preciseIdentifier": "s:14TCDigitalFlyer8Languagea"
-        },
-        { "kind": "text", "text": ", " },
-        { "kind": "externalParam", "text": "date" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "Date",
-          "preciseIdentifier": "s:10Foundation4DateV"
-        },
-        { "kind": "text", "text": ", " },
-        { "kind": "externalParam", "text": "completion" },
-        { "kind": "text", "text": ": (" },
-        {
-          "kind": "typeIdentifier",
-          "text": "Result",
-          "preciseIdentifier": "s:s6ResultO"
-        },
-        { "kind": "text", "text": "<[" },
-        {
-          "kind": "typeIdentifier",
-          "text": "Publication",
-          "preciseIdentifier": "s:14TCDigitalFlyer11Publicationa"
-        },
-        { "kind": "text", "text": "." },
-        {
-          "kind": "typeIdentifier",
-          "text": "Attributes",
-          "preciseIdentifier": "s:6Domain11PublicationV10AttributesV"
-        },
-        { "kind": "text", "text": "], " },
-        {
-          "kind": "typeIdentifier",
-          "text": "DFError",
-          "preciseIdentifier": "s:14TCDigitalFlyer7DFErrora"
-        },
-        { "kind": "text", "text": ">) -> " },
-        {
-          "kind": "typeIdentifier",
-          "text": "Void",
-          "preciseIdentifier": "s:s4Voida"
-        },
-        { "kind": "text", "text": ")" }
-      ],
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Retrieve a list of all active publications."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/listPublications(storeId:language:date:completion:)",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/digitalflyer/listpublications(storeid:language:date:completion:)"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
-      "role": "symbol",
-      "title": "Publication",
-      "fragments": [
-        { "kind": "keyword", "text": "typealias" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "Publication" }
-      ],
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "Publication" }],
-      "url": "/documentation/tcdigitalflyer/publication"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)": {
-      "role": "symbol",
-      "title": "init(subscriptionKey:client:banner:environment:)",
-      "fragments": [
-        { "kind": "identifier", "text": "init" },
-        { "kind": "text", "text": "(" },
-        { "kind": "externalParam", "text": "subscriptionKey" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "String",
-          "preciseIdentifier": "s:SS"
-        },
-        { "kind": "text", "text": ", " },
-        { "kind": "externalParam", "text": "client" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "String",
-          "preciseIdentifier": "s:SS"
-        },
-        { "kind": "text", "text": ", " },
-        { "kind": "externalParam", "text": "banner" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "String",
-          "preciseIdentifier": "s:SS"
-        },
-        { "kind": "text", "text": "?, " },
-        { "kind": "externalParam", "text": "environment" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "Environment",
-          "preciseIdentifier": "s:14TCDigitalFlyer11EnvironmentO"
-        },
-        { "kind": "text", "text": ") " },
-        { "kind": "keyword", "text": "throws" }
-      ],
-      "abstract": [
-        { "type": "text", "text": "Creates a " },
-        {
-          "type": "reference",
-          "isActive": true,
-          "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer"
-        },
-        { "type": "text", "text": " instance" }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/digitalflyer/init(subscriptionkey:client:banner:environment:)"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/getPublication(from:completion:)": {
-      "role": "symbol",
-      "title": "getPublication(from:completion:)",
-      "fragments": [
-        { "kind": "keyword", "text": "func" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "getPublication" },
-        { "kind": "text", "text": "(" },
-        { "kind": "externalParam", "text": "from" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "Publication",
-          "preciseIdentifier": "s:14TCDigitalFlyer11Publicationa"
-        },
-        { "kind": "text", "text": "." },
-        {
-          "kind": "typeIdentifier",
-          "text": "Attributes",
-          "preciseIdentifier": "s:6Domain11PublicationV10AttributesV"
-        },
-        { "kind": "text", "text": ", " },
-        { "kind": "externalParam", "text": "completion" },
-        { "kind": "text", "text": ": (" },
-        {
-          "kind": "typeIdentifier",
-          "text": "Result",
-          "preciseIdentifier": "s:s6ResultO"
-        },
-        { "kind": "text", "text": "<" },
-        {
-          "kind": "typeIdentifier",
-          "text": "Publication",
-          "preciseIdentifier": "s:14TCDigitalFlyer11Publicationa"
-        },
-        { "kind": "text", "text": ", " },
-        {
-          "kind": "typeIdentifier",
-          "text": "DFError",
-          "preciseIdentifier": "s:14TCDigitalFlyer7DFErrora"
-        },
-        { "kind": "text", "text": ">) -> " },
-        {
-          "kind": "typeIdentifier",
-          "text": "Void",
-          "preciseIdentifier": "s:s4Voida"
-        },
-        { "kind": "text", "text": ")" }
-      ],
-      "abstract": [
-        { "type": "text", "text": "Retrieve the full " },
-        {
-          "type": "reference",
-          "isActive": true,
-          "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication"
-        },
-        { "type": "text", "text": ", including attributes and page content." }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/getPublication(from:completion:)",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/digitalflyer/getpublication(from:completion:)"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk": {
-      "role": "article",
-      "title": "Using the SDK",
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk",
-      "kind": "article",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/using-the-sdk"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
-      "role": "symbol",
-      "title": "FlyerView",
-      "fragments": [
-        { "kind": "keyword", "text": "class" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "FlyerView" }
-      ],
-      "abstract": [
-        {
-          "type": "text",
-          "text": "A custom view that displays the Digital Flyer."
-        },
-        { "type": "text", "text": " " },
-        {
-          "type": "text",
-          "text": "This view is the entrypoint for the Digital Flyer."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "FlyerView" }],
-      "url": "/documentation/tcdigitalflyer/flyerview"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
-      "role": "collection",
-      "title": "TCDigitalFlyer",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration": {
-      "role": "symbol",
-      "title": "FlyerView.Configuration",
-      "fragments": [
-        { "kind": "keyword", "text": "struct" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "Configuration" }
-      ],
-      "abstract": [
-        { "type": "text", "text": "The FlyerView configuration with defaults." }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "Configuration" }],
-      "url": "/documentation/tcdigitalflyer/flyerview/configuration"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
-      "role": "symbol",
-      "title": "DigitalFlyer",
-      "fragments": [
-        { "kind": "keyword", "text": "class" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "DigitalFlyer" }
-      ],
-      "abstract": [
-        {
-          "type": "text",
-          "text": "The entry-point for interacting with the SDK."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "DigitalFlyer" }],
-      "url": "/documentation/tcdigitalflyer/digitalflyer"
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The entry-point for interacting with the SDK.",
+      "type" : "text"
     }
-  }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DigitalFlyer"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DigitalFlyer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/digitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/getPublication(from:completion:)": {
+  "abstract" : [
+    {
+      "text" : "Retrieve the full ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ", including attributes and page content.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getPublication"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV",
+      "text" : "Publication"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV10AttributesV",
+      "text" : "Attributes"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV",
+      "text" : "Publication"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer7DFErrorO",
+      "text" : "DFError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/getPublication(from:completion:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getPublication(from:completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/digitalflyer\/getpublication(from:completion:)"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " instance",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "subscriptionKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "client"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "banner"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "environment"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11EnvironmentO",
+      "text" : "Environment"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(subscriptionKey:client:banner:environment:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:)"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/listPublications(storeId:language:date:completion:)": {
+  "abstract" : [
+    {
+      "text" : "Retrieve a list of all active publications.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "listPublications"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "storeId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "language"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer8LanguageO",
+      "text" : "Language"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "date"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV",
+      "text" : "Publication"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV10AttributesV",
+      "text" : "Attributes"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer7DFErrorO",
+      "text" : "DFError"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/listPublications(storeId:language:date:completion:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "listPublications(storeId:language:date:completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/digitalflyer\/listpublications(storeid:language:date:completion:)"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+  "abstract" : [
+    {
+      "text" : "A custom view that displays the Digital Flyer.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This view is the entrypoint for the Digital Flyer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration": {
+  "abstract" : [
+    {
+      "text" : "The FlyerView configuration with defaults.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView.Configuration",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/configuration"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
+  "abstract" : [
+    {
+      "text" : "The primary ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " object",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "It contains the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication.Attributes",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and an array of ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " objects, which contain the page content.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Publication"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Publication"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
+  "abstract" : [
+    {
+      "text" : "A page within a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " that contains a flexible grid of items.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Using the SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/using-the-sdk"
+}
+}
 }

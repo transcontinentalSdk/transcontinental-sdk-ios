@@ -1,86 +1,364 @@
 {
-  "primaryContentSections": [
+  "abstract" : [
     {
-      "kind": "declarations",
-      "declarations": [
+      "text" : "The languages supported by the SDK",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14TCDigitalFlyer8LanguageO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Language"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Language"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "Language"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
         {
-          "tokens": [
-            { "kind": "keyword", "text": "typealias" },
-            { "kind": "text", "text": " " },
-            { "kind": "identifier", "text": "Language" },
-            { "kind": "text", "text": " = Domain" },
-            { "kind": "text", "text": "." },
-            {
-              "kind": "typeIdentifier",
-              "text": "Language",
-              "preciseIdentifier": "s:6Domain8LanguageO"
-            }
+          "languages" : [
+            "swift"
           ],
-          "languages": ["swift"],
-          "platforms": ["iOS"]
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Language"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/s12CaseIterableP",
+        "doc:\/\/TCDigitalFlyer\/SQ",
+        "doc:\/\/TCDigitalFlyer\/SH",
+        "doc:\/\/TCDigitalFlyer\/s12IdentifiableP",
+        "doc:\/\/TCDigitalFlyer\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/english",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/french"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/id"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/Equatable-Implementations",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/language"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
         }
       ]
     }
-  ],
-  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
-  "sections": [],
-  "variants": [
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/SH": {
+  "identifier" : "doc:\/\/TCDigitalFlyer\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://TCDigitalFlyer/SQ": {
+  "identifier" : "doc:\/\/TCDigitalFlyer\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://TCDigitalFlyer/SY": {
+  "identifier" : "doc:\/\/TCDigitalFlyer\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
     {
-      "paths": ["/documentation/tcdigitalflyer/language"],
-      "traits": [{ "interfaceLanguage": "swift" }]
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
     }
   ],
-  "identifier": {
-    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language",
-    "interfaceLanguage": "swift"
-  },
-  "kind": "symbol",
-  "metadata": {
-    "fragments": [
-      { "kind": "keyword", "text": "typealias" },
-      { "kind": "text", "text": " " },
-      { "kind": "identifier", "text": "Language" }
-    ],
-    "title": "Language",
-    "roleHeading": "Type Alias",
-    "role": "symbol",
-    "symbolKind": "typealias",
-    "externalID": "s:14TCDigitalFlyer8Languagea",
-    "modules": [{ "name": "TCDigitalFlyer" }],
-    "navigatorTitle": [{ "kind": "identifier", "text": "Language" }]
-  },
-  "hierarchy": {
-    "paths": [["doc://TCDigitalFlyer/documentation/TCDigitalFlyer"]]
-  },
-  "references": {
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language": {
-      "role": "symbol",
-      "title": "Language",
-      "fragments": [
-        { "kind": "keyword", "text": "typealias" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "Language" }
-      ],
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "Language" }],
-      "url": "/documentation/tcdigitalflyer/language"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
-      "role": "collection",
-      "title": "TCDigitalFlyer",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer"
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language": {
+  "abstract" : [
+    {
+      "text" : "The languages supported by the SDK",
+      "type" : "text"
     }
-  }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Language"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Language"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Language",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/language"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/language\/equatable-implementations"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/language\/rawrepresentable-implementations"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language/english": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "english"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/english",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.english",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/language\/english"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language/french": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "french"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/french",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.french",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/language\/french"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language/id": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/id",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/language\/id"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/language\/init(rawvalue:)"
+},
+"doc://TCDigitalFlyer/s12CaseIterableP": {
+  "identifier" : "doc:\/\/TCDigitalFlyer\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+},
+"doc://TCDigitalFlyer/s12IdentifiableP": {
+  "identifier" : "doc:\/\/TCDigitalFlyer\/s12IdentifiableP",
+  "title" : "Swift.Identifiable",
+  "type" : "unresolvable"
+}
+}
 }

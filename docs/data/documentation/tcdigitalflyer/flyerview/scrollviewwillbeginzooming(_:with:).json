@@ -1,179 +1,315 @@
 {
-  "primaryContentSections": [
+  "abstract" : [
     {
-      "kind": "declarations",
-      "declarations": [
-        {
-          "tokens": [
-            { "kind": "keyword", "text": "func" },
-            { "kind": "text", "text": " " },
-            { "kind": "identifier", "text": "scrollViewWillBeginZooming" },
-            { "kind": "text", "text": "(" },
-            { "kind": "externalParam", "text": "_" },
-            { "kind": "text", "text": " " },
-            { "kind": "internalParam", "text": "scrollView" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "text": "UIScrollView",
-              "preciseIdentifier": "c:objc(cs)UIScrollView"
-            },
-            { "kind": "text", "text": ", " },
-            { "kind": "externalParam", "text": "with" },
-            { "kind": "text", "text": " " },
-            { "kind": "internalParam", "text": "view" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "text": "UIView",
-              "preciseIdentifier": "c:objc(cs)UIView"
-            },
-            { "kind": "text", "text": "?)" }
-          ],
-          "languages": ["swift"],
-          "platforms": ["iOS"]
-        }
-      ]
-    }
-  ],
-  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
-  "sections": [],
-  "variants": [
-    {
-      "paths": [
-        "/documentation/tcdigitalflyer/flyerview/scrollviewwillbeginzooming(_:with:)"
-      ],
-      "traits": [{ "interfaceLanguage": "swift" }]
-    }
-  ],
-  "identifier": {
-    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewWillBeginZooming(_:with:)",
-    "interfaceLanguage": "swift"
-  },
-  "abstract": [
-    { "type": "text", "text": "Inherited from " },
-    {
-      "type": "codeVoice",
-      "code": "UIScrollViewDelegate.scrollViewWillBeginZooming(_:with:)"
+      "text" : "Inherited from ",
+      "type" : "text"
     },
-    { "type": "text", "text": "." }
+    {
+      "code" : "UIScrollViewDelegate.scrollViewWillBeginZooming(_:with:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
   ],
-  "kind": "symbol",
-  "metadata": {
-    "role": "symbol",
-    "title": "scrollViewWillBeginZooming(_:with:)",
-    "roleHeading": "Instance Method",
-    "fragments": [
-      { "kind": "keyword", "text": "func" },
-      { "kind": "text", "text": " " },
-      { "kind": "identifier", "text": "scrollViewWillBeginZooming" },
-      { "kind": "text", "text": "(" },
-      {
-        "kind": "typeIdentifier",
-        "text": "UIScrollView",
-        "preciseIdentifier": "c:objc(cs)UIScrollView"
-      },
-      { "kind": "text", "text": ", " },
-      { "kind": "externalParam", "text": "with" },
-      { "kind": "text", "text": ": " },
-      {
-        "kind": "typeIdentifier",
-        "text": "UIView",
-        "preciseIdentifier": "c:objc(cs)UIView"
-      },
-      { "kind": "text", "text": "?)" }
-    ],
-    "symbolKind": "method",
-    "externalID": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)scrollViewWillBeginZooming:withView:",
-    "extendedModule": "TCDigitalFlyer",
-    "modules": [{ "name": "TCDigitalFlyer" }]
-  },
-  "hierarchy": {
-    "paths": [
+  "hierarchy" : {
+    "paths" : [
       [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UIScrollViewDelegate-Implementations"
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations"
       ]
     ]
   },
-  "references": {
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UIScrollViewDelegate-Implementations": {
-      "role": "collectionGroup",
-      "title": "UIScrollViewDelegate Implementations",
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UIScrollViewDelegate-Implementations",
-      "kind": "article",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/flyerview/uiscrollviewdelegate-implementations"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
-      "role": "symbol",
-      "title": "FlyerView",
-      "fragments": [
-        { "kind": "keyword", "text": "class" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "FlyerView" }
-      ],
-      "abstract": [
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewWillBeginZooming(_:with:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "TCDigitalFlyer",
+    "externalID" : "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)scrollViewWillBeginZooming:withView:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "scrollViewWillBeginZooming"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)UIScrollView",
+        "text" : "UIScrollView"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "with"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)UIView",
+        "text" : "UIView"
+      },
+      {
+        "kind" : "text",
+        "text" : "?)"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "scrollViewWillBeginZooming(_:with:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
         {
-          "type": "text",
-          "text": "A custom view that displays the Digital Flyer."
-        },
-        { "type": "text", "text": " " },
-        {
-          "type": "text",
-          "text": "This view is the entrypoint for the Digital Flyer."
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "scrollViewWillBeginZooming"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "scrollView"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)UIScrollView",
+              "text" : "UIScrollView"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "with"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "view"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)UIView",
+              "text" : "UIView"
+            },
+            {
+              "kind" : "text",
+              "text" : "?)"
+            }
+          ]
         }
       ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "FlyerView" }],
-      "url": "/documentation/tcdigitalflyer/flyerview"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
-      "role": "collection",
-      "title": "TCDigitalFlyer",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewWillBeginZooming(_:with:)": {
-      "role": "symbol",
-      "title": "scrollViewWillBeginZooming(_:with:)",
-      "fragments": [
-        { "kind": "keyword", "text": "func" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "scrollViewWillBeginZooming" },
-        { "kind": "text", "text": "(" },
-        {
-          "kind": "typeIdentifier",
-          "text": "UIScrollView",
-          "preciseIdentifier": "c:objc(cs)UIScrollView"
-        },
-        { "kind": "text", "text": ", " },
-        { "kind": "externalParam", "text": "with" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "UIView",
-          "preciseIdentifier": "c:objc(cs)UIView"
-        },
-        { "kind": "text", "text": "?)" }
-      ],
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewWillBeginZooming(_:with:)",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/flyerview/scrollviewwillbeginzooming(_:with:)"
+      "kind" : "declarations"
     }
-  }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewwillbeginzooming(_:with:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+  "abstract" : [
+    {
+      "text" : "A custom view that displays the Digital Flyer.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This view is the entrypoint for the Digital Flyer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UIScrollViewDelegate-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "UIScrollViewDelegate Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/uiscrollviewdelegate-implementations"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewWillBeginZooming(_:with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scrollViewWillBeginZooming"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIScrollView",
+      "text" : "UIScrollView"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIView",
+      "text" : "UIView"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewWillBeginZooming(_:with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scrollViewWillBeginZooming(_:with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewwillbeginzooming(_:with:)"
+}
+}
 }

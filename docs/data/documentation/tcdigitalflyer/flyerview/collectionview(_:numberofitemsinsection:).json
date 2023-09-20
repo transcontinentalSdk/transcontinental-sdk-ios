@@ -1,182 +1,330 @@
 {
-  "primaryContentSections": [
+  "abstract" : [
     {
-      "kind": "declarations",
-      "declarations": [
-        {
-          "tokens": [
-            { "kind": "keyword", "text": "func" },
-            { "kind": "text", "text": " " },
-            { "kind": "identifier", "text": "collectionView" },
-            { "kind": "text", "text": "(" },
-            { "kind": "externalParam", "text": "_" },
-            { "kind": "text", "text": " " },
-            { "kind": "internalParam", "text": "collectionView" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "text": "UICollectionView",
-              "preciseIdentifier": "c:objc(cs)UICollectionView"
-            },
-            { "kind": "text", "text": ", " },
-            { "kind": "externalParam", "text": "numberOfItemsInSection" },
-            { "kind": "text", "text": " " },
-            { "kind": "internalParam", "text": "section" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "text": "Int",
-              "preciseIdentifier": "s:Si"
-            },
-            { "kind": "text", "text": ") -> " },
-            {
-              "kind": "typeIdentifier",
-              "text": "Int",
-              "preciseIdentifier": "s:Si"
-            }
-          ],
-          "languages": ["swift"],
-          "platforms": ["iOS"]
-        }
-      ]
-    }
-  ],
-  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
-  "sections": [],
-  "variants": [
-    {
-      "paths": [
-        "/documentation/tcdigitalflyer/flyerview/collectionview(_:numberofitemsinsection:)"
-      ],
-      "traits": [{ "interfaceLanguage": "swift" }]
-    }
-  ],
-  "identifier": {
-    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:numberOfItemsInSection:)",
-    "interfaceLanguage": "swift"
-  },
-  "abstract": [
-    { "type": "text", "text": "Inherited from " },
-    {
-      "type": "codeVoice",
-      "code": "UICollectionViewDataSource.collectionView(_:numberOfItemsInSection:)"
+      "text" : "Inherited from ",
+      "type" : "text"
     },
-    { "type": "text", "text": "." }
+    {
+      "code" : "UICollectionViewDataSource.collectionView(_:numberOfItemsInSection:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
   ],
-  "kind": "symbol",
-  "metadata": {
-    "role": "symbol",
-    "title": "collectionView(_:numberOfItemsInSection:)",
-    "roleHeading": "Instance Method",
-    "fragments": [
-      { "kind": "keyword", "text": "func" },
-      { "kind": "text", "text": " " },
-      { "kind": "identifier", "text": "collectionView" },
-      { "kind": "text", "text": "(" },
-      {
-        "kind": "typeIdentifier",
-        "text": "UICollectionView",
-        "preciseIdentifier": "c:objc(cs)UICollectionView"
-      },
-      { "kind": "text", "text": ", " },
-      { "kind": "externalParam", "text": "numberOfItemsInSection" },
-      { "kind": "text", "text": ": " },
-      { "kind": "typeIdentifier", "text": "Int", "preciseIdentifier": "s:Si" },
-      { "kind": "text", "text": ") -> " },
-      { "kind": "typeIdentifier", "text": "Int", "preciseIdentifier": "s:Si" }
-    ],
-    "symbolKind": "method",
-    "externalID": "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:numberOfItemsInSection:",
-    "extendedModule": "TCDigitalFlyer",
-    "modules": [{ "name": "TCDigitalFlyer" }]
-  },
-  "hierarchy": {
-    "paths": [
+  "hierarchy" : {
+    "paths" : [
       [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations"
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations"
       ]
     ]
   },
-  "references": {
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
-      "role": "symbol",
-      "title": "FlyerView",
-      "fragments": [
-        { "kind": "keyword", "text": "class" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "FlyerView" }
-      ],
-      "abstract": [
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "TCDigitalFlyer",
+    "externalID" : "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)collectionView:numberOfItemsInSection:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "collectionView"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)UICollectionView",
+        "text" : "UICollectionView"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "numberOfItemsInSection"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Si",
+        "text" : "Int"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Si",
+        "text" : "Int"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "collectionView(_:numberOfItemsInSection:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
         {
-          "type": "text",
-          "text": "A custom view that displays the Digital Flyer."
-        },
-        { "type": "text", "text": " " },
-        {
-          "type": "text",
-          "text": "This view is the entrypoint for the Digital Flyer."
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "collectionView"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "collectionView"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)UICollectionView",
+              "text" : "UICollectionView"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "numberOfItemsInSection"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "section"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Si",
+              "text" : "Int"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Si",
+              "text" : "Int"
+            }
+          ]
         }
       ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "FlyerView" }],
-      "url": "/documentation/tcdigitalflyer/flyerview"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
-      "role": "collection",
-      "title": "TCDigitalFlyer",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations": {
-      "role": "collectionGroup",
-      "title": "UICollectionViewDataSource Implementations",
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations",
-      "kind": "article",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/flyerview/uicollectionviewdatasource-implementations"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:numberOfItemsInSection:)": {
-      "role": "symbol",
-      "title": "collectionView(_:numberOfItemsInSection:)",
-      "fragments": [
-        { "kind": "keyword", "text": "func" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "collectionView" },
-        { "kind": "text", "text": "(" },
-        {
-          "kind": "typeIdentifier",
-          "text": "UICollectionView",
-          "preciseIdentifier": "c:objc(cs)UICollectionView"
-        },
-        { "kind": "text", "text": ", " },
-        { "kind": "externalParam", "text": "numberOfItemsInSection" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "Int",
-          "preciseIdentifier": "s:Si"
-        },
-        { "kind": "text", "text": ") -> " },
-        { "kind": "typeIdentifier", "text": "Int", "preciseIdentifier": "s:Si" }
-      ],
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:numberOfItemsInSection:)",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/flyerview/collectionview(_:numberofitemsinsection:)"
+      "kind" : "declarations"
     }
-  }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/flyerview\/collectionview(_:numberofitemsinsection:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+  "abstract" : [
+    {
+      "text" : "A custom view that displays the Digital Flyer.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This view is the entrypoint for the Digital Flyer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "UICollectionViewDataSource Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/uicollectionviewdatasource-implementations"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:numberOfItemsInSection:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "collectionView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UICollectionView",
+      "text" : "UICollectionView"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "numberOfItemsInSection"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "collectionView(_:numberOfItemsInSection:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/collectionview(_:numberofitemsinsection:)"
+}
+}
 }

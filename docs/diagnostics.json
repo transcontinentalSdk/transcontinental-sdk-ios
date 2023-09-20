@@ -1,9 +1,98 @@
 [
   {
-    "summary": "Topic reference 'Publication.Attributes' couldn't be resolved. No local documentation matches this reference.",
-    "source": "migration-guide.md",
-    "severity": 2,
-    "notes": [],
-    "start": { "line": 49, "column": 287 }
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "..\/Domain.swift",
+    "start" : {
+      "column" : 109,
+      "line" : 79
+    },
+    "summary" : "'listPublications' doesn't exist at '\/TCDigitalFlyer\/Publication\/Attributes\/language'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "..\/Domain.swift",
+    "start" : {
+      "column" : 82,
+      "line" : 22
+    },
+    "summary" : "'listPublications(storeId:language:date:complete:)' doesn't exist at '\/TCDigitalFlyer\/Flyerable\/getPublication(from:)'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "..\/Domain.swift",
+    "start" : {
+      "column" : 88,
+      "line" : 182
+    },
+    "summary" : "'Disclaimer' doesn't exist at '\/TCDigitalFlyer\/Publication\/Page\/Footer'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "..\/Domain.swift",
+    "start" : {
+      "column" : 109,
+      "line" : 77
+    },
+    "summary" : "'listPublications' doesn't exist at '\/TCDigitalFlyer\/Publication\/Attributes\/storeId'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "..\/Domain.swift",
+    "start" : {
+      "column" : 27,
+      "line" : 229
+    },
+    "summary" : "'Block' doesn't exist at '\/TCDigitalFlyer\/ClickableProduct'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "..\/Domain.swift",
+    "start" : {
+      "column" : 72,
+      "line" : 233
+    },
+    "summary" : "'Block' doesn't exist at '\/TCDigitalFlyer\/ClickableProduct\/clickRegions'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "..\/Domain.swift",
+    "start" : {
+      "column" : 23,
+      "line" : 39
+    },
+    "summary" : "'Publication.Attributes' doesn't exist at '\/TCDigitalFlyer\/Publication'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "migration-guide.md",
+    "start" : {
+      "column" : 289,
+      "line" : 49
+    },
+    "summary" : "'Publication.Attributes' doesn't exist at '\/TCDigitalFlyer\/migration-guide'"
   }
 ]

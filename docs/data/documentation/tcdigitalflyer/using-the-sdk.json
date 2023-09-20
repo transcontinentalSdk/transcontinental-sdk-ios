@@ -1,45 +1,69 @@
 {
-  "primaryContentSections": [
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Using the SDK"
+  },
+  "primaryContentSections" : [
     {
-      "kind": "content",
-      "content": [
+      "content" : [
         {
-          "anchor": "Logging-API",
-          "level": 2,
-          "type": "heading",
-          "text": "Logging API"
+          "anchor" : "Logging-API",
+          "level" : 2,
+          "text" : "Logging API",
+          "type" : "heading"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "strong",
-              "inlineContent": [{ "type": "text", "text": "Note:" }]
+              "inlineContent" : [
+                {
+                  "text" : "Note:",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
             },
             {
-              "type": "text",
-              "text": " This logging API will be deprecated in the near future, in favour of the "
+              "text" : " This logging API will be deprecated in the near future, in favour of the ",
+              "type" : "text"
             },
             {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "https://github.com/apple/swift-log"
+              "identifier" : "https:\/\/github.com\/apple\/swift-log",
+              "isActive" : true,
+              "type" : "reference"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "The SDK uses the following protocol for internal logging:"
+              "text" : "The SDK uses the following protocol for internal logging:",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "codeListing",
-          "syntax": "swift",
-          "code": [
+          "code" : [
             "public protocol Logger {",
             "    func verbose(_ message: String)",
             "    func debug(_ message: String)",
@@ -47,39 +71,39 @@
             "    func warning(_ message: String)",
             "    func error(_ message: String)",
             "}"
-          ]
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "Consequently, nothing will print to the console from within the SDK until you set up a specific logger within the host application. Although the example below demonstrates a logger using simple print statements, it’s expected that this logger will utilize the same console, file, or cloud logging system as the host application."
+              "text" : "Consequently, nothing will print to the console from within the SDK until you set up a specific logger within the host application. Although the example below demonstrates a logger using simple print statements, it’s expected that this logger will utilize the same console, file, or cloud logging system as the host application.",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "The logger is a static object within the TCDigitalFlyer module. It’s advisable to assign it before initializing the SDK, though you can do so at any time or leave it nil."
+              "text" : "The logger is a static object within the TCDigitalFlyer module. It’s advisable to assign it before initializing the SDK, though you can do so at any time or leave it nil.",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "For production, the host application should refrain from logging debug and verbose volumes as they may contain sensitive URLs or tokens."
+              "text" : "For production, the host application should refrain from logging debug and verbose volumes as they may contain sensitive URLs or tokens.",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "codeListing",
-          "syntax": "swift",
-          "code": [
+          "code" : [
             "import TCDigitalFlyer",
             "",
             "final class MyLogger: TCDigitalFlyer.Logger {",
@@ -100,691 +124,924 @@
             "    }",
             "}",
             "",
-            "// ... some code later ...",
+            "\/\/ ... some code later ...",
             "",
             "TCDigitalFlyer.logger = MyLogger()",
             "let digitalFlyer = try DigitalFlyer(subscriptionKey: subscriptionKey, client: client)",
-            "// From XCode console:",
-            "// I: TCDigitalFlyer: SDK subscription key initialized",
-            "// D: TCDigitalFlyer: Redacted subscription key is abc**************************123"
-          ]
+            "\/\/ From XCode console:",
+            "\/\/ I: TCDigitalFlyer: SDK subscription key initialized",
+            "\/\/ D: TCDigitalFlyer: Redacted subscription key is abc**************************123"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
         },
         {
-          "anchor": "Initializing-the-SDK",
-          "level": 2,
-          "type": "heading",
-          "text": "Initializing the SDK"
+          "anchor" : "Initializing-the-SDK",
+          "level" : 2,
+          "text" : "Initializing the SDK",
+          "type" : "heading"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "To retrieve your flyers, you will need the Transcontinental "
+              "text" : "To retrieve your flyers, you will need the Transcontinental ",
+              "type" : "text"
             },
-            { "type": "codeVoice", "code": "subscription key" },
             {
-              "type": "text",
-              "text": " for your account. This key will be provided when registering your application with Transcontinental. The SDK uses this key internally to communicate with the Web API."
+              "code" : "subscription key",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " for your account. This key will be provided when registering your application with Transcontinental. The SDK uses this key internally to communicate with the Web API.",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "Before using any APIs, initialize the SDK with your subscription key and client name:"
+              "text" : "Before using any APIs, initialize the SDK with your subscription key and client name:",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "codeListing",
-          "syntax": "swift",
-          "code": [
+          "code" : [
             "import TCDigitalFlyer",
             "",
             "let digitalFlyer = try DigitalFlyer(subscriptionKey: subscriptionKey, client: client)"
-          ]
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
         },
         {
-          "type": "unorderedList",
-          "items": [
+          "items" : [
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "subscriptionKey" },
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": " - You receive this key when you register your application with Transcontinental"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "client" },
-                    {
-                      "type": "text",
-                      "text": " - The client’s name, as provided by Transcontinental"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "banner" },
-                    {
-                      "type": "text",
-                      "text": " - An optional banner, as provided by Transcontinental (defaults to the value provided to "
+                      "code" : "subscriptionKey",
+                      "type" : "codeVoice"
                     },
-                    { "type": "codeVoice", "code": "client" },
-                    { "type": "text", "text": ")" }
-                  ]
+                    {
+                      "text" : " - You receive this key when you register your application with Transcontinental",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             },
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "environment" },
-                    { "type": "text", "text": " - The API " },
-                    { "type": "codeVoice", "code": "Environment" },
-                    { "type": "text", "text": " (defaults to " },
-                    { "type": "codeVoice", "code": "live" },
-                    { "type": "text", "text": ")" }
-                  ]
+                  "inlineContent" : [
+                    {
+                      "code" : "client",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - The client’s name, as provided by Transcontinental",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "banner",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - An optional banner, as provided by Transcontinental (defaults to the value provided to ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "client",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ")",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "environment",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - The API ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Environment",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " (defaults to ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "live",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ")",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             }
-          ]
+          ],
+          "type" : "unorderedList"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "While it’s technically possible to instantiate multiple "
+              "text" : "While it’s technically possible to instantiate multiple ",
+              "type" : "text"
             },
-            { "type": "codeVoice", "code": "DigitalFlyer" },
             {
-              "type": "text",
-              "text": " objects with the same inputs on-demand, it’s recommended to use a single instance throughout your application (e.g. a reference in your AppDelegate or environmentObject)."
+              "code" : "DigitalFlyer",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " objects with the same inputs on-demand, it’s recommended to use a single instance throughout your application (e.g. a reference in your AppDelegate or environmentObject).",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
-            { "type": "text", "text": "Instantiating multiple " },
-            { "type": "codeVoice", "code": "DigitalFlyer" },
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": " objects with different inputs is not currently supported. It will result in undefined behavior."
+              "text" : "Instantiating multiple ",
+              "type" : "text"
+            },
+            {
+              "code" : "DigitalFlyer",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " objects with different inputs is not currently supported. It will result in undefined behavior.",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "anchor": "Listing-Available-Publications",
-          "level": 2,
-          "type": "heading",
-          "text": "Listing Available Publications"
+          "anchor" : "Listing-Available-Publications",
+          "level" : 2,
+          "text" : "Listing Available Publications",
+          "type" : "heading"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "The DigitalFlyer SDK provides a simple and efficient way to retrieve digital flyers using the "
+              "text" : "The DigitalFlyer SDK provides a simple and efficient way to retrieve digital flyers using the ",
+              "type" : "text"
             },
             {
-              "type": "codeVoice",
-              "code": "listPublications(storeId:completion:)"
+              "code" : "listPublications(storeId:completion:)",
+              "type" : "codeVoice"
             },
             {
-              "type": "text",
-              "text": " method. Upon successful retrieval, a list of "
+              "text" : " method. Upon successful retrieval, a list of ",
+              "type" : "text"
             },
-            { "type": "codeVoice", "code": "Publication.Attribute" },
-            { "type": "text", "text": " objects will be returned." }
-          ]
+            {
+              "code" : "Publication.Attribute",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " objects will be returned.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "codeListing",
-          "syntax": "swift",
-          "code": [
+          "code" : [
             "digitalFlyer.listPublications(storeId: storeId) { result in",
             "    switch result {",
             "    case .success(let attributes):",
-            "        print(attributes) // an array of Publication.Attribute",
+            "        print(attributes) \/\/ an array of Publication.Attribute",
             "    case .failure(let error):",
-            "        print(error) // a DFError",
+            "        print(error) \/\/ a DFError",
             "    }",
             "}"
-          ]
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
         },
         {
-          "type": "unorderedList",
-          "items": [
+          "items" : [
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "storeId" },
-                    { "type": "text", "text": " - The store’s identifier" }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "language" },
-                    { "type": "text", "text": " - The " },
-                    { "type": "codeVoice", "code": "Publication" },
-                    { "type": "text", "text": "’s display " },
-                    { "type": "codeVoice", "code": "Language" },
-                    { "type": "text", "text": " (an enum defaulting to " },
-                    { "type": "codeVoice", "code": ".english" },
-                    { "type": "text", "text": ")" }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "date" },
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": " - The date to search for available "
+                      "code" : "storeId",
+                      "type" : "codeVoice"
                     },
-                    { "type": "codeVoice", "code": "Publication" },
-                    { "type": "text", "text": "s (defaults to today)" }
-                  ]
+                    {
+                      "text" : " - The store’s identifier",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             },
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "completion" },
-                    { "type": "text", "text": " - A closure that returns " },
-                    { "type": "codeVoice", "code": "Publication.Attributes" },
-                    { "type": "text", "text": " for the available " },
-                    { "type": "codeVoice", "code": "Publication" },
-                    { "type": "text", "text": "s on the main DispatchQueue." }
-                  ]
+                  "inlineContent" : [
+                    {
+                      "code" : "language",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - The ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Publication",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : "’s display ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Language",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " (an enum defaulting to ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : ".english",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ")",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "date",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - The date to search for available ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Publication",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : "s (defaults to today)",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "completion",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - A closure that returns ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Publication.Attributes",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " for the available ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Publication",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : "s on the main DispatchQueue.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             }
-          ]
+          ],
+          "type" : "unorderedList"
         },
         {
-          "anchor": "Retrieving-a-Publication",
-          "level": 2,
-          "type": "heading",
-          "text": "Retrieving a Publication"
+          "anchor" : "Retrieving-a-Publication",
+          "level" : 2,
+          "text" : "Retrieving a Publication",
+          "type" : "heading"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
-            { "type": "text", "text": "Once you have a list of " },
-            { "type": "codeVoice", "code": "Publication.Attribute" },
-            { "type": "text", "text": " objects, you can retrieve a " },
-            { "type": "codeVoice", "code": "Publication" },
-            { "type": "text", "text": " object using the " },
+          "inlineContent" : [
             {
-              "type": "codeVoice",
-              "code": "getPublication(attribute:completion:)"
+              "text" : "Once you have a list of ",
+              "type" : "text"
             },
-            { "type": "text", "text": " method." }
-          ]
+            {
+              "code" : "Publication.Attribute",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " objects, you can retrieve a ",
+              "type" : "text"
+            },
+            {
+              "code" : "Publication",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " object using the ",
+              "type" : "text"
+            },
+            {
+              "code" : "getPublication(attribute:completion:)",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " method.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "codeListing",
-          "syntax": "swift",
-          "code": [
+          "code" : [
             "digitalFlyer.getPublication(attribute: attribute) { result in",
             "    switch result {",
             "    case .success(let publication):",
-            "        print(publication) // a Publication",
+            "        print(publication) \/\/ a Publication",
             "    case .failure(let error):",
-            "        print(error) // a DFError",
+            "        print(error) \/\/ a DFError",
             "    }",
             "}"
-          ]
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
         },
         {
-          "type": "unorderedList",
-          "items": [
+          "items" : [
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "attribute" },
-                    { "type": "text", "text": " - The " },
-                    { "type": "codeVoice", "code": "Publication.Attribute" },
-                    { "type": "text", "text": " object returned from " },
+                  "inlineContent" : [
                     {
-                      "type": "codeVoice",
-                      "code": "listPublications(storeId:language:date:completion:)"
+                      "code" : "attribute",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - The ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Publication.Attribute",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " object returned from ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "listPublications(storeId:language:date:completion:)",
+                      "type" : "codeVoice"
                     }
-                  ]
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             },
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "completion" },
-                    { "type": "text", "text": " - A closure that returns a " },
-                    { "type": "codeVoice", "code": "Publication" },
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": " object on the main DispatchQueue."
+                      "code" : "completion",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - A closure that returns a ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Publication",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " object on the main DispatchQueue.",
+                      "type" : "text"
                     }
-                  ]
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             }
-          ]
+          ],
+          "type" : "unorderedList"
         },
         {
-          "anchor": "Rendering-a-Publication",
-          "level": 2,
-          "type": "heading",
-          "text": "Rendering a Publication"
+          "anchor" : "Rendering-a-Publication",
+          "level" : 2,
+          "text" : "Rendering a Publication",
+          "type" : "heading"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "The FlyerView is a custom view that serves as the entry point for displaying the digital flyer. It accepts the publication to display, along with a configuration object that governs its visual and functional behavior."
+              "text" : "The FlyerView is a custom view that serves as the entry point for displaying the digital flyer. It accepts the publication to display, along with a configuration object that governs its visual and functional behavior.",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "codeListing",
-          "syntax": "swift",
-          "code": [
+          "code" : [
             "let flyerView = FlyerView(",
             "        frame: self.view.frame,",
             "        publication: publication,",
             "        configuration: configuration",
             "    ) { event in",
-            "        print(event)  // This closure will be called when an event is emitted",
+            "        print(event)  \/\/ This closure will be called when an event is emitted",
             "}",
             "",
-            "// Add the FlyerView to your view hierarchy",
+            "\/\/ Add the FlyerView to your view hierarchy",
             "self.view.addSubview(flyerView)"
-          ]
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
         },
         {
-          "type": "unorderedList",
-          "items": [
+          "items" : [
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "frame" },
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": " - The frame of the host UIView"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "publication" },
-                    { "type": "text", "text": " - The " },
-                    { "type": "codeVoice", "code": "Publication" },
-                    { "type": "text", "text": " object returned from " },
-                    {
-                      "type": "codeVoice",
-                      "code": "getPublication(attribute:completion:)"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "configuration" },
-                    { "type": "text", "text": " - A " },
-                    { "type": "codeVoice", "code": "FlyerView.Configuration" },
-                    {
-                      "type": "text",
-                      "text": " object that governs the visual and functional behavior of the FlyerView"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "event" },
-                    { "type": "text", "text": " - A " },
-                    { "type": "codeVoice", "code": "FlyerView.Event" },
-                    {
-                      "type": "text",
-                      "text": " object that represents an event emitted by the FlyerView"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "inlineContent": [
-            {
-              "type": "text",
-              "text": "As of version 2.0.0, the FlyerView supports the following configuration options:"
-            }
-          ]
-        },
-        {
-          "type": "unorderedList",
-          "items": [
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "showHeader" },
-                    {
-                      "type": "text",
-                      "text": " - A boolean that determines whether the header should be displayed (defaults to "
+                      "code" : "frame",
+                      "type" : "codeVoice"
                     },
-                    { "type": "codeVoice", "code": "true" },
-                    { "type": "text", "text": ")" }
-                  ]
+                    {
+                      "text" : " - The frame of the host UIView",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             },
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "headerHeight" },
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": " - The height of the header (defaults to "
+                      "code" : "publication",
+                      "type" : "codeVoice"
                     },
-                    { "type": "codeVoice", "code": "50px" },
-                    { "type": "text", "text": " when shown)" }
-                  ]
+                    {
+                      "text" : " - The ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Publication",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " object returned from ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "getPublication(attribute:completion:)",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "configuration",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - A ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "FlyerView.Configuration",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " object that governs the visual and functional behavior of the FlyerView",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "event",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - A ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "FlyerView.Event",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " object that represents an event emitted by the FlyerView",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             }
-          ]
+          ],
+          "type" : "unorderedList"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "The following events are emitted by the FlyerView:"
+              "text" : "As of version 2.0.0, the FlyerView supports the following configuration options:",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "unorderedList",
-          "items": [
+          "items" : [
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "sku" },
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": " - The SKU of the product whose click region was tapped"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "anchor": "Error-Handling",
-          "level": 2,
-          "type": "heading",
-          "text": "Error Handling"
-        },
-        {
-          "type": "paragraph",
-          "inlineContent": [
-            {
-              "type": "text",
-              "text": "Error handling in the DigitalFlyer SDK is represented through the "
-            },
-            { "type": "codeVoice", "code": "DFError" },
-            {
-              "type": "text",
-              "text": " enum, which covers various cases including unauthorized access, missing subscription key, or missing resources."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "inlineContent": [
-            { "type": "text", "text": "Here are the possible error scenarios:" }
-          ]
-        },
-        {
-          "type": "unorderedList",
-          "items": [
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "unauthorized" },
+                      "code" : "showHeader",
+                      "type" : "codeVoice"
+                    },
                     {
-                      "type": "text",
-                      "text": ": Represents an unauthorized request, usually due to an invalid subscription key."
+                      "text" : " - A boolean that determines whether the header should be displayed (defaults to ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "true",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ")",
+                      "type" : "text"
                     }
-                  ]
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             },
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "notFound" },
+                  "inlineContent" : [
                     {
-                      "type": "text",
-                      "text": ": The requested resource was not found on the server. This could happen if the resource was deleted, or if the resource was not correctly specified."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "publicationNotFound" },
+                      "code" : "headerHeight",
+                      "type" : "codeVoice"
+                    },
                     {
-                      "type": "text",
-                      "text": ": Indicates a failed request due to an unavailable publication."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "missingSubscriptionKey" },
+                      "text" : " - The height of the header (defaults to ",
+                      "type" : "text"
+                    },
                     {
-                      "type": "text",
-                      "text": ": This error occurs when the subscriptionKey is not provided during DigitalFlyer initialization."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "missingClient" },
+                      "code" : "50px",
+                      "type" : "codeVoice"
+                    },
                     {
-                      "type": "text",
-                      "text": ": Occurs when the client parameter is missing during DigitalFlyer initialization."
+                      "text" : " when shown)",
+                      "type" : "text"
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "missingBanner" },
-                    {
-                      "type": "text",
-                      "text": ": This error indicates that the banner parameter is missing during DigitalFlyer initialization."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "content": [
-                {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "codeVoice", "code": "invalid" },
-                    {
-                      "type": "text",
-                      "text": ": A generic error case for any other unidentified issue."
-                    }
-                  ]
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             }
-          ]
+          ],
+          "type" : "unorderedList"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The following events are emitted by the FlyerView:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "sku",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - The SKU of the product whose click region was tapped",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        },
+        {
+          "anchor" : "Error-Handling",
+          "level" : 2,
+          "text" : "Error Handling",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Error handling in the DigitalFlyer SDK is represented through the ",
+              "type" : "text"
+            },
+            {
+              "code" : "DFError",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " enum, which covers various cases including unauthorized access, missing subscription key, or missing resources.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Here are the possible error scenarios:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "unauthorized",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ": Represents an unauthorized request, usually due to an invalid subscription key.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "notFound",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ": The requested resource was not found on the server. This could happen if the resource was deleted, or if the resource was not correctly specified.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "publicationNotFound",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ": Indicates a failed request due to an unavailable publication.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "missingSubscriptionKey",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ": This error occurs when the subscriptionKey is not provided during DigitalFlyer initialization.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "missingClient",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ": Occurs when the client parameter is missing during DigitalFlyer initialization.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "missingBanner",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ": This error indicates that the banner parameter is missing during DigitalFlyer initialization.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "invalid",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ": A generic error case for any other unidentified issue.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/installation"
+      ],
+      "title" : "Getting Started"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/using-the-sdk"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
         }
       ]
     }
-  ],
-  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
-  "sections": [],
-  "variants": [
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
     {
-      "paths": ["/documentation/tcdigitalflyer/using-the-sdk"],
-      "traits": [{ "interfaceLanguage": "swift" }]
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
     }
   ],
-  "identifier": {
-    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk",
-    "interfaceLanguage": "swift"
-  },
-  "kind": "article",
-  "metadata": {
-    "roleHeading": "Article",
-    "title": "Using the SDK",
-    "role": "article",
-    "modules": [{ "name": "TCDigitalFlyer" }]
-  },
-  "hierarchy": {
-    "paths": [["doc://TCDigitalFlyer/documentation/TCDigitalFlyer"]]
-  },
-  "seeAlsoSections": [
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation": {
+  "abstract" : [
     {
-      "title": "Getting Started",
-      "identifiers": [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation"
-      ],
-      "generated": true
+      "text" : "Using SPM to install the SDK as a binary target.",
+      "type" : "text"
     }
   ],
-  "references": {
-    "https://github.com/apple/swift-log": {
-      "title": "Swift Log API package",
-      "titleInlineContent": [
-        { "type": "text", "text": "Swift Log API package" }
-      ],
-      "type": "link",
-      "identifier": "https://github.com/apple/swift-log",
-      "url": "https://github.com/apple/swift-log"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
-      "role": "collection",
-      "title": "TCDigitalFlyer",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation": {
-      "role": "article",
-      "title": "Installation",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Using SPM to install the SDK as a binary target."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation",
-      "kind": "article",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/installation"
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/installation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Installation",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/installation"
+},
+"https://github.com/apple/swift-log": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-log",
+  "title" : "Swift Log API package",
+  "titleInlineContent" : [
+    {
+      "text" : "Swift Log API package",
+      "type" : "text"
     }
-  }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-log"
+}
+}
 }

@@ -1,156 +1,331 @@
 {
-  "primaryContentSections": [
+  "abstract" : [
     {
-      "kind": "declarations",
-      "declarations": [
-        {
-          "tokens": [
-            { "kind": "keyword", "text": "var" },
-            { "kind": "text", "text": " " },
-            { "kind": "identifier", "text": "hashValue" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "text": "Int",
-              "preciseIdentifier": "s:Si"
-            },
-            { "kind": "text", "text": " { " },
-            { "kind": "keyword", "text": "get" },
-            { "kind": "text", "text": " }" }
-          ],
-          "languages": ["swift"],
-          "platforms": ["iOS"]
-        }
-      ]
-    }
-  ],
-  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
-  "sections": [],
-  "variants": [
-    {
-      "paths": ["/documentation/tcdigitalflyer/environment/hashvalue"],
-      "traits": [{ "interfaceLanguage": "swift" }]
-    }
-  ],
-  "identifier": {
-    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/hashValue",
-    "interfaceLanguage": "swift"
-  },
-  "abstract": [
-    { "type": "text", "text": "Inherited from " },
-    { "type": "codeVoice", "code": "RawRepresentable.hashValue" },
-    { "type": "text", "text": "." }
-  ],
-  "kind": "symbol",
-  "metadata": {
-    "conformance": {
-      "constraints": [
-        { "type": "codeVoice", "code": "Self" },
-        { "type": "text", "text": " conforms to " },
-        { "type": "codeVoice", "code": "Hashable" },
-        { "type": "text", "text": " and " },
-        { "type": "codeVoice", "code": "RawValue" },
-        { "type": "text", "text": " conforms to " },
-        { "type": "codeVoice", "code": "Hashable" },
-        { "type": "text", "text": "." }
-      ],
-      "availabilityPrefix": [{ "type": "text", "text": "Available when" }],
-      "conformancePrefix": [{ "type": "text", "text": "Conforms when" }]
+      "text" : "Inherited from ",
+      "type" : "text"
     },
-    "role": "symbol",
-    "title": "hashValue",
-    "roleHeading": "Instance Property",
-    "fragments": [
-      { "kind": "keyword", "text": "var" },
-      { "kind": "text", "text": " " },
-      { "kind": "identifier", "text": "hashValue" },
-      { "kind": "text", "text": ": " },
-      { "kind": "typeIdentifier", "text": "Int", "preciseIdentifier": "s:Si" }
-    ],
-    "symbolKind": "property",
-    "externalID": "s:SYsSHRzSH8RawValueSYRpzrlE04hashB0Sivp::SYNTHESIZED::s:14TCDigitalFlyer11EnvironmentO",
-    "extendedModule": "Swift",
-    "modules": [{ "name": "TCDigitalFlyer" }]
-  },
-  "hierarchy": {
-    "paths": [
+    {
+      "code" : "RawRepresentable.hashValue",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
       [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations"
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations"
       ]
     ]
   },
-  "references": {
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/hashValue": {
-      "conformance": {
-        "constraints": [
-          { "type": "codeVoice", "code": "Self" },
-          { "type": "text", "text": " conforms to " },
-          { "type": "codeVoice", "code": "Hashable" },
-          { "type": "text", "text": " and " },
-          { "type": "codeVoice", "code": "RawValue" },
-          { "type": "text", "text": " conforms to " },
-          { "type": "codeVoice", "code": "Hashable" },
-          { "type": "text", "text": "." }
-        ],
-        "availabilityPrefix": [{ "type": "text", "text": "Available when" }],
-        "conformancePrefix": [{ "type": "text", "text": "Conforms when" }]
-      },
-      "role": "symbol",
-      "title": "hashValue",
-      "fragments": [
-        { "kind": "keyword", "text": "var" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "hashValue" },
-        { "kind": "text", "text": ": " },
-        { "kind": "typeIdentifier", "text": "Int", "preciseIdentifier": "s:Si" }
-      ],
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/hashValue",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/environment/hashvalue"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
-      "role": "symbol",
-      "title": "Environment",
-      "fragments": [
-        { "kind": "keyword", "text": "enum" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "Environment" }
-      ],
-      "abstract": [
-        { "type": "text", "text": "The API environments supported by the SDK" }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "Environment" }],
-      "url": "/documentation/tcdigitalflyer/environment"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations": {
-      "role": "collectionGroup",
-      "title": "RawRepresentable Implementations",
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations",
-      "kind": "article",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/environment/rawrepresentable-implementations"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
-      "role": "collection",
-      "title": "TCDigitalFlyer",
-      "abstract": [
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/hashValue"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "conformance" : {
+      "availabilityPrefix" : [
         {
-          "type": "text",
-          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
+          "text" : "Available when",
+          "type" : "text"
         }
       ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer"
+      "conformancePrefix" : [
+        {
+          "text" : "Conforms when",
+          "type" : "text"
+        }
+      ],
+      "constraints" : [
+        {
+          "code" : "Self",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : " conforms to ",
+          "type" : "text"
+        },
+        {
+          "code" : "Hashable",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : " and ",
+          "type" : "text"
+        },
+        {
+          "code" : "RawValue",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : " conforms to ",
+          "type" : "text"
+        },
+        {
+          "code" : "Hashable",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : ".",
+          "type" : "text"
+        }
+      ]
+    },
+    "extendedModule" : "Swift",
+    "externalID" : "s:SYsSHRzSH8RawValueSYRpzrlE04hashB0Sivp::SYNTHESIZED::s:14TCDigitalFlyer11EnvironmentO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "hashValue"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Si",
+        "text" : "Int"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer",
+        "relatedModules" : [
+          "Swift"
+        ]
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "hashValue"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "hashValue"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Si",
+              "text" : "Int"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
     }
-  }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/environment\/hashvalue"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
+  "abstract" : [
+    {
+      "text" : "The API environments supported by the SDK",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Environment"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Environment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Environment",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/environment"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/environment\/rawrepresentable-implementations"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/hashValue": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Self",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Hashable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " and ",
+        "type" : "text"
+      },
+      {
+        "code" : "RawValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Hashable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hashValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/hashValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hashValue",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/environment\/hashvalue"
+}
+}
 }

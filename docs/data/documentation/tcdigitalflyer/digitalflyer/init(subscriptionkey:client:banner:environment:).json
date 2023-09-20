@@ -1,365 +1,601 @@
 {
-  "primaryContentSections": [
+  "abstract" : [
     {
-      "kind": "declarations",
-      "declarations": [
-        {
-          "tokens": [
-            { "kind": "keyword", "text": "init" },
-            { "kind": "text", "text": "(" },
-            { "kind": "externalParam", "text": "subscriptionKey" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "text": "String",
-              "preciseIdentifier": "s:SS"
-            },
-            { "kind": "text", "text": ", " },
-            { "kind": "externalParam", "text": "client" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "text": "String",
-              "preciseIdentifier": "s:SS"
-            },
-            { "kind": "text", "text": ", " },
-            { "kind": "externalParam", "text": "banner" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "text": "String",
-              "preciseIdentifier": "s:SS"
-            },
-            { "kind": "text", "text": "? = nil, " },
-            { "kind": "externalParam", "text": "environment" },
-            { "kind": "text", "text": ": " },
-            {
-              "kind": "typeIdentifier",
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment",
-              "preciseIdentifier": "s:14TCDigitalFlyer11EnvironmentO",
-              "text": "Environment"
-            },
-            { "kind": "text", "text": " = .live) " },
-            { "kind": "keyword", "text": "throws" }
-          ],
-          "languages": ["swift"],
-          "platforms": ["iOS"]
-        }
-      ]
+      "text" : "Creates a ",
+      "type" : "text"
     },
     {
-      "kind": "parameters",
-      "parameters": [
-        {
-          "name": "subscriptionKey",
-          "content": [
-            {
-              "type": "paragraph",
-              "inlineContent": [
-                {
-                  "type": "text",
-                  "text": "The subscription key, as provided by TC"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "client",
-          "content": [
-            {
-              "type": "paragraph",
-              "inlineContent": [
-                {
-                  "type": "text",
-                  "text": "The client’s name, as provided by TC"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "banner",
-          "content": [
-            {
-              "type": "paragraph",
-              "inlineContent": [
-                {
-                  "type": "text",
-                  "text": "An optional banner, as provided by TC (defaults to the value provided to "
-                },
-                { "type": "codeVoice", "code": "client" },
-                { "type": "text", "text": ")" }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "environment",
-          "content": [
-            {
-              "type": "paragraph",
-              "inlineContent": [
-                { "type": "text", "text": "The API " },
-                {
-                  "type": "reference",
-                  "isActive": true,
-                  "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment"
-                },
-                { "type": "text", "text": " (defaults to " },
-                { "type": "codeVoice", "code": "live" },
-                { "type": "text", "text": ")" }
-              ]
-            }
-          ]
-        }
-      ]
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
-      "kind": "content",
-      "content": [
-        {
-          "anchor": "discussion",
-          "level": 2,
-          "type": "heading",
-          "text": "Discussion"
-        },
-        {
-          "style": "note",
-          "content": [
-            {
-              "type": "paragraph",
-              "inlineContent": [
-                { "type": "text", "text": "" },
-                {
-                  "type": "codeVoice",
-                  "code": "DFError.missingSubscriptionKey"
-                },
-                {
-                  "type": "text",
-                  "text": " if the subscription key is an empty string."
-                }
-              ]
-            }
-          ],
-          "type": "aside",
-          "name": "Throws"
-        },
-        {
-          "style": "note",
-          "content": [
-            {
-              "type": "paragraph",
-              "inlineContent": [
-                { "type": "text", "text": "" },
-                { "type": "codeVoice", "code": "DFError.missingClient" },
-                { "type": "text", "text": " if the client is an empty string." }
-              ]
-            }
-          ],
-          "type": "aside",
-          "name": "Throws"
-        },
-        {
-          "style": "note",
-          "content": [
-            {
-              "type": "paragraph",
-              "inlineContent": [
-                { "type": "text", "text": "" },
-                { "type": "codeVoice", "code": "DFError.missingBanner" },
-                { "type": "text", "text": " if the banner is an empty string." }
-              ]
-            }
-          ],
-          "type": "aside",
-          "name": "Throws"
-        }
-      ]
+      "text" : " instance",
+      "type" : "text"
     }
   ],
-  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
-  "sections": [],
-  "variants": [
-    {
-      "paths": [
-        "/documentation/tcdigitalflyer/digitalflyer/init(subscriptionkey:client:banner:environment:)"
-      ],
-      "traits": [{ "interfaceLanguage": "swift" }]
-    }
-  ],
-  "identifier": {
-    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)",
-    "interfaceLanguage": "swift"
-  },
-  "abstract": [
-    { "type": "text", "text": "Creates a " },
-    {
-      "type": "reference",
-      "isActive": true,
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer"
-    },
-    { "type": "text", "text": " instance" }
-  ],
-  "kind": "symbol",
-  "metadata": {
-    "fragments": [
-      { "kind": "identifier", "text": "init" },
-      { "kind": "text", "text": "(" },
-      { "kind": "externalParam", "text": "subscriptionKey" },
-      { "kind": "text", "text": ": " },
-      {
-        "kind": "typeIdentifier",
-        "text": "String",
-        "preciseIdentifier": "s:SS"
-      },
-      { "kind": "text", "text": ", " },
-      { "kind": "externalParam", "text": "client" },
-      { "kind": "text", "text": ": " },
-      {
-        "kind": "typeIdentifier",
-        "text": "String",
-        "preciseIdentifier": "s:SS"
-      },
-      { "kind": "text", "text": ", " },
-      { "kind": "externalParam", "text": "banner" },
-      { "kind": "text", "text": ": " },
-      {
-        "kind": "typeIdentifier",
-        "text": "String",
-        "preciseIdentifier": "s:SS"
-      },
-      { "kind": "text", "text": "?, " },
-      { "kind": "externalParam", "text": "environment" },
-      { "kind": "text", "text": ": " },
-      {
-        "kind": "typeIdentifier",
-        "text": "Environment",
-        "preciseIdentifier": "s:14TCDigitalFlyer11EnvironmentO"
-      },
-      { "kind": "text", "text": ") " },
-      { "kind": "keyword", "text": "throws" }
-    ],
-    "title": "init(subscriptionKey:client:banner:environment:)",
-    "roleHeading": "Initializer",
-    "role": "symbol",
-    "symbolKind": "init",
-    "externalID": "s:14TCDigitalFlyer07DigitalB0C15subscriptionKey6client6banner11environmentACSS_S2SSgAA11EnvironmentOtKcfc",
-    "modules": [{ "name": "TCDigitalFlyer" }]
-  },
-  "hierarchy": {
-    "paths": [
+  "hierarchy" : {
+    "paths" : [
       [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer"
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer"
       ]
     ]
   },
-  "references": {
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)": {
-      "role": "symbol",
-      "title": "init(subscriptionKey:client:banner:environment:)",
-      "fragments": [
-        { "kind": "identifier", "text": "init" },
-        { "kind": "text", "text": "(" },
-        { "kind": "externalParam", "text": "subscriptionKey" },
-        { "kind": "text", "text": ": " },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14TCDigitalFlyer07DigitalB0C15subscriptionKey6client6banner11environmentACSS_S2SSgAA11EnvironmentOtKcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "subscriptionKey"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "client"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "banner"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : "?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "environment"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14TCDigitalFlyer11EnvironmentO",
+        "text" : "Environment"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(subscriptionKey:client:banner:environment:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
         {
-          "kind": "typeIdentifier",
-          "text": "String",
-          "preciseIdentifier": "s:SS"
-        },
-        { "kind": "text", "text": ", " },
-        { "kind": "externalParam", "text": "client" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "String",
-          "preciseIdentifier": "s:SS"
-        },
-        { "kind": "text", "text": ", " },
-        { "kind": "externalParam", "text": "banner" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "String",
-          "preciseIdentifier": "s:SS"
-        },
-        { "kind": "text", "text": "?, " },
-        { "kind": "externalParam", "text": "environment" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "Environment",
-          "preciseIdentifier": "s:14TCDigitalFlyer11EnvironmentO"
-        },
-        { "kind": "text", "text": ") " },
-        { "kind": "keyword", "text": "throws" }
-      ],
-      "abstract": [
-        { "type": "text", "text": "Creates a " },
-        {
-          "type": "reference",
-          "isActive": true,
-          "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer"
-        },
-        { "type": "text", "text": " instance" }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/digitalflyer/init(subscriptionkey:client:banner:environment:)"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
-      "role": "symbol",
-      "title": "DigitalFlyer",
-      "fragments": [
-        { "kind": "keyword", "text": "class" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "DigitalFlyer" }
-      ],
-      "abstract": [
-        {
-          "type": "text",
-          "text": "The entry-point for interacting with the SDK."
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "subscriptionKey"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "client"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "banner"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : "? = nil, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "environment"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14TCDigitalFlyer11EnvironmentO",
+              "text" : "Environment"
+            },
+            {
+              "kind" : "text",
+              "text" : " = .live) "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            }
+          ]
         }
       ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "DigitalFlyer" }],
-      "url": "/documentation/tcdigitalflyer/digitalflyer"
+      "kind" : "declarations"
     },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
-      "role": "collection",
-      "title": "TCDigitalFlyer",
-      "abstract": [
+    {
+      "kind" : "parameters",
+      "parameters" : [
         {
-          "type": "text",
-          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The subscription key, as provided by TC",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "subscriptionKey"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The client’s name, as provided by TC",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "client"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "An optional banner, as provided by TC (defaults to the value provided to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "client",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ")",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "banner"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The API ",
+                  "type" : "text"
+                },
+                {
+                  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
+                  "isActive" : true,
+                  "type" : "reference"
+                },
+                {
+                  "text" : " (defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "live",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ")",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "environment"
+        }
+      ]
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "",
+                  "type" : "text"
+                },
+                {
+                  "code" : "DFError.missingSubscriptionKey",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " if the subscription key is an empty string.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Throws",
+          "style" : "note",
+          "type" : "aside"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "",
+                  "type" : "text"
+                },
+                {
+                  "code" : "DFError.missingClient",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " if the client is an empty string.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Throws",
+          "style" : "note",
+          "type" : "aside"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "",
+                  "type" : "text"
+                },
+                {
+                  "code" : "DFError.missingBanner",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " if the banner is an empty string.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Throws",
+          "style" : "note",
+          "type" : "aside"
         }
       ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
-      "role": "symbol",
-      "title": "Environment",
-      "fragments": [
-        { "kind": "keyword", "text": "enum" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "Environment" }
-      ],
-      "abstract": [
-        { "type": "text", "text": "The API environments supported by the SDK" }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "Environment" }],
-      "url": "/documentation/tcdigitalflyer/environment"
+      "kind" : "content"
     }
-  }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The entry-point for interacting with the SDK.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DigitalFlyer"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DigitalFlyer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/digitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " instance",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "subscriptionKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "client"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "banner"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "environment"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11EnvironmentO",
+      "text" : "Environment"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(subscriptionKey:client:banner:environment:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:)"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
+  "abstract" : [
+    {
+      "text" : "The API environments supported by the SDK",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Environment"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Environment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Environment",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/environment"
+}
+}
 }

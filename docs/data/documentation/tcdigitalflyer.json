@@ -1,360 +1,772 @@
 {
-  "primaryContentSections": [
+  "abstract" : [
     {
-      "kind": "content",
-      "content": [
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "TCDigitalFlyer",
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "TCDigitalFlyer"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
         {
-          "anchor": "Getting-Started",
-          "level": 2,
-          "type": "heading",
-          "text": "Getting Started"
+          "anchor" : "Getting-Started",
+          "level" : 2,
+          "text" : "Getting Started",
+          "type" : "heading"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "The SDK can be installed using Swift Package Manager following the instructions at "
+              "text" : "The SDK can be installed using Swift Package Manager following the instructions at ",
+              "type" : "text"
             },
             {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation"
-            },
-            { "type": "text", "text": ", followed by " },
-            {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk"
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/installation",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
-              "type": "text",
-              "text": " for a quick summary of interacting with the SDK."
+              "text" : ", followed by ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " for a quick summary of interacting with the SDK.",
+              "type" : "text"
             }
-          ]
+          ],
+          "type" : "paragraph"
         },
         {
-          "type": "paragraph",
-          "inlineContent": [
+          "inlineContent" : [
             {
-              "type": "text",
-              "text": "Upgrading from a previous version? Use the "
+              "text" : "Upgrading from a previous version? Use the ",
+              "type" : "text"
             },
             {
-              "type": "reference",
-              "isActive": true,
-              "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide"
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide",
+              "isActive" : true,
+              "type" : "reference"
             },
-            { "type": "text", "text": "." }
-          ]
-        },
-        {
-          "anchor": "Minimum-Requirements",
-          "level": 2,
-          "type": "heading",
-          "text": "Minimum Requirements"
-        },
-        {
-          "type": "unorderedList",
-          "items": [
             {
-              "content": [
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "Minimum-Requirements",
+          "level" : 2,
+          "text" : "Minimum Requirements",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [
-                    { "type": "text", "text": "XCode (>= 14.0)" }
-                  ]
+                  "inlineContent" : [
+                    {
+                      "text" : "XCode (>= 14.0)",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             },
             {
-              "content": [
+              "content" : [
                 {
-                  "type": "paragraph",
-                  "inlineContent": [{ "type": "text", "text": "iOS (>= 13.0)" }]
+                  "inlineContent" : [
+                    {
+                      "text" : "iOS (>= 13.0)",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
                 }
               ]
             }
-          ]
+          ],
+          "type" : "unorderedList"
         }
-      ]
+      ],
+      "kind" : "content"
     }
   ],
-  "schemaVersion": { "major": 0, "minor": 3, "patch": 0 },
-  "sections": [],
-  "variants": [
-    {
-      "paths": ["/documentation/tcdigitalflyer"],
-      "traits": [{ "interfaceLanguage": "swift" }]
-    }
-  ],
-  "identifier": {
-    "url": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-    "interfaceLanguage": "swift"
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
   },
-  "abstract": [
+  "sections" : [
+
+  ],
+  "topicSections" : [
     {
-      "type": "text",
-      "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/installation",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk"
+      ],
+      "title" : "Getting Started"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide"
+      ],
+      "title" : "Migrating from v1.x"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/logger-swift.var"
+      ],
+      "title" : "Variables"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language"
+      ],
+      "title" : "Enumerations"
     }
   ],
-  "kind": "symbol",
-  "metadata": {
-    "roleHeading": "Framework",
-    "externalID": "TCDigitalFlyer",
-    "title": "TCDigitalFlyer",
-    "symbolKind": "module",
-    "role": "collection",
-    "modules": [{ "name": "TCDigitalFlyer" }]
-  },
-  "hierarchy": { "paths": [[]] },
-  "topicSections": [
+  "variants" : [
     {
-      "title": "Getting Started",
-      "identifiers": [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk"
+      "paths" : [
+        "\/documentation\/tcdigitalflyer"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
       ]
-    },
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
     {
-      "title": "Migrating from v1.x",
-      "identifiers": [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide"
-      ]
-    },
-    {
-      "title": "Classes",
-      "identifiers": [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView"
-      ]
-    },
-    {
-      "title": "Protocols",
-      "identifiers": [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol"
-      ]
-    },
-    {
-      "title": "Variables",
-      "identifiers": [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/logger-swift.var"
-      ]
-    },
-    {
-      "title": "Type Aliases",
-      "identifiers": [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language",
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication"
-      ]
-    },
-    {
-      "title": "Enumerations",
-      "identifiers": [
-        "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment"
-      ]
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
     }
   ],
-  "references": {
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
-      "role": "symbol",
-      "title": "DigitalFlyer",
-      "fragments": [
-        { "kind": "keyword", "text": "class" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "DigitalFlyer" }
-      ],
-      "abstract": [
-        {
-          "type": "text",
-          "text": "The entry-point for interacting with the SDK."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "DigitalFlyer" }],
-      "url": "/documentation/tcdigitalflyer/digitalflyer"
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion": {
+  "abstract" : [
+    {
+      "text" : "Click regions of a product inside a block.",
+      "type" : "text"
     },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
-      "role": "symbol",
-      "title": "Environment",
-      "fragments": [
-        { "kind": "keyword", "text": "enum" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "Environment" }
-      ],
-      "abstract": [
-        { "type": "text", "text": "The API environments supported by the SDK" }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "Environment" }],
-      "url": "/documentation/tcdigitalflyer/environment"
+    {
+      "text" : " ",
+      "type" : "text"
     },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide": {
-      "role": "article",
-      "title": "Migration Guide",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Transition existing apps from v1.x to 2.0.0"
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide",
-      "kind": "article",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/migration-guide"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
-      "role": "symbol",
-      "title": "Publication",
-      "fragments": [
-        { "kind": "keyword", "text": "typealias" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "Publication" }
-      ],
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "Publication" }],
-      "url": "/documentation/tcdigitalflyer/publication"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
-      "role": "symbol",
-      "title": "FlyerView",
-      "fragments": [
-        { "kind": "keyword", "text": "class" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "FlyerView" }
-      ],
-      "abstract": [
-        {
-          "type": "text",
-          "text": "A custom view that displays the Digital Flyer."
-        },
-        { "type": "text", "text": " " },
-        {
-          "type": "text",
-          "text": "This view is the entrypoint for the Digital Flyer."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "FlyerView" }],
-      "url": "/documentation/tcdigitalflyer/flyerview"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/logger-swift.var": {
-      "role": "symbol",
-      "title": "logger",
-      "fragments": [
-        { "kind": "keyword", "text": "var" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "logger" },
-        { "kind": "text", "text": ": " },
-        {
-          "kind": "typeIdentifier",
-          "text": "Logger",
-          "preciseIdentifier": "s:14TCDigitalFlyer6LoggerP"
-        },
-        { "kind": "text", "text": "?" }
-      ],
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/logger-swift.var",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/logger-swift.var"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk": {
-      "role": "article",
-      "title": "Using the SDK",
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk",
-      "kind": "article",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/using-the-sdk"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError": {
-      "role": "symbol",
-      "title": "DFError",
-      "fragments": [
-        { "kind": "keyword", "text": "typealias" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "DFError" }
-      ],
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "DFError" }],
-      "url": "/documentation/tcdigitalflyer/dferror"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language": {
-      "role": "symbol",
-      "title": "Language",
-      "fragments": [
-        { "kind": "keyword", "text": "typealias" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "Language" }
-      ],
-      "abstract": [],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "Language" }],
-      "url": "/documentation/tcdigitalflyer/language"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation": {
-      "role": "article",
-      "title": "Installation",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "Using SPM to install the SDK as a binary target."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation",
-      "kind": "article",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer/installation"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
-      "role": "collection",
-      "title": "TCDigitalFlyer",
-      "abstract": [
-        {
-          "type": "text",
-          "text": "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer",
-      "kind": "symbol",
-      "type": "topic",
-      "url": "/documentation/tcdigitalflyer"
-    },
-    "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol": {
-      "role": "symbol",
-      "title": "Logger",
-      "fragments": [
-        { "kind": "keyword", "text": "protocol" },
-        { "kind": "text", "text": " " },
-        { "kind": "identifier", "text": "Logger" }
-      ],
-      "abstract": [
-        {
-          "type": "text",
-          "text": "A logger that can be injected to log messages from the DigitalFlyer."
-        }
-      ],
-      "identifier": "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol",
-      "kind": "symbol",
-      "type": "topic",
-      "navigatorTitle": [{ "kind": "identifier", "text": "Logger" }],
-      "url": "/documentation/tcdigitalflyer/logger-swift.protocol"
+    {
+      "text" : "These values are percentages of the block’s width and height.",
+      "type" : "text"
     }
-  }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ClickRegion"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ClickRegion"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ClickRegion",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/clickregion"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct": {
+  "abstract" : [
+    {
+      "text" : "A product, within a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Block",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " that can be clicked on.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ClickableProduct"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ClickableProduct"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ClickableProduct",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/clickableproduct"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError": {
+  "abstract" : [
+    {
+      "text" : "The set of errors that can be thrown by the SDK",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DFError"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DFError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DFError",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/dferror"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The entry-point for interacting with the SDK.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DigitalFlyer"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DigitalFlyer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/digitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
+  "abstract" : [
+    {
+      "text" : "The API environments supported by the SDK",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Environment"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Environment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Environment",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/environment"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+  "abstract" : [
+    {
+      "text" : "A custom view that displays the Digital Flyer.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This view is the entrypoint for the Digital Flyer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Flyerable"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Flyerable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Flyerable",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerable"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Grid": {
+  "abstract" : [
+    {
+      "text" : "The grid of items on a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication.Page",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Grid"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Grid"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Grid",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/grid"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language": {
+  "abstract" : [
+    {
+      "text" : "The languages supported by the SDK",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Language"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Language"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Language",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/language"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol": {
+  "abstract" : [
+    {
+      "text" : "A logger that can be injected to log messages from the DigitalFlyer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Logger"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Logger"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Logger",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/logger-swift.protocol"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
+  "abstract" : [
+    {
+      "text" : "The primary ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " object",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "It contains the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication.Attributes",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and an array of ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " objects, which contain the page content.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Publication"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Publication"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
+  "abstract" : [
+    {
+      "text" : "A page within a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " that contains a flexible grid of items.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/installation": {
+  "abstract" : [
+    {
+      "text" : "Using SPM to install the SDK as a binary target.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/installation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Installation",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/installation"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/logger-swift.var": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "logger"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer6LoggerP",
+      "text" : "Logger"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/logger-swift.var",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "logger",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/logger-swift.var"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide": {
+  "abstract" : [
+    {
+      "text" : "Transition existing apps from v1.x to 2.0.0",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Migration Guide",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/migration-guide"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Using the SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/using-the-sdk"
+}
+}
 }
