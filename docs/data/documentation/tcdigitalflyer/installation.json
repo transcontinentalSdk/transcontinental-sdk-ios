@@ -54,6 +54,214 @@
         {
           "inlineContent" : [
             {
+              "text" : "The original mechanism to retrieve the SDK from a private SPM repository was to use a ",
+              "type" : "text"
+            },
+            {
+              "code" : "netrc",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " file, however this broke in XCode 14.3. As of XCode 15, the primary authentication mechanism is to use the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "https:\/\/github.com\/apple\/swift-evolution\/blob\/main\/proposals\/0378-package-registry-auth.md#macos-keychain",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "macOS-Keychain",
+          "level" : 3,
+          "text" : "macOS Keychain",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The following steps will add your authentication details to the Keychain:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Open the Keychain Access application (located in ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "\/Applications\/Utilities\/Keychain Access.app",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ")",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Create a new entry by clicking ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "File > New Password Item",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " (or ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "⌘N",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ")",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Enter ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "https:\/\/transfer.tds.transcontinental.ca",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " as the ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Keychain Item Name",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " (this is the URL of the private repository, and the ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "https:\/\/",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " is required)",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Enter the provided authentication login as the ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Account Name",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Enter the provided authentication password as the ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Password",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Click ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Add",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "orderedList"
+        },
+        {
+          "anchor" : "netrc",
+          "level" : 3,
+          "text" : "netrc",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "https:\/\/github.com\/apple\/swift-evolution\/blob\/main\/proposals\/0378-package-registry-auth.md#netrc-file-if-operating-systems-credential-store-is-not-supported",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " is used as a fallback for older versions of XCode, or if the macOS Keychain method cannot be used.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
               "text" : "Save your authentication details in a ",
               "type" : "text"
             },
@@ -127,13 +335,13 @@
         {
           "code" : [
             "\/\/ Package.swift",
-            "\/\/ https:\/\/github.com\/transcontinentalSdk\/tcdigitalflyer-ios-agent-spm\/blob\/1.9.9\/Package.swift",
+            "\/\/ https:\/\/github.com\/transcontinentalSdk\/tcdigitalflyer-ios-agent-spm\/blob\/main\/Package.swift",
             "...",
             "targets: [",
             "    .binaryTarget(",
             "        name: \"TCDigitalFlyer\",",
-            "        url:\"https:\/\/transfer.tds.transcontinental.ca\/TCDigitalFlyer-1.9.9-14.2.xcframework.zip\",",
-            "        checksum: \"7a969b08b3c5d3ff21398358df997f13495008d32655c8a0ee25bfbdc4608684\"),",
+            "        url:\"https:\/\/transfer.tds.transcontinental.ca\/TCDigitalFlyer-1.9.9-15.0.xcframework.zip\",",
+            "        checksum: \"2d6789f472e1cfc6f0f6f1a46e387b08d51044060bf963c47dd3c0db75072695\"),",
             "]",
             "..."
           ],
@@ -168,7 +376,7 @@
         {
           "code" : [
             "dependencies: [",
-            "    .package(url: \"https:\/\/github.com\/transcontinentalSdk\/tcdigitalflyer-ios-agent-spm.git\", .exact(\"1.9.9\")),",
+            "    .package(url: \"https:\/\/github.com\/transcontinentalSdk\/tcdigitalflyer-ios-agent-spm.git\", .branch(\"main\")),",
             "],"
           ],
           "syntax" : "bash",
@@ -233,6 +441,30 @@
   "title" : "Using the SDK",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/using-the-sdk"
+},
+"https://github.com/apple/swift-evolution/blob/main/proposals/0378-package-registry-auth.md#macos-keychain": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-evolution\/blob\/main\/proposals\/0378-package-registry-auth.md#macos-keychain",
+  "title" : "macOS Keychain",
+  "titleInlineContent" : [
+    {
+      "text" : "macOS Keychain",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-evolution\/blob\/main\/proposals\/0378-package-registry-auth.md#macos-keychain"
+},
+"https://github.com/apple/swift-evolution/blob/main/proposals/0378-package-registry-auth.md#netrc-file-if-operating-systems-credential-store-is-not-supported": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-evolution\/blob\/main\/proposals\/0378-package-registry-auth.md#netrc-file-if-operating-systems-credential-store-is-not-supported",
+  "title" : "netrc authentication method",
+  "titleInlineContent" : [
+    {
+      "text" : "netrc authentication method",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-evolution\/blob\/main\/proposals\/0378-package-registry-auth.md#netrc-file-if-operating-systems-credential-store-is-not-supported"
 }
 }
 }

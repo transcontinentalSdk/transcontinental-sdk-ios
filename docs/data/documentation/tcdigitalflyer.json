@@ -96,7 +96,7 @@
                 {
                   "inlineContent" : [
                     {
-                      "text" : "XCode (>= 14.0)",
+                      "text" : "XCode (>= 15.0)",
                       "type" : "text"
                     }
                   ],

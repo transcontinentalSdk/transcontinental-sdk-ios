@@ -6,10 +6,10 @@
     "severity" : 2,
     "source" : "..\/Domain.swift",
     "start" : {
-      "column" : 109,
-      "line" : 79
+      "column" : 72,
+      "line" : 233
     },
-    "summary" : "'listPublications' doesn't exist at '\/TCDigitalFlyer\/Publication\/Attributes\/language'"
+    "summary" : "'Block' doesn't exist at '\/TCDigitalFlyer\/ClickableProduct\/clickRegions'"
   },
   {
     "notes" : [
@@ -22,6 +22,18 @@
       "line" : 22
     },
     "summary" : "'listPublications(storeId:language:date:complete:)' doesn't exist at '\/TCDigitalFlyer\/Flyerable\/getPublication(from:)'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "..\/Domain.swift",
+    "start" : {
+      "column" : 27,
+      "line" : 229
+    },
+    "summary" : "'Block' doesn't exist at '\/TCDigitalFlyer\/ClickableProduct'"
   },
   {
     "notes" : [
@@ -43,33 +55,9 @@
     "source" : "..\/Domain.swift",
     "start" : {
       "column" : 109,
-      "line" : 77
+      "line" : 79
     },
-    "summary" : "'listPublications' doesn't exist at '\/TCDigitalFlyer\/Publication\/Attributes\/storeId'"
-  },
-  {
-    "notes" : [
-
-    ],
-    "severity" : 2,
-    "source" : "..\/Domain.swift",
-    "start" : {
-      "column" : 27,
-      "line" : 229
-    },
-    "summary" : "'Block' doesn't exist at '\/TCDigitalFlyer\/ClickableProduct'"
-  },
-  {
-    "notes" : [
-
-    ],
-    "severity" : 2,
-    "source" : "..\/Domain.swift",
-    "start" : {
-      "column" : 72,
-      "line" : 233
-    },
-    "summary" : "'Block' doesn't exist at '\/TCDigitalFlyer\/ClickableProduct\/clickRegions'"
+    "summary" : "'listPublications' doesn't exist at '\/TCDigitalFlyer\/Publication\/Attributes\/language'"
   },
   {
     "notes" : [
@@ -82,6 +70,18 @@
       "line" : 39
     },
     "summary" : "'Publication.Attributes' doesn't exist at '\/TCDigitalFlyer\/Publication'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "..\/Domain.swift",
+    "start" : {
+      "column" : 109,
+      "line" : 77
+    },
+    "summary" : "'listPublications' doesn't exist at '\/TCDigitalFlyer\/Publication\/Attributes\/storeId'"
   },
   {
     "notes" : [
