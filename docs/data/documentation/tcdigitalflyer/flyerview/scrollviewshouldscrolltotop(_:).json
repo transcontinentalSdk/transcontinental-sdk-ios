@@ -1,0 +1,271 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "UIScrollViewDelegate.scrollViewShouldScrollToTop(_:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewShouldScrollToTop(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "TCDigitalFlyer",
+    "externalID" : "c:@CM@TCDigitalFlyer@objc(cs)FlyerView(im)scrollViewShouldScrollToTop:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "scrollViewShouldScrollToTop"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)UIScrollView",
+        "text" : "UIScrollView"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "scrollViewShouldScrollToTop(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "scrollViewShouldScrollToTop"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "scrollView"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)UIScrollView",
+              "text" : "UIScrollView"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewshouldscrolltotop(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+  "abstract" : [
+    {
+      "text" : "A custom view that displays the Digital Flyer.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This view is the entrypoint for the Digital Flyer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlyerView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UIScrollViewDelegate-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "UIScrollViewDelegate Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/uiscrollviewdelegate-implementations"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewShouldScrollToTop(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scrollViewShouldScrollToTop"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIScrollView",
+      "text" : "UIScrollView"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewShouldScrollToTop(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scrollViewShouldScrollToTop(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewshouldscrolltotop(_:)"
+}
+}
+}

@@ -19,6 +19,7 @@
       }
     ],
     "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
     "title" : "UIScrollViewDelegate Implementations"
   },
   "schemaVersion" : {
@@ -33,9 +34,11 @@
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndDecelerating(_:)",
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndZooming(_:with:atScale:)",
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidScroll(_:)",
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidZoom(_:)",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewShouldScrollToTop(_:)",
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewWillBeginZooming(_:with:)",
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/viewForZooming(in:)"
       ],
@@ -111,6 +114,44 @@
   "title" : "FlyerView",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidEndDecelerating(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scrollViewDidEndDecelerating"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIScrollView",
+      "text" : "UIScrollView"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndDecelerating(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scrollViewDidEndDecelerating(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidenddecelerating(_:)"
 },
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidEndZooming(_:with:atScale:)": {
   "abstract" : [
@@ -278,6 +319,49 @@
   "title" : "scrollViewDidZoom(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidzoom(_:)"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewShouldScrollToTop(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scrollViewShouldScrollToTop"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIScrollView",
+      "text" : "UIScrollView"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewShouldScrollToTop(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scrollViewShouldScrollToTop(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewshouldscrolltotop(_:)"
 },
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewWillBeginZooming(_:with:)": {
   "abstract" : [

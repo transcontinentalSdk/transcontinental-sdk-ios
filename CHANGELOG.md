@@ -1,6 +1,22 @@
 # Changelog
 
-## [Unreleased]
+## [2.1.0] - 2024-08-16
+
+The v2.1.0 release introduces several new features and improvements to the SDK, bringing it closer to parity with the TC Web SDK:
+
+- Configurable in-block and partial-block video playback (muted by default)
+- Carousel views with manual or automatic ("slide-show") navigation
+- Ability to perform internal (deep) or external (web) linking functionality as provisioned by the TC API
+
+## [2.0.1] - 2024-04-29
+
+### Fixed
+
+- Fixed outbound date encoding when using `listPublication` API
+- Fixed environment URLs being incorrectly decoded in certain release types
+- Stopped emitting SKU events for URL/Video blocks
+
+## [2.0.0] - 2023-09-29
 
 The v2.0.0 update introduces substantial performance improvements for the SDK, driven by several optimizations and technical enhancements:
 

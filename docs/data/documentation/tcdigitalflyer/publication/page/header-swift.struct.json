@@ -157,9 +157,8 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
-      "isActive" : true,
-      "type" : "reference"
+      "code" : "Publication.Page",
+      "type" : "codeVoice"
     },
     {
       "text" : " objects, which contain the page content.",

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "A product’s click region was tapped - the SKU is emitted.",
+      "text" : "A product’s click region was tapped - a SKU is emitted.",
       "type" : "text"
     }
   ],
@@ -215,7 +215,7 @@
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event/sku(_:)": {
   "abstract" : [
     {
-      "text" : "A product’s click region was tapped - the SKU is emitted.",
+      "text" : "A product’s click region was tapped - a SKU is emitted.",
       "type" : "text"
     }
   ],

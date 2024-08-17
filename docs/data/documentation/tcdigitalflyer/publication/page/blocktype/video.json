@@ -1,0 +1,274 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/video"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14TCDigitalFlyer11PublicationV4PageV9BlockTypeO5videoyA2GmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "video"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "Publication.Page.BlockType.video"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "video"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/publication\/page\/blocktype\/video"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
+  "abstract" : [
+    {
+      "text" : "The primary ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " object",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "It contains the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication.Attributes",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and an array of ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication.Page",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " objects, which contain the page content.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Publication"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Publication"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
+  "abstract" : [
+    {
+      "text" : "A page within a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " that contains a flexible grid of items.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/BlockType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BlockType"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BlockType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page.BlockType",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/blocktype"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/BlockType/video": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "video"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/video",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Publication.Page.BlockType.video",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/blocktype\/video"
+}
+}
+}

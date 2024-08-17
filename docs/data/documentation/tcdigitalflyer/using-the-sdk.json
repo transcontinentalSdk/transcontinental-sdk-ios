@@ -328,7 +328,7 @@
               "type" : "text"
             },
             {
-              "code" : "Publication.Attribute",
+              "code" : "Publication.Attributes",
               "type" : "codeVoice"
             },
             {
@@ -343,7 +343,7 @@
             "digitalFlyer.listPublications(storeId: storeId) { result in",
             "    switch result {",
             "    case .success(let attributes):",
-            "        print(attributes) \/\/ an array of Publication.Attribute",
+            "        print(attributes) \/\/ an array of Publication.Attributes",
             "    case .failure(let error):",
             "        print(error) \/\/ a DFError",
             "    }",
@@ -486,7 +486,7 @@
               "type" : "text"
             },
             {
-              "code" : "Publication.Attribute",
+              "code" : "Publication.Attributes",
               "type" : "codeVoice"
             },
             {
@@ -502,7 +502,7 @@
               "type" : "text"
             },
             {
-              "code" : "getPublication(attribute:completion:)",
+              "code" : "getPublication(attributes:completion:)",
               "type" : "codeVoice"
             },
             {
@@ -514,7 +514,7 @@
         },
         {
           "code" : [
-            "digitalFlyer.getPublication(attribute: attribute) { result in",
+            "digitalFlyer.getPublication(attributes: attributes) { result in",
             "    switch result {",
             "    case .success(let publication):",
             "        print(publication) \/\/ a Publication",
@@ -533,7 +533,7 @@
                 {
                   "inlineContent" : [
                     {
-                      "code" : "attribute",
+                      "code" : "attributes",
                       "type" : "codeVoice"
                     },
                     {
@@ -541,7 +541,7 @@
                       "type" : "text"
                     },
                     {
-                      "code" : "Publication.Attribute",
+                      "code" : "Publication.Attributes",
                       "type" : "codeVoice"
                     },
                     {
@@ -656,7 +656,7 @@
                       "type" : "text"
                     },
                     {
-                      "code" : "getPublication(attribute:completion:)",
+                      "code" : "getPublication(attributes:completion:)",
                       "type" : "codeVoice"
                     }
                   ],
@@ -720,7 +720,7 @@
         {
           "inlineContent" : [
             {
-              "text" : "As of version 2.0.0, the FlyerView supports the following configuration options:",
+              "text" : "As of version 2.1.0, the FlyerView supports the following configuration options:",
               "type" : "text"
             }
           ],
@@ -802,6 +802,23 @@
                     },
                     {
                       "text" : " - The SKU of the product whose click region was tapped",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "url",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " - The URL of the internal or external link that was tapped",
                       "type" : "text"
                     }
                   ],

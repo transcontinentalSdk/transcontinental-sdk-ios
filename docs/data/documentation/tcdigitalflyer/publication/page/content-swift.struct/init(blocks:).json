@@ -29,7 +29,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:14TCDigitalFlyer11PublicationV4PageV7ContentV6blocksAGSayAE5BlockVG_tcfc",
+    "externalID" : "s:14TCDigitalFlyer11PublicationV4PageV7ContentV6blocksAGSayAE5Block_pG_tcfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -49,7 +49,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV4PageV5BlockV",
+        "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV4PageV5BlockP",
         "text" : "Block"
       },
       {
@@ -97,7 +97,7 @@
             {
               "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV4PageV5BlockV",
+              "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV4PageV5BlockP",
               "text" : "Block"
             },
             {
@@ -178,9 +178,8 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
-      "isActive" : true,
-      "type" : "reference"
+      "code" : "Publication.Page",
+      "type" : "codeVoice"
     },
     {
       "text" : " objects, which contain the page content.",
@@ -258,39 +257,12 @@
 },
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Block": {
   "abstract" : [
-    {
-      "text" : "The primary image-based content of a ",
-      "type" : "text"
-    },
-    {
-      "code" : "Publication.Page",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ". Multiple ",
-      "type" : "text"
-    },
-    {
-      "code" : "Block",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : "s are laid out in an adaptive",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "grid, each of which contain an image and possibly a list of products.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "protocol"
     },
     {
       "kind" : "text",
@@ -425,7 +397,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV4PageV5BlockV",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV4PageV5BlockP",
       "text" : "Block"
     },
     {

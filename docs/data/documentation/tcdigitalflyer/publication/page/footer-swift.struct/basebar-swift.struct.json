@@ -109,7 +109,7 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/init(imageUrl:aspectRatio:)"
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/init(imageUrl:aspectRatio:products:)"
       ],
       "title" : "Initializers"
     },
@@ -181,9 +181,8 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
-      "isActive" : true,
-      "type" : "reference"
+      "code" : "Publication.Page",
+      "type" : "codeVoice"
     },
     {
       "text" : " objects, which contain the page content.",
@@ -564,7 +563,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.struct\/basebar-swift.struct\/imageurl"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Footer-swift.struct/Basebar-swift.struct/init(imageUrl:aspectRatio:)": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Footer-swift.struct/Basebar-swift.struct/init(imageUrl:aspectRatio:products:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -620,15 +619,32 @@
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "products"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer16ClickableProductV",
+      "text" : "ClickableProduct"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/init(imageUrl:aspectRatio:)",
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/init(imageUrl:aspectRatio:products:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(imageUrl:aspectRatio:)",
+  "title" : "init(imageUrl:aspectRatio:products:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.struct\/basebar-swift.struct\/init(imageurl:aspectratio:)"
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.struct\/basebar-swift.struct\/init(imageurl:aspectratio:products:)"
 }
 }
 }

@@ -1,0 +1,657 @@
+{
+  "abstract" : [
+    {
+      "text" : "Initializes a new ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication.Page.Footer.Basebar",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " object with the specified parameters.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/init(imageUrl:aspectRatio:products:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14TCDigitalFlyer11PublicationV4PageV6FooterV7BasebarV8imageUrl11aspectRatio8productsAISS_SdSayAA16ClickableProductVGtcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "imageUrl"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "aspectRatio"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sd",
+        "text" : "Double"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "products"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14TCDigitalFlyer16ClickableProductV",
+        "text" : "ClickableProduct"
+      },
+      {
+        "kind" : "text",
+        "text" : "])"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(imageUrl:aspectRatio:products:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "imageUrl"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "aspectRatio"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sd",
+              "text" : "Double"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "products"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14TCDigitalFlyer16ClickableProductV",
+              "text" : "ClickableProduct"
+            },
+            {
+              "kind" : "text",
+              "text" : "] = [])"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.struct\/basebar-swift.struct\/init(imageurl:aspectratio:products:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct": {
+  "abstract" : [
+    {
+      "text" : "A product, within a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Block",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " that can be clicked on.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ClickableProduct"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ClickableProduct"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ClickableProduct",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/clickableproduct"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
+  "abstract" : [
+    {
+      "text" : "The primary ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " object",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "It contains the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication.Attributes",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and an array of ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication.Page",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " objects, which contain the page content.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Publication"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Publication"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
+  "abstract" : [
+    {
+      "text" : "A page within a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " that contains a flexible grid of items.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Content-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "A page-centric container for a list of ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : "s.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The content occupies the majority of the visible area of a page,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and is located between the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Header-swift.struct",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " and ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Content"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Content"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page.Content",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/content-swift.struct"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Footer-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The footer of a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication.Page",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Typically this is where ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : "s and ",
+      "type" : "text"
+    },
+    {
+      "code" : "Disclaimer",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : "s are displayed.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Footers are page-width, pinned to the bottom of the page (below the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Footer"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Footer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page.Footer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.struct"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Footer-swift.struct/Basebar-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The basebar of a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication.Page",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". When present, this is a full-width image that is pinned to the top of the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Basebar"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Basebar"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page.Footer.Basebar",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.struct\/basebar-swift.struct"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Footer-swift.struct/Basebar-swift.struct/init(imageUrl:aspectRatio:products:)": {
+  "abstract" : [
+    {
+      "text" : "Initializes a new ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication.Page.Footer.Basebar",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " object with the specified parameters.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "imageUrl"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "aspectRatio"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "products"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer16ClickableProductV",
+      "text" : "ClickableProduct"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/init(imageUrl:aspectRatio:products:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(imageUrl:aspectRatio:products:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.struct\/basebar-swift.struct\/init(imageurl:aspectratio:products:)"
+}
+}
+}

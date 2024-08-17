@@ -175,6 +175,12 @@
   "topicSections" : [
     {
       "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration"
       ],
       "title" : "Structures"
@@ -188,7 +194,8 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event"
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection"
       ],
       "title" : "Enumerations"
     },
@@ -321,6 +328,37 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/configuration"
 },
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Delegate"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Delegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView.Delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/delegate"
+},
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event": {
   "abstract" : [
     {
@@ -354,6 +392,37 @@
   "title" : "FlyerView.Event",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/ScrollDirection": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ScrollDirection"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ScrollDirection"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView.ScrollDirection",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrolldirection"
 },
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations": {
   "abstract" : [

@@ -9,7 +9,7 @@
       "type" : "codeVoice"
     },
     {
-      "text" : " is displayed in. This is the value that was passed in to ",
+      "text" : " is displayed in. This is the value that is passed in to ",
       "type" : "text"
     },
     {
@@ -207,9 +207,8 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
-      "isActive" : true,
-      "type" : "reference"
+      "code" : "Publication.Page",
+      "type" : "codeVoice"
     },
     {
       "text" : " objects, which contain the page content.",
@@ -301,7 +300,7 @@
       "type" : "codeVoice"
     },
     {
-      "text" : " is displayed in. This is the value that was passed in to ",
+      "text" : " is displayed in. This is the value that is passed in to ",
       "type" : "text"
     },
     {
@@ -338,48 +337,6 @@
   "title" : "language",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/language"
-},
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
-  "abstract" : [
-    {
-      "text" : "A page within a ",
-      "type" : "text"
-    },
-    {
-      "code" : "Publication",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " that contains a flexible grid of items.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "struct"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "Page"
-    }
-  ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "Page"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "Publication.Page",
-  "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/publication\/page"
 }
 }
 }

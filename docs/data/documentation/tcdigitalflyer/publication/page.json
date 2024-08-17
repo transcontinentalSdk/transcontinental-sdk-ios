@@ -99,7 +99,12 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct",
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Header-swift.struct"
@@ -121,6 +126,12 @@
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/pageNumber"
       ],
       "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType"
+      ],
+      "title" : "Enumerations"
     }
   ],
   "variants" : [
@@ -183,9 +194,8 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
-      "isActive" : true,
-      "type" : "reference"
+      "code" : "Publication.Page",
+      "type" : "codeVoice"
     },
     {
       "text" : " objects, which contain the page content.",
@@ -263,39 +273,12 @@
 },
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Block": {
   "abstract" : [
-    {
-      "text" : "The primary image-based content of a ",
-      "type" : "text"
-    },
-    {
-      "code" : "Publication.Page",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ". Multiple ",
-      "type" : "text"
-    },
-    {
-      "code" : "Block",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : "s are laid out in an adaptive",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "grid, each of which contain an image and possibly a list of products.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "protocol"
     },
     {
       "kind" : "text",
@@ -318,6 +301,37 @@
   "title" : "Publication.Page.Block",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/block"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/BlockType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BlockType"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BlockType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page.BlockType",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/blocktype"
 },
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Content-swift.struct": {
   "abstract" : [

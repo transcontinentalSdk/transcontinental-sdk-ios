@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "The subscription key is during ",
+      "text" : "The subscription key is missing during ",
       "type" : "text"
     },
     {
@@ -155,7 +155,7 @@
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/missingSubscriptionKey": {
   "abstract" : [
     {
-      "text" : "The subscription key is during ",
+      "text" : "The subscription key is missing during ",
       "type" : "text"
     },
     {

@@ -86,6 +86,16 @@
       "kind" : "declarations"
     }
   ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
   "schemaVersion" : {
     "major" : 0,
     "minor" : 3,
@@ -109,6 +119,13 @@
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/y"
       ],
       "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
     }
   ],
   "variants" : [
@@ -125,6 +142,11 @@
   ]
 , 
 "references": {
+"doc://TCDigitalFlyer/SQ": {
+  "identifier" : "doc:\/\/TCDigitalFlyer\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
@@ -180,6 +202,17 @@
   "title" : "ClickRegion",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickregion"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/clickregion\/equatable-implementations"
 },
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/height": {
   "abstract" : [

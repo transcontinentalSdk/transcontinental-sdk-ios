@@ -56,6 +56,16 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/tcdigitalflyer\/digitalflyer\/getpublication(from:with:)",
+                "title" : "func getPublication(from: Publication.Attributes, with: FilterOptions) async throws -> Publication",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/tcdigitalflyer\/digitalflyer\/listfilters(for:)",
+                "title" : "func listFilters(for: Publication.Attributes) async throws -> Filters",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/tcdigitalflyer\/digitalflyer\/listpublications(storeid:language:date:)",
                 "title" : "func listPublications(storeId: String, language: Language, date: Date) async throws -> [Publication.Attributes]",
                 "type" : "method"
@@ -72,6 +82,31 @@
           },
           {
             "children" : [
+              {
+                "title" : "Protocols",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/delegate\/flyerview(_:didscroll:)",
+                    "title" : "func flyerView(FlyerView, didScroll: ScrollDirection)",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/delegate\/flyerview(_:pagedidchangeto:)",
+                    "title" : "func flyerView(FlyerView, pageDidChangeTo: Int)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/tcdigitalflyer\/flyerview\/delegate",
+                "title" : "FlyerView.Delegate",
+                "type" : "protocol"
+              },
               {
                 "title" : "Structures",
                 "type" : "groupMarker"
@@ -134,10 +169,81 @@
                     "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/sku(_:)",
                     "title" : "case sku(String)",
                     "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/url(_:)",
+                    "title" : "case url(String)",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
                   }
                 ],
                 "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event",
                 "title" : "FlyerView.Event",
+                "type" : "enum"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/scrolldirection\/down",
+                    "title" : "case down",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/scrolldirection\/none",
+                    "title" : "case none",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/scrolldirection\/up",
+                    "title" : "case up",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/tcdigitalflyer\/flyerview\/scrolldirection\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/scrolldirection\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/tcdigitalflyer\/flyerview\/scrolldirection",
+                "title" : "FlyerView.ScrollDirection",
                 "type" : "enum"
               },
               {
@@ -198,6 +304,11 @@
                     "type" : "groupMarker"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidenddecelerating(_:)",
+                    "title" : "func scrollViewDidEndDecelerating(UIScrollView)",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidendzooming(_:with:atscale:)",
                     "title" : "func scrollViewDidEndZooming(UIScrollView, with: UIView?, atScale: CGFloat)",
                     "type" : "method"
@@ -210,6 +321,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidzoom(_:)",
                     "title" : "func scrollViewDidZoom(UIScrollView)",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewshouldscrolltotop(_:)",
+                    "title" : "func scrollViewShouldScrollToTop(UIScrollView) -> Bool",
                     "type" : "method"
                   },
                   {
@@ -245,6 +361,16 @@
               {
                 "path" : "\/documentation\/tcdigitalflyer\/flyerable\/getpublication(from:)",
                 "title" : "func getPublication(from: Publication.Attributes) async throws -> Publication",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/tcdigitalflyer\/flyerable\/getpublication(from:with:)",
+                "title" : "func getPublication(from: Publication.Attributes, with: FilterOptions) async throws -> Publication",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/tcdigitalflyer\/flyerable\/listfilters(for:)",
+                "title" : "func listFilters(for: Publication.Attributes) async throws -> Filters",
                 "type" : "method"
               },
               {
@@ -331,6 +457,26 @@
                 "path" : "\/documentation\/tcdigitalflyer\/clickregion\/y",
                 "title" : "let y: Double",
                 "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/clickregion\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/tcdigitalflyer\/clickregion\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/tcdigitalflyer\/clickregion",
@@ -365,6 +511,86 @@
             ],
             "path" : "\/documentation\/tcdigitalflyer\/clickableproduct",
             "title" : "ClickableProduct",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/tcdigitalflyer\/filteroptions\/init(discount:categories:subcategories:searchtext:)",
+                "title" : "init(discount: Int?, categories: [String]?, subCategories: [String]?, searchText: String?)",
+                "type" : "init"
+              }
+            ],
+            "path" : "\/documentation\/tcdigitalflyer\/filteroptions",
+            "title" : "FilterOptions",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/filters\/category\/init(title:subcategories:)",
+                    "title" : "init(title: String, subcategories: [Category])",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/filters\/category\/subcategories",
+                    "title" : "let subcategories: [Category]",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/filters\/category\/title",
+                    "title" : "let title: String",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/tcdigitalflyer\/filters\/category",
+                "title" : "Filters.Category",
+                "type" : "struct"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/tcdigitalflyer\/filters\/init(categories:discounts:)",
+                "title" : "init(categories: [Category], discounts: [Int])",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/tcdigitalflyer\/filters\/categories",
+                "title" : "let categories: [Category]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/tcdigitalflyer\/filters\/discounts",
+                "title" : "let discounts: [Int]",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/tcdigitalflyer\/filters",
+            "title" : "Filters",
             "type" : "struct"
           },
           {
@@ -496,48 +722,38 @@
               {
                 "children" : [
                   {
-                    "title" : "Structures",
+                    "title" : "Protocols",
                     "type" : "groupMarker"
                   },
                   {
                     "children" : [
-                      {
-                        "title" : "Initializers",
-                        "type" : "groupMarker"
-                      },
-                      {
-                        "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/block\/init(rowspan:columnspan:imageurl:products:)",
-                        "title" : "init(rowSpan: Int, columnSpan: Int, imageUrl: String, products: [ClickableProduct])",
-                        "type" : "init"
-                      },
                       {
                         "title" : "Instance Properties",
                         "type" : "groupMarker"
                       },
                       {
                         "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/block\/columnspan",
-                        "title" : "let columnSpan: Int",
-                        "type" : "property"
-                      },
-                      {
-                        "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/block\/imageurl",
-                        "title" : "let imageUrl: String",
-                        "type" : "property"
-                      },
-                      {
-                        "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/block\/products",
-                        "title" : "let products: [ClickableProduct]",
+                        "title" : "var columnSpan: Int",
                         "type" : "property"
                       },
                       {
                         "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/block\/rowspan",
-                        "title" : "let rowSpan: Int",
+                        "title" : "var rowSpan: Int",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/block\/type",
+                        "title" : "var type: BlockType",
                         "type" : "property"
                       }
                     ],
                     "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/block",
                     "title" : "Publication.Page.Block",
-                    "type" : "struct"
+                    "type" : "protocol"
+                  },
+                  {
+                    "title" : "Structures",
+                    "type" : "groupMarker"
                   },
                   {
                     "children" : [
@@ -577,8 +793,8 @@
                             "type" : "groupMarker"
                           },
                           {
-                            "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.struct\/basebar-swift.struct\/init(imageurl:aspectratio:)",
-                            "title" : "init(imageUrl: String, aspectRatio: Double)",
+                            "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.struct\/basebar-swift.struct\/init(imageurl:aspectratio:products:)",
+                            "title" : "init(imageUrl: String, aspectRatio: Double, products: [ClickableProduct])",
                             "type" : "init"
                           },
                           {
@@ -670,6 +886,56 @@
                     "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/pagenumber",
                     "title" : "let pageNumber: Int?",
                     "type" : "property"
+                  },
+                  {
+                    "title" : "Enumerations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Enumeration Cases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/blocktype\/carousel",
+                        "title" : "case carousel",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/blocktype\/image",
+                        "title" : "case image",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/blocktype\/video",
+                        "title" : "case video",
+                        "type" : "case"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/blocktype\/!=(_:_:)",
+                            "title" : "static func != (Self, Self) -> Bool",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/blocktype\/equatable-implementations",
+                        "title" : "Equatable Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/blocktype",
+                    "title" : "Publication.Page.BlockType",
+                    "type" : "enum"
                   }
                 ],
                 "path" : "\/documentation\/tcdigitalflyer\/publication\/page",

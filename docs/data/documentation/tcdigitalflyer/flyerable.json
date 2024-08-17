@@ -94,6 +94,8 @@
     {
       "identifiers" : [
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:)",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:with:)",
+        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listFilters(for:)",
         "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listPublications(storeId:language:date:)"
       ],
       "title" : "Instance Methods"
@@ -281,6 +283,177 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerable\/getpublication(from:)"
 },
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable/getPublication(from:with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getPublication"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV",
+      "text" : "Publication"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV10AttributesV",
+      "text" : "Attributes"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer13FilterOptionsV",
+      "text" : "FilterOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV",
+      "text" : "Publication"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:with:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "getPublication(from:with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerable\/getpublication(from:with:)"
+},
+"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable/listFilters(for:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "listFilters"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV",
+      "text" : "Publication"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer11PublicationV10AttributesV",
+      "text" : "Attributes"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer7FiltersV",
+      "text" : "Filters"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listFilters(for:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "listFilters(for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerable\/listfilters(for:)"
+},
 "doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable/listPublications(storeId:language:date:)": {
   "abstract" : [
     {
@@ -431,9 +604,8 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
-      "isActive" : true,
-      "type" : "reference"
+      "code" : "Publication.Page",
+      "type" : "codeVoice"
     },
     {
       "text" : " objects, which contain the page content.",
