@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.1] - 2024-09-20
+
+### Added
+
+- Added a `hidden` parameter (default `false`) to the Masthead and Search themes to selectively disable functionality
+
+### Fixed
+
+- Fixed page indicator double-refresh
+- Fixed search bar localization placeholder
+- Fixed retain cycle in FlyerView delegate
+
 ## [2.1.0] - 2024-08-16
 
 The v2.1.0 release introduces several new features and improvements to the SDK, bringing it closer to parity with the TC Web SDK:
