@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.2] - 2024-09-25
+
+### Fixed
+
+- Aligned search result ordering with Android
+- Centralized `DispatchQueue` event handler usage
+- Removed transitive references to `FlyerViewUI` (thus removing references to `FlyerView`)
+
 ## [2.1.1] - 2024-09-20
 
 ### Added
