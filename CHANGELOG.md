@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.3] - 2024-10-03
+
+### Fixed
+
+- In-block play button occasionally moves within block on scroll
+- Partial-block videos can be slightly offset from absolute location on scroll
+- Video should auto-close after first play when not looping
+
 ## [2.1.2] - 2024-09-25
 
 ### Fixed
