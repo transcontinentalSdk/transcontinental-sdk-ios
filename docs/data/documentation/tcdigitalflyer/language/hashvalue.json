@@ -16,15 +16,15 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/RawRepresentable-Implementations"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/RawRepresentable-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/hashValue"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/hashValue"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -186,21 +186,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Language": {
   "abstract" : [
     {
       "text" : "The languages supported by the SDK",
@@ -221,7 +221,7 @@
       "text" : "Language"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -234,18 +234,18 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/language"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language/RawRepresentable-Implementations": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Language/RawRepresentable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/RawRepresentable-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/RawRepresentable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "RawRepresentable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/language\/rawrepresentable-implementations"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language/hashValue": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Language/hashValue": {
   "abstract" : [
 
   ],
@@ -320,7 +320,7 @@
       "text" : "Int"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/hashValue",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/hashValue",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "hashValue",

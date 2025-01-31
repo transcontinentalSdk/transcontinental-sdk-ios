@@ -2,15 +2,15 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category\/init(title:subcategories:)"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category\/init(title:subcategories:)"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -114,7 +114,7 @@
               "text" : ": ["
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category",
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:14TCDigitalFlyer7FiltersV8CategoryV",
               "text" : "Category"
@@ -151,21 +151,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Filters": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Filters": {
   "abstract" : [
 
   ],
@@ -183,7 +183,7 @@
       "text" : "Filters"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -196,7 +196,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/filters"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Filters/Category": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Filters/Category": {
   "abstract" : [
 
   ],
@@ -214,7 +214,7 @@
       "text" : "Category"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -227,7 +227,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/filters\/category"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Filters/Category/init(title:subcategories:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Filters/Category/init(title:subcategories:)": {
   "abstract" : [
 
   ],
@@ -275,7 +275,7 @@
       "text" : "])"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category\/init(title:subcategories:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category\/init(title:subcategories:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(title:subcategories:)",

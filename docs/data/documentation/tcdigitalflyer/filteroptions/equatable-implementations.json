@@ -1,0 +1,165 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Operators",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/filteroptions\/equatable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FilterOptions": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FilterOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FilterOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FilterOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/filteroptions"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FilterOptions/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/filteroptions\/!=(_:_:)"
+}
+}
+}

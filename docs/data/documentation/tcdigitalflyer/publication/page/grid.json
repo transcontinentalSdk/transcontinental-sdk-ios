@@ -8,15 +8,15 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/grid"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/grid"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -82,7 +82,7 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid",
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:14TCDigitalFlyer4GridV",
               "text" : "Grid"
@@ -115,21 +115,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Grid": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Grid": {
   "abstract" : [
     {
       "text" : "The grid of items on a ",
@@ -158,7 +158,7 @@
       "text" : "Grid"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -171,14 +171,14 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/grid"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
   "abstract" : [
     {
       "text" : "The primary ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
       "isActive" : true,
       "type" : "reference"
     },
@@ -225,7 +225,7 @@
       "text" : "Publication"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -238,7 +238,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
   "abstract" : [
     {
       "text" : "A page within a ",
@@ -267,7 +267,7 @@
       "text" : "Page"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -280,7 +280,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/grid": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/grid": {
   "abstract" : [
     {
       "text" : "The grid of items on the page.",
@@ -310,7 +310,7 @@
       "text" : "Grid"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/grid",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/grid",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "grid",

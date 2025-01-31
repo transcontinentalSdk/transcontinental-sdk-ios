@@ -16,15 +16,15 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -100,6 +100,19 @@
             "iOS"
           ],
           "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
             {
               "kind" : "keyword",
               "text" : "func"
@@ -199,21 +212,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
   "abstract" : [
     {
       "text" : "A custom view that displays the Digital Flyer.",
@@ -242,7 +255,7 @@
       "text" : "FlyerView"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -255,18 +268,18 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "UICollectionViewDataSource Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/uicollectionviewdatasource-implementations"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:numberOfItemsInSection:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:numberOfItemsInSection:)": {
   "abstract" : [
 
   ],
@@ -319,7 +332,7 @@
       "text" : "Int"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "collectionView(_:numberOfItemsInSection:)",

@@ -8,13 +8,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -88,12 +88,14 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/debug(_:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/error(_:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/info(_:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/verbose(_:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/warning(_:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/debug(_:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/error(_:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/info(_:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/verbose(_:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/warning(_:)"
       ],
       "title" : "Instance Methods"
     }
@@ -112,21 +114,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol": {
   "abstract" : [
     {
       "text" : "A logger that can be injected to log messages from the DigitalFlyer.",
@@ -147,7 +149,7 @@
       "text" : "Logger"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -160,7 +162,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/logger-swift.protocol"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/debug(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/debug(_:)": {
   "abstract" : [
 
   ],
@@ -191,7 +193,7 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/debug(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/debug(_:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
@@ -199,7 +201,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/logger-swift.protocol\/debug(_:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/error(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/error(_:)": {
   "abstract" : [
 
   ],
@@ -230,7 +232,7 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/error(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/error(_:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
@@ -238,7 +240,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/logger-swift.protocol\/error(_:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/info(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/info(_:)": {
   "abstract" : [
 
   ],
@@ -269,7 +271,7 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/info(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/info(_:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
@@ -277,7 +279,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/logger-swift.protocol\/info(_:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/verbose(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/verbose(_:)": {
   "abstract" : [
 
   ],
@@ -308,7 +310,7 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/verbose(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/verbose(_:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
@@ -316,7 +318,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/logger-swift.protocol\/verbose(_:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/warning(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol/warning(_:)": {
   "abstract" : [
 
   ],
@@ -347,7 +349,7 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/warning(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/warning(_:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",

@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
       "isActive" : true,
       "type" : "reference"
     },
@@ -17,14 +17,14 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -200,7 +200,7 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:14TCDigitalFlyer11EnvironmentO",
               "text" : "Environment"
@@ -280,7 +280,7 @@
                   "type" : "text"
                 },
                 {
-                  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
+                  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
                   "isActive" : true,
                   "type" : "reference"
                 },
@@ -410,21 +410,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
   "abstract" : [
     {
       "text" : "The entry-point for interacting with the SDK.",
@@ -445,7 +445,7 @@
       "text" : "DigitalFlyer"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -458,14 +458,14 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/digitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)": {
   "abstract" : [
     {
       "text" : "Creates a ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
       "isActive" : true,
       "type" : "reference"
     },
@@ -556,14 +556,14 @@
       "text" : "throws"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(subscriptionKey:client:banner:environment:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
   "abstract" : [
     {
       "text" : "The API environments supported by the SDK",
@@ -584,7 +584,7 @@
       "text" : "Environment"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
   "kind" : "symbol",
   "navigatorTitle" : [
     {

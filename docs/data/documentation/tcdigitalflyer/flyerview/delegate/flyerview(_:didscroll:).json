@@ -2,15 +2,15 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:didScroll:)"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:didScroll:)"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -114,7 +114,7 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "c:@M@TCDigitalFlyer@objc(cs)FlyerView",
               "text" : "FlyerView"
@@ -132,7 +132,7 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection",
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:14TCDigitalFlyer0B4ViewC15ScrollDirectionO",
               "text" : "ScrollDirection"
@@ -169,21 +169,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
   "abstract" : [
     {
       "text" : "A custom view that displays the Digital Flyer.",
@@ -212,7 +212,7 @@
       "text" : "FlyerView"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -225,7 +225,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate": {
   "abstract" : [
 
   ],
@@ -243,7 +243,7 @@
       "text" : "Delegate"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -256,7 +256,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/delegate"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate/flyerView(_:didScroll:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate/flyerView(_:didScroll:)": {
   "abstract" : [
 
   ],
@@ -304,7 +304,7 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:didScroll:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:didScroll:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
@@ -312,7 +312,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/delegate\/flyerview(_:didscroll:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/ScrollDirection": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/ScrollDirection": {
   "abstract" : [
 
   ],
@@ -330,7 +330,7 @@
       "text" : "ScrollDirection"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection",
   "kind" : "symbol",
   "navigatorTitle" : [
     {

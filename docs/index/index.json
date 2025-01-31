@@ -1,4 +1,7 @@
 {
+  "includedArchiveIdentifiers" : [
+    "tcdigitalflyer.TCDigitalFlyer"
+  ],
   "interfaceLanguages" : {
     "swift" : [
       {
@@ -523,6 +526,26 @@
                 "path" : "\/documentation\/tcdigitalflyer\/filteroptions\/init(discount:categories:subcategories:searchtext:)",
                 "title" : "init(discount: Int?, categories: [String]?, subCategories: [String]?, searchText: String?)",
                 "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/filteroptions\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/tcdigitalflyer\/filteroptions\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/tcdigitalflyer\/filteroptions",
@@ -641,8 +664,8 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:)",
-                    "title" : "init(id: String, title: String, flyerTitle: String, startDate: Date, endDate: Date, thumbnailUrl: String, logoUrl: String, storeId: String, language: Language)",
+                    "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:filters:isblockedflyer:)",
+                    "title" : "init(id: String, title: String, flyerTitle: String, startDate: Date, endDate: Date, thumbnailUrl: String, logoUrl: String, storeId: String, language: Language, filters: FilterOptions?, isBlockedFlyer: Bool?)",
                     "type" : "init"
                   },
                   {
@@ -652,6 +675,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/enddate",
                     "title" : "let endDate: Date",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/filters",
+                    "title" : "let filters: FilterOptions?",
                     "type" : "property"
                   },
                   {
@@ -1248,6 +1276,6 @@
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
-    "patch" : 1
+    "patch" : 2
   }
 }

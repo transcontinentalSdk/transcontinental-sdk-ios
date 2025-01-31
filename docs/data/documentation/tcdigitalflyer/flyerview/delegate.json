@@ -2,14 +2,14 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -66,6 +66,10 @@
             {
               "kind" : "identifier",
               "text" : "Delegate"
+            },
+            {
+              "kind" : "text",
+              "text" : " : AnyObject"
             }
           ]
         }
@@ -83,9 +87,11 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:didScroll:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:pageDidChangeTo:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:didScroll:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:pageDidChangeTo:)"
       ],
       "title" : "Instance Methods"
     }
@@ -104,21 +110,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
   "abstract" : [
     {
       "text" : "A custom view that displays the Digital Flyer.",
@@ -147,7 +153,7 @@
       "text" : "FlyerView"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -160,7 +166,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate": {
   "abstract" : [
 
   ],
@@ -178,7 +184,7 @@
       "text" : "Delegate"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -191,7 +197,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/delegate"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate/flyerView(_:didScroll:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate/flyerView(_:didScroll:)": {
   "abstract" : [
 
   ],
@@ -239,7 +245,7 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:didScroll:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:didScroll:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
@@ -247,7 +253,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/delegate\/flyerview(_:didscroll:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate/flyerView(_:pageDidChangeTo:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate/flyerView(_:pageDidChangeTo:)": {
   "abstract" : [
     {
       "text" : "Zero-based indexing for pageDidChange value - consumers will likely want to add 1 before display",
@@ -298,7 +304,7 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:pageDidChangeTo:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:pageDidChangeTo:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",

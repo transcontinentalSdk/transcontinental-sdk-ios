@@ -8,14 +8,14 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -89,15 +89,19 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/init(showHeader:headerHeight:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/init(showHeader:headerHeight:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/headerHeight",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/showHeader"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/headerHeight",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/showHeader"
       ],
       "title" : "Instance Properties"
     }
@@ -116,21 +120,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
   "abstract" : [
     {
       "text" : "A custom view that displays the Digital Flyer.",
@@ -159,7 +163,7 @@
       "text" : "FlyerView"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -172,7 +176,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration": {
   "abstract" : [
     {
       "text" : "The FlyerView configuration with defaults.",
@@ -193,7 +197,7 @@
       "text" : "Configuration"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -206,7 +210,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/configuration"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/headerHeight": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/headerHeight": {
   "abstract" : [
 
   ],
@@ -233,14 +237,14 @@
       "text" : "CGFloat"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/headerHeight",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/headerHeight",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "headerHeight",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/configuration\/headerheight"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/init(showHeader:headerHeight:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/init(showHeader:headerHeight:)": {
   "abstract" : [
     {
       "text" : "Creates a new configuration with the given parameters.",
@@ -291,14 +295,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/init(showHeader:headerHeight:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/init(showHeader:headerHeight:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(showHeader:headerHeight:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/configuration\/init(showheader:headerheight:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/showHeader": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration/showHeader": {
   "abstract" : [
     {
       "text" : "Whether to show the Header on the first page.",
@@ -328,7 +332,7 @@
       "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/showHeader",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/showHeader",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "showHeader",

@@ -6,10 +6,10 @@
     "severity" : 2,
     "source" : "..\/Domain.swift",
     "start" : {
-      "column" : 108,
-      "line" : 90
+      "column" : 11,
+      "line" : 23
     },
-    "summary" : "'listPublications' doesn't exist at '\/TCDigitalFlyer\/Publication\/Attributes\/language'"
+    "summary" : "Parameter 'completion' not found in instance method declaration"
   },
   {
     "notes" : [
@@ -18,10 +18,10 @@
     "severity" : 2,
     "source" : "..\/Domain.swift",
     "start" : {
-      "column" : 108,
-      "line" : 88
+      "column" : 11,
+      "line" : 10
     },
-    "summary" : "'listPublications' doesn't exist at '\/TCDigitalFlyer\/Publication\/Attributes\/storeId'"
+    "summary" : "Parameter 'completion' not found in instance method declaration"
   },
   {
     "notes" : [
@@ -43,7 +43,7 @@
     "source" : "..\/Domain.swift",
     "start" : {
       "column" : 72,
-      "line" : 314
+      "line" : 328
     },
     "summary" : "'Block' doesn't exist at '\/TCDigitalFlyer\/ClickableProduct\/clickRegions'"
   },
@@ -54,10 +54,46 @@
     "severity" : 2,
     "source" : "..\/Domain.swift",
     "start" : {
+      "column" : 108,
+      "line" : 88
+    },
+    "summary" : "'listPublications' doesn't exist at '\/TCDigitalFlyer\/Publication\/Attributes\/storeId'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "..\/Domain.swift",
+    "start" : {
       "column" : 88,
-      "line" : 261
+      "line" : 275
     },
     "summary" : "'Disclaimer' doesn't exist at '\/TCDigitalFlyer\/Publication\/Page\/Footer'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "migration-guide.md",
+    "start" : {
+      "column" : 289,
+      "line" : 49
+    },
+    "summary" : "'Publication.Attributes' doesn't exist at '\/TCDigitalFlyer\/migration-guide'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "..\/Domain.swift",
+    "start" : {
+      "column" : 108,
+      "line" : 90
+    },
+    "summary" : "'listPublications' doesn't exist at '\/TCDigitalFlyer\/Publication\/Attributes\/language'"
   },
   {
     "notes" : [
@@ -67,7 +103,7 @@
     "source" : "..\/Domain.swift",
     "start" : {
       "column" : 27,
-      "line" : 310
+      "line" : 324
     },
     "summary" : "'Block' doesn't exist at '\/TCDigitalFlyer\/ClickableProduct'"
   },
@@ -94,17 +130,5 @@
       "line" : 50
     },
     "summary" : "'Publication.Page' doesn't exist at '\/TCDigitalFlyer\/Publication'"
-  },
-  {
-    "notes" : [
-
-    ],
-    "severity" : 2,
-    "source" : "migration-guide.md",
-    "start" : {
-      "column" : 289,
-      "line" : 49
-    },
-    "summary" : "'Publication.Attributes' doesn't exist at '\/TCDigitalFlyer\/migration-guide'"
   }
 ]

@@ -16,13 +16,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -96,16 +96,20 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/init(rows:columns:aspectRatio:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/init(rows:columns:aspectRatio:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/aspectRatio",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/columns",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/rows"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/aspectRatio",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/columns",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/rows"
       ],
       "title" : "Instance Properties"
     }
@@ -124,21 +128,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Grid": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Grid": {
   "abstract" : [
     {
       "text" : "The grid of items on a ",
@@ -167,7 +171,7 @@
       "text" : "Grid"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -180,7 +184,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/grid"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Grid/aspectRatio": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Grid/aspectRatio": {
   "abstract" : [
 
   ],
@@ -207,14 +211,14 @@
       "text" : "Double"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/aspectRatio",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/aspectRatio",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "aspectRatio",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/grid\/aspectratio"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Grid/columns": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Grid/columns": {
   "abstract" : [
     {
       "text" : "The number of columns in the grid.",
@@ -244,14 +248,14 @@
       "text" : "Int"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/columns",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/columns",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "columns",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/grid\/columns"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Grid/init(rows:columns:aspectRatio:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Grid/init(rows:columns:aspectRatio:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -327,14 +331,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/init(rows:columns:aspectRatio:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/init(rows:columns:aspectRatio:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(rows:columns:aspectRatio:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/grid\/init(rows:columns:aspectratio:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Grid/rows": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Grid/rows": {
   "abstract" : [
     {
       "text" : "The number of rows in the grid.",
@@ -364,7 +368,7 @@
       "text" : "Int"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/rows",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/rows",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "rows",

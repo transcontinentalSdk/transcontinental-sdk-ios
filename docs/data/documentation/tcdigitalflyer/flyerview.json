@@ -16,13 +16,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -68,6 +68,19 @@
             "iOS"
           ],
           "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
             {
               "kind" : "keyword",
               "text" : "class"
@@ -122,7 +135,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/objc(cs)UIView"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(cs)UIView"
       ],
       "kind" : "relationships",
       "title" : "Inherits From",
@@ -130,34 +143,35 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/objc(pl)NSCoding",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)NSObject",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)CALayerDelegate",
-        "doc:\/\/TCDigitalFlyer\/s7CVarArgP",
-        "doc:\/\/TCDigitalFlyer\/s28CustomDebugStringConvertibleP",
-        "doc:\/\/TCDigitalFlyer\/s23CustomStringConvertibleP",
-        "doc:\/\/TCDigitalFlyer\/SQ",
-        "doc:\/\/TCDigitalFlyer\/SH",
-        "doc:\/\/TCDigitalFlyer\/s8SendableP",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIAccessibilityIdentification",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIActivityItemsConfigurationProviding",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIAppearance",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIAppearanceContainer",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UICollectionViewDataSource",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UICollectionViewDelegate",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UICoordinateSpace",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIDynamicItem",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIFocusEnvironment",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIFocusItem",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIFocusItemContainer",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UILargeContentViewerItem",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIPasteConfigurationSupporting",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIPopoverPresentationControllerSourceItem",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIResponderStandardEditActions",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIScrollViewDelegate",
-        "doc:\/\/TCDigitalFlyer\/5UIKit23UITraitChangeObservableP",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UITraitEnvironment",
-        "doc:\/\/TCDigitalFlyer\/objc(pl)UIUserActivityRestoring"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)NSCoding",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)NSObject",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)CALayerDelegate",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s7CVarArgP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8CopyableP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s23CustomStringConvertibleP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8SendableP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIAccessibilityIdentification",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIActivityItemsConfigurationProviding",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIAppearance",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIAppearanceContainer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UICollectionViewDataSource",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UICollectionViewDelegate",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UICoordinateSpace",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIDynamicItem",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIFocusEnvironment",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIFocusItem",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIFocusItemContainer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UILargeContentViewerItem",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIPasteConfigurationSupporting",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIPopoverPresentationControllerSourceItem",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIResponderStandardEditActions",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIScrollViewDelegate",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/5UIKit23UITraitChangeObservableP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UITraitEnvironment",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIUserActivityRestoring"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -174,37 +188,46 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Protocols",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate"
       ],
       "title" : "Protocols"
     },
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration"
       ],
       "title" : "Structures"
     },
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:publication:configuration:onEvent:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:publication:configuration:onEvent:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Enumerations",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection"
       ],
       "title" : "Enumerations"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDelegate-Implementations",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDelegate-Implementations",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -223,36 +246,36 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/5UIKit23UITraitChangeObservableP": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/5UIKit23UITraitChangeObservableP",
+"doc://tcdigitalflyer.TCDigitalFlyer/5UIKit23UITraitChangeObservableP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/5UIKit23UITraitChangeObservableP",
   "title" : "UIKit.UITraitChangeObservable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/SH": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/SH",
+"doc://tcdigitalflyer.TCDigitalFlyer/SH": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH",
   "title" : "Swift.Hashable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/SQ": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/SQ",
+"doc://tcdigitalflyer.TCDigitalFlyer/SQ": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
   "title" : "Swift.Equatable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
   "abstract" : [
     {
       "text" : "A custom view that displays the Digital Flyer.",
@@ -281,7 +304,7 @@
       "text" : "FlyerView"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -294,7 +317,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Configuration": {
   "abstract" : [
     {
       "text" : "The FlyerView configuration with defaults.",
@@ -315,7 +338,7 @@
       "text" : "Configuration"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -328,7 +351,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/configuration"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Delegate": {
   "abstract" : [
 
   ],
@@ -346,7 +369,7 @@
       "text" : "Delegate"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -359,7 +382,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/delegate"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event": {
   "abstract" : [
     {
       "text" : "The events that can be emitted by the FlyerView.",
@@ -380,7 +403,7 @@
       "text" : "Event"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -393,7 +416,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/ScrollDirection": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/ScrollDirection": {
   "abstract" : [
 
   ],
@@ -411,7 +434,7 @@
       "text" : "ScrollDirection"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -424,40 +447,40 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrolldirection"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "UICollectionViewDataSource Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/uicollectionviewdatasource-implementations"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDelegate-Implementations": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDelegate-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDelegate-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDelegate-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "UICollectionViewDelegate Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/uicollectionviewdelegate-implementations"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UIScrollViewDelegate-Implementations": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UIScrollViewDelegate-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "UIScrollViewDelegate Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/uiscrollviewdelegate-implementations"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:)": {
   "abstract" : [
     {
       "text" : "<#Description#>",
@@ -491,14 +514,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(frame:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/init(frame:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:publication:configuration:onEvent:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/init(frame:publication:configuration:onEvent:)": {
   "abstract" : [
     {
       "text" : "Creates a new FlyerView with the given parameters. The view will be empty until a publication is set.",
@@ -592,140 +615,145 @@
       "text" : ")?)"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:publication:configuration:onEvent:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:publication:configuration:onEvent:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(frame:publication:configuration:onEvent:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/init(frame:publication:configuration:onevent:)"
 },
-"doc://TCDigitalFlyer/objc(cs)UIView": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(cs)UIView",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(cs)UIView": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(cs)UIView",
   "title" : "UIKit.UIView",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)CALayerDelegate": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)CALayerDelegate",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)CALayerDelegate": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)CALayerDelegate",
   "title" : "QuartzCore.CALayerDelegate",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)NSCoding": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)NSCoding",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)NSCoding": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)NSCoding",
   "title" : "Foundation.NSCoding",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)NSObject": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)NSObject",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)NSObject",
   "title" : "ObjectiveC.NSObjectProtocol",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIAccessibilityIdentification": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIAccessibilityIdentification",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIAccessibilityIdentification": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIAccessibilityIdentification",
   "title" : "UIKit.UIAccessibilityIdentification",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIActivityItemsConfigurationProviding": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIActivityItemsConfigurationProviding",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIActivityItemsConfigurationProviding": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIActivityItemsConfigurationProviding",
   "title" : "UIKit.UIActivityItemsConfigurationProviding",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIAppearance": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIAppearance",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIAppearance": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIAppearance",
   "title" : "UIKit.UIAppearance",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIAppearanceContainer": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIAppearanceContainer",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIAppearanceContainer": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIAppearanceContainer",
   "title" : "UIKit.UIAppearanceContainer",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UICollectionViewDataSource": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UICollectionViewDataSource",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UICollectionViewDataSource": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UICollectionViewDataSource",
   "title" : "UIKit.UICollectionViewDataSource",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UICollectionViewDelegate": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UICollectionViewDelegate",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UICollectionViewDelegate": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UICollectionViewDelegate",
   "title" : "UIKit.UICollectionViewDelegate",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UICoordinateSpace": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UICoordinateSpace",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UICoordinateSpace": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UICoordinateSpace",
   "title" : "UIKit.UICoordinateSpace",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIDynamicItem": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIDynamicItem",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIDynamicItem": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIDynamicItem",
   "title" : "UIKit.UIDynamicItem",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIFocusEnvironment": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIFocusEnvironment",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIFocusEnvironment": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIFocusEnvironment",
   "title" : "UIKit.UIFocusEnvironment",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIFocusItem": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIFocusItem",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIFocusItem": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIFocusItem",
   "title" : "UIKit.UIFocusItem",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIFocusItemContainer": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIFocusItemContainer",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIFocusItemContainer": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIFocusItemContainer",
   "title" : "UIKit.UIFocusItemContainer",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UILargeContentViewerItem": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UILargeContentViewerItem",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UILargeContentViewerItem": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UILargeContentViewerItem",
   "title" : "UIKit.UILargeContentViewerItem",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIPasteConfigurationSupporting": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIPasteConfigurationSupporting",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIPasteConfigurationSupporting": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIPasteConfigurationSupporting",
   "title" : "UIKit.UIPasteConfigurationSupporting",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIPopoverPresentationControllerSourceItem": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIPopoverPresentationControllerSourceItem",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIPopoverPresentationControllerSourceItem": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIPopoverPresentationControllerSourceItem",
   "title" : "UIKit.UIPopoverPresentationControllerSourceItem",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIResponderStandardEditActions": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIResponderStandardEditActions",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIResponderStandardEditActions": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIResponderStandardEditActions",
   "title" : "UIKit.UIResponderStandardEditActions",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIScrollViewDelegate": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIScrollViewDelegate",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIScrollViewDelegate": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIScrollViewDelegate",
   "title" : "UIKit.UIScrollViewDelegate",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UITraitEnvironment": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UITraitEnvironment",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UITraitEnvironment": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UITraitEnvironment",
   "title" : "UIKit.UITraitEnvironment",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/objc(pl)UIUserActivityRestoring": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/objc(pl)UIUserActivityRestoring",
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIUserActivityRestoring": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIUserActivityRestoring",
   "title" : "UIKit.UIUserActivityRestoring",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/s23CustomStringConvertibleP": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/s23CustomStringConvertibleP",
+"doc://tcdigitalflyer.TCDigitalFlyer/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s23CustomStringConvertibleP",
   "title" : "Swift.CustomStringConvertible",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/s28CustomDebugStringConvertibleP": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/s28CustomDebugStringConvertibleP",
+"doc://tcdigitalflyer.TCDigitalFlyer/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s28CustomDebugStringConvertibleP",
   "title" : "Swift.CustomDebugStringConvertible",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/s7CVarArgP": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/s7CVarArgP",
+"doc://tcdigitalflyer.TCDigitalFlyer/s7CVarArgP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s7CVarArgP",
   "title" : "Swift.CVarArg",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/s8SendableP": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/s8SendableP",
+"doc://tcdigitalflyer.TCDigitalFlyer/s8CopyableP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/s8SendableP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8SendableP",
   "title" : "Swift.Sendable",
   "type" : "unresolvable"
 }

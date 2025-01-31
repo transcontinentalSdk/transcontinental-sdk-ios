@@ -8,14 +8,14 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/publicationNotFound"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/publicationNotFound"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -95,21 +95,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError": {
   "abstract" : [
     {
       "text" : "The set of errors that can be thrown by the SDK",
@@ -130,7 +130,7 @@
       "text" : "DFError"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -143,7 +143,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/dferror"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/publicationNotFound": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/publicationNotFound": {
   "abstract" : [
     {
       "text" : "The request was not found, typically due to an invalid publication id",
@@ -164,7 +164,7 @@
       "text" : "publicationNotFound"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/publicationNotFound",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/publicationNotFound",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "DFError.publicationNotFound",

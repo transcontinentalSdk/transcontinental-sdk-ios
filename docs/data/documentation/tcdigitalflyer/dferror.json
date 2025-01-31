@@ -8,13 +8,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -81,10 +81,10 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/SQ",
-        "doc:\/\/TCDigitalFlyer\/s5ErrorP",
-        "doc:\/\/TCDigitalFlyer\/SH",
-        "doc:\/\/TCDigitalFlyer\/s8SendableP"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s5ErrorP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8SendableP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -101,22 +101,25 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/invalid",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingBanner",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingClient",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingSubscriptionKey",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/notFound",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/publicationNotFound",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/unauthorized"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/invalid",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingBanner",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingClient",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingSubscriptionKey",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/notFound",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/publicationNotFound",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/unauthorized"
       ],
       "title" : "Enumeration Cases"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Equatable-Implementations",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Error-Implementations"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Equatable-Implementations",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Error-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -135,31 +138,31 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/SH": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/SH",
+"doc://tcdigitalflyer.TCDigitalFlyer/SH": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH",
   "title" : "Swift.Hashable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/SQ": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/SQ",
+"doc://tcdigitalflyer.TCDigitalFlyer/SQ": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
   "title" : "Swift.Equatable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError": {
   "abstract" : [
     {
       "text" : "The set of errors that can be thrown by the SDK",
@@ -180,7 +183,7 @@
       "text" : "DFError"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -193,29 +196,29 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/dferror"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/Equatable-Implementations": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/Equatable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Equatable-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Equatable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Equatable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/dferror\/equatable-implementations"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/Error-Implementations": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/Error-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Error-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Error-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Error Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/dferror\/error-implementations"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/invalid": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/invalid": {
   "abstract" : [
     {
       "text" : "A catch-all for any other error",
@@ -236,21 +239,21 @@
       "text" : "invalid"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/invalid",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/invalid",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "DFError.invalid",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/dferror\/invalid"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/missingBanner": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/missingBanner": {
   "abstract" : [
     {
       "text" : "The banner is empty during ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
       "isActive" : true,
       "type" : "reference"
     },
@@ -273,21 +276,21 @@
       "text" : "missingBanner"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingBanner",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingBanner",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "DFError.missingBanner",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/dferror\/missingbanner"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/missingClient": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/missingClient": {
   "abstract" : [
     {
       "text" : "The client is missing during ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
       "isActive" : true,
       "type" : "reference"
     },
@@ -310,21 +313,21 @@
       "text" : "missingClient"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingClient",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingClient",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "DFError.missingClient",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/dferror\/missingclient"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/missingSubscriptionKey": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/missingSubscriptionKey": {
   "abstract" : [
     {
       "text" : "The subscription key is missing during ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
       "isActive" : true,
       "type" : "reference"
     },
@@ -347,14 +350,14 @@
       "text" : "missingSubscriptionKey"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingSubscriptionKey",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingSubscriptionKey",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "DFError.missingSubscriptionKey",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/dferror\/missingsubscriptionkey"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/notFound": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/notFound": {
   "abstract" : [
     {
       "text" : "The request resulted in a 404 not found, typically due to an invalid publication id",
@@ -375,14 +378,14 @@
       "text" : "notFound"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/notFound",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/notFound",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "DFError.notFound",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/dferror\/notfound"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/publicationNotFound": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/publicationNotFound": {
   "abstract" : [
     {
       "text" : "The request was not found, typically due to an invalid publication id",
@@ -403,14 +406,14 @@
       "text" : "publicationNotFound"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/publicationNotFound",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/publicationNotFound",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "DFError.publicationNotFound",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/dferror\/publicationnotfound"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/unauthorized": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/unauthorized": {
   "abstract" : [
     {
       "text" : "The request was not authorized, typically due to an invalid subscription key",
@@ -431,14 +434,14 @@
       "text" : "unauthorized"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/unauthorized",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/unauthorized",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "DFError.unauthorized",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/dferror\/unauthorized"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
   "abstract" : [
     {
       "text" : "The entry-point for interacting with the SDK.",
@@ -459,7 +462,7 @@
       "text" : "DigitalFlyer"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -472,13 +475,13 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/digitalflyer"
 },
-"doc://TCDigitalFlyer/s5ErrorP": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/s5ErrorP",
+"doc://tcdigitalflyer.TCDigitalFlyer/s5ErrorP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s5ErrorP",
   "title" : "Swift.Error",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/s8SendableP": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/s8SendableP",
+"doc://tcdigitalflyer.TCDigitalFlyer/s8SendableP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8SendableP",
   "title" : "Swift.Sendable",
   "type" : "unresolvable"
 }

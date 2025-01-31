@@ -16,14 +16,14 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -98,38 +98,48 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Protocols",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block"
       ],
       "title" : "Protocols"
     },
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Header-swift.struct"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Header-swift.struct"
       ],
       "title" : "Structures"
     },
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/init(grid:content:header:footer:pageNumber:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/init(grid:content:header:footer:pageNumber:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/content-swift.property",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/footer-swift.property",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/grid",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/header-swift.property",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/pageNumber"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/content-swift.property",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/footer-swift.property",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/grid",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/header-swift.property",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/pageNumber"
       ],
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Enumerations",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType"
       ],
       "title" : "Enumerations"
     }
@@ -148,28 +158,28 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
   "abstract" : [
     {
       "text" : "The primary ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
       "isActive" : true,
       "type" : "reference"
     },
@@ -216,7 +226,7 @@
       "text" : "Publication"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -229,7 +239,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
   "abstract" : [
     {
       "text" : "A page within a ",
@@ -258,7 +268,7 @@
       "text" : "Page"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -271,7 +281,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Block": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Block": {
   "abstract" : [
 
   ],
@@ -289,7 +299,7 @@
       "text" : "Block"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -302,7 +312,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/block"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/BlockType": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/BlockType": {
   "abstract" : [
 
   ],
@@ -320,7 +330,7 @@
       "text" : "BlockType"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -333,14 +343,14 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/blocktype"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Content-swift.struct": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Content-swift.struct": {
   "abstract" : [
     {
       "text" : "A page-centric container for a list of ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block",
       "isActive" : true,
       "type" : "reference"
     },
@@ -365,7 +375,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Header-swift.struct",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Header-swift.struct",
       "isActive" : true,
       "type" : "reference"
     },
@@ -374,7 +384,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
       "isActive" : true,
       "type" : "reference"
     },
@@ -397,7 +407,7 @@
       "text" : "Content"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -410,7 +420,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/content-swift.struct"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Footer-swift.struct": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Footer-swift.struct": {
   "abstract" : [
     {
       "text" : "The footer of a ",
@@ -425,7 +435,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct",
       "isActive" : true,
       "type" : "reference"
     },
@@ -450,7 +460,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct",
       "isActive" : true,
       "type" : "reference"
     },
@@ -473,7 +483,7 @@
       "text" : "Footer"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -486,7 +496,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.struct"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Footer-swift.struct/Basebar-swift.struct": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Footer-swift.struct/Basebar-swift.struct": {
   "abstract" : [
     {
       "text" : "The basebar of a ",
@@ -501,7 +511,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct",
       "isActive" : true,
       "type" : "reference"
     },
@@ -524,7 +534,7 @@
       "text" : "Basebar"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -537,7 +547,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.struct\/basebar-swift.struct"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Header-swift.struct": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Header-swift.struct": {
   "abstract" : [
     {
       "text" : "The header of a ",
@@ -566,7 +576,7 @@
       "text" : "Header"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Header-swift.struct",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Header-swift.struct",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -579,7 +589,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/header-swift.struct"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/content-swift.property": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/content-swift.property": {
   "abstract" : [
     {
       "text" : "The content of the page.",
@@ -609,14 +619,14 @@
       "text" : "Content"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/content-swift.property",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/content-swift.property",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "content",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/content-swift.property"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/footer-swift.property": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/footer-swift.property": {
   "abstract" : [
     {
       "text" : "The footer of the page, if any.",
@@ -650,14 +660,14 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/footer-swift.property",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/footer-swift.property",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "footer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/footer-swift.property"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/grid": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/grid": {
   "abstract" : [
     {
       "text" : "The grid of items on the page.",
@@ -687,14 +697,14 @@
       "text" : "Grid"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/grid",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/grid",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "grid",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/grid"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/header-swift.property": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/header-swift.property": {
   "abstract" : [
     {
       "text" : "The header of the page, if any.",
@@ -728,14 +738,14 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/header-swift.property",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/header-swift.property",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "header",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/header-swift.property"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/init(grid:content:header:footer:pageNumber:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/init(grid:content:header:footer:pageNumber:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -845,14 +855,14 @@
       "text" : "?)"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/init(grid:content:header:footer:pageNumber:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/init(grid:content:header:footer:pageNumber:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(grid:content:header:footer:pageNumber:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/init(grid:content:header:footer:pagenumber:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/pageNumber": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/pageNumber": {
   "abstract" : [
     {
       "text" : "The page number, if any.",
@@ -886,7 +896,7 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/pageNumber",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/pageNumber",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "pageNumber",

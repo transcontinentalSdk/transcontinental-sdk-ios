@@ -16,13 +16,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -96,15 +96,19 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/clickRegions",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/sku"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/clickRegions",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/sku"
       ],
       "title" : "Instance Properties"
     }
@@ -123,21 +127,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion": {
   "abstract" : [
     {
       "text" : "Click regions of a product inside a block.",
@@ -166,7 +170,7 @@
       "text" : "ClickRegion"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -179,7 +183,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickregion"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct": {
   "abstract" : [
     {
       "text" : "A product, within a ",
@@ -208,7 +212,7 @@
       "text" : "ClickableProduct"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -221,14 +225,14 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickableproduct"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct/clickRegions": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct/clickRegions": {
   "abstract" : [
     {
       "text" : "A list of ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion",
       "isActive" : true,
       "type" : "reference"
     },
@@ -272,14 +276,14 @@
       "text" : "]"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/clickRegions",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/clickRegions",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "clickRegions",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickableproduct\/clickregions"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct/init(sku:clickRegions:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct/init(sku:clickRegions:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -338,14 +342,14 @@
       "text" : "])"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(sku:clickRegions:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickableproduct\/init(sku:clickregions:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct/sku": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct/sku": {
   "abstract" : [
     {
       "text" : "The SKU (product identifier).",
@@ -375,7 +379,7 @@
       "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/sku",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/sku",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "sku",

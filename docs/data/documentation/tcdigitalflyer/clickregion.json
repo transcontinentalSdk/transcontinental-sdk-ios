@@ -16,13 +16,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -89,7 +89,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/SQ"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -106,24 +106,29 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/init(x:y:width:height:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/init(x:y:width:height:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/height",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/width",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/x",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/y"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/height",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/width",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/x",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/y"
       ],
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/Equatable-Implementations"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/Equatable-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -142,26 +147,26 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/SQ": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/SQ",
+"doc://tcdigitalflyer.TCDigitalFlyer/SQ": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
   "title" : "Swift.Equatable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion": {
   "abstract" : [
     {
       "text" : "Click regions of a product inside a block.",
@@ -190,7 +195,7 @@
       "text" : "ClickRegion"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -203,18 +208,18 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickregion"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/Equatable-Implementations": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/Equatable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/Equatable-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/Equatable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Equatable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickregion\/equatable-implementations"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/height": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/height": {
   "abstract" : [
 
   ],
@@ -241,14 +246,14 @@
       "text" : "Double"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/height",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/height",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "height",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickregion\/height"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/init(x:y:width:height:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/init(x:y:width:height:)": {
   "abstract" : [
 
   ],
@@ -330,14 +335,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/init(x:y:width:height:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/init(x:y:width:height:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(x:y:width:height:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickregion\/init(x:y:width:height:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/width": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/width": {
   "abstract" : [
 
   ],
@@ -364,14 +369,14 @@
       "text" : "Double"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/width",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/width",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "width",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickregion\/width"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/x": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/x": {
   "abstract" : [
 
   ],
@@ -398,14 +403,14 @@
       "text" : "Double"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/x",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/x",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "x",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickregion\/x"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/y": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/y": {
   "abstract" : [
 
   ],
@@ -432,7 +437,7 @@
       "text" : "Double"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/y",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/y",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "y",

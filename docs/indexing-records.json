@@ -7,45 +7,13 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/!=(_:_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
-    "summary" : "Inherited from Equatable.!=(_:_:).",
-    "title" : "!=(_:_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/url(_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "A product’s click region was tapped - an internal or external link is emitted. ",
-    "summary" : "A product’s click region was tapped - an internal or external link is emitted.",
-    "title" : "FlyerView.Event.url(_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/info(_:)"
       },
       "type" : "topLevelPage"
     },
     "rawIndexableTextContent" : " ",
     "summary" : "",
-    "title" : "Environment.live"
+    "title" : "info(_:)"
   },
   {
     "headings" : [
@@ -55,657 +23,13 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingClient"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The client is missing during DigitalFlyer initialization ",
-    "summary" : "The client is missing during DigitalFlyer initialization",
-    "title" : "DFError.missingClient"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The set of errors that can be thrown by the SDK ",
-    "summary" : "The set of errors that can be thrown by the SDK",
-    "title" : "DFError"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "article",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Equatable-Implementations"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "",
-    "summary" : "",
-    "title" : "Equatable Implementations"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct\/init(blocks:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Initializes a new Publication.Page.Content object with the specified parameters. ",
-    "summary" : "Initializes a new Publication.Page.Content object with the specified parameters.",
-    "title" : "init(blocks:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/image"
       },
       "type" : "topLevelPage"
     },
     "rawIndexableTextContent" : " ",
     "summary" : "",
-    "title" : "FlyerView.Delegate"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The FlyerView configuration with defaults. ",
-    "summary" : "The FlyerView configuration with defaults.",
-    "title" : "FlyerView.Configuration"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Header-swift.struct"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The header of a Publication.Page (currently unused) ",
-    "summary" : "The header of a Publication.Page (currently unused)",
-    "title" : "Publication.Page.Header"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/sku"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The SKU (product identifier). ",
-    "summary" : "The SKU (product identifier).",
-    "title" : "sku"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/getPublication(from:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Retrieve the full Publication, including attributes and page content.  The Publication’s attributes, typically returned via listPublications(storeId:language:date:)",
-    "summary" : "Retrieve the full Publication, including attributes and page content.",
-    "title" : "getPublication(from:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/aspectRatio"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The aspect ratio of this Publication.Page.Footer.Basebars image. This is used to determine the width\/height (secondary axis) of the Publication.Page.Footer.Basebar. ",
-    "summary" : "The aspect ratio of this Publication.Page.Footer.Basebars image. This is used to determine the width\/height (secondary axis) of the Publication.Page.Footer.Basebar.",
-    "title" : "aspectRatio"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "Publication.Page.BlockType"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/french"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "Language.french"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/!=(_:_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
-    "summary" : "Inherited from Equatable.!=(_:_:).",
-    "title" : "!=(_:_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The events that can be emitted by the FlyerView. ",
-    "summary" : "The events that can be emitted by the FlyerView.",
-    "title" : "FlyerView.Event"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "article",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection\/Equatable-Implementations"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "",
-    "summary" : "",
-    "title" : "Equatable Implementations"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/header-swift.property"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The header of the page, if any. ",
-    "summary" : "The header of the page, if any.",
-    "title" : "header"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "article",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "",
-    "summary" : "",
-    "title" : "UIScrollViewDelegate Implementations"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/categories"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "categories"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/init(rows:columns:aspectRatio:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Initializes a new Publication.Page.Grid object with the specified parameters. ",
-    "summary" : "Initializes a new Publication.Page.Grid object with the specified parameters.",
-    "title" : "init(rows:columns:aspectRatio:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/id"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from Identifiable.id. ",
-    "summary" : "Inherited from Identifiable.id.",
-    "title" : "id"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/language"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The language that this Publication is displayed in. This is the value that is passed in to listPublications ",
-    "summary" : "The language that this Publication is displayed in. This is the value that is passed in to listPublications",
-    "title" : "language"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/init(showHeader:headerHeight:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Creates a new configuration with the given parameters. ",
-    "summary" : "Creates a new configuration with the given parameters.",
-    "title" : "init(showHeader:headerHeight:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/logoUrl"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "A URL to the for the Banner’s logo image ",
-    "summary" : "A URL to the for the Banner’s logo image",
-    "title" : "logoUrl"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The grid of items on a Publication.Page. ",
-    "summary" : "The grid of items on a Publication.Page.",
-    "title" : "Grid"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/numberOfSections(in:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from UICollectionViewDataSource.numberOfSections(in:). ",
-    "summary" : "Inherited from UICollectionViewDataSource.numberOfSections(in:).",
-    "title" : "numberOfSections(in:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/!=(_:_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
-    "summary" : "Inherited from Equatable.!=(_:_:).",
-    "title" : "!=(_:_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/english"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "Language.english"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/listPublications(storeId:language:date:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Retrieve a list of all active publications.  The store’s identifier The Publication’s display Language (defaults to english) The date to search for available Publications (defaults to today)",
-    "summary" : "Retrieve a list of all active publications.",
-    "title" : "listPublications(storeId:language:date:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:didScroll:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "flyerView(_:didScroll:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block\/type"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "type"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/init(categories:discounts:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "init(categories:discounts:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from UICollectionViewDataSource.collectionView(_:numberOfItemsInSection:). ",
-    "summary" : "Inherited from UICollectionViewDataSource.collectionView(_:numberOfItemsInSection:).",
-    "title" : "collectionView(_:numberOfItemsInSection:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/init(x:y:width:height:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "init(x:y:width:height:)"
-  },
-  {
-    "headings" : [
-      "Overview",
-      "Authentication",
-      "macOS Keychain",
-      "netrc",
-      "Package.swift"
-    ],
-    "kind" : "article",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/installation"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Using SPM to install the SDK as a binary target. Overview The latest iOS XCFramework resides in a private repository, accessible through Swift Package Manager. Upon registering your application with Transcontinental, you’ll receive an authentication token to download the SDK. Authentication The original mechanism to retrieve the SDK from a private SPM repository was to use a netrc file, however this broke in XCode 14.3. As of XCode 15, the primary authentication mechanism is to use the macOS Keychain. macOS Keychain The following steps will add your authentication details to the Keychain: Open the Keychain Access application (located in \/Applications\/Utilities\/Keychain Access.app) Create a new entry by clicking File > New Password Item (or ⌘N) Enter https:\/\/transfer.tds.transcontinental.ca as the Keychain Item Name (this is the URL of the private repository, and the https:\/\/ is required) Enter the provided authentication login as the Account Name Enter the provided authentication password as the Password Click Add netrc The netrc authentication method is used as a fallback for older versions of XCode, or if the macOS Keychain method cannot be used. Save your authentication details in a .netrc file located in your home directory (~\/.netrc). Replace my-authentication-login and my-authentication-password with the credentials provided to you:  Package.swift The Transcontinental (TC) SDK Package.swift file connects to the private XCFramework as a binaryTarget. Swift Package Manager uses netrc internally to download private binaries.  Add the dependency to your Package.swift or Package Dependencies (if using XCode for package management): ",
-    "summary" : "Using SPM to install the SDK as a binary target.",
-    "title" : "Installation"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions\/init(discount:categories:subCategories:searchText:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "init(discount:categories:subCategories:searchText:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "FilterOptions"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/init(rawValue:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from RawRepresentable.init(rawValue:). ",
-    "summary" : "Inherited from RawRepresentable.init(rawValue:).",
-    "title" : "init(rawValue:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/getPublication(from:completion:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Retrieve the full Publication, including attributes and page content.  The Publication’s attributes, typically returned via listPublications(storeId:language:date:completion:) A closure that returns a Publication. This closure runs on the main DispatchQueue. A failure in retrieving the Publication is indicated by TODO",
-    "summary" : "Retrieve the full Publication, including attributes and page content.",
-    "title" : "getPublication(from:completion:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/grid"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The grid of items on the page. ",
-    "summary" : "The grid of items on the page.",
-    "title" : "grid"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/headerHeight"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "headerHeight"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/!=(_:_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
-    "summary" : "Inherited from Equatable.!=(_:_:).",
-    "title" : "!=(_:_:)"
+    "title" : "Publication.Page.BlockType.image"
   },
   {
     "headings" : [
@@ -720,7 +44,7 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/using-the-sdk"
       },
       "type" : "topLevelPage"
     },
@@ -732,732 +56,11 @@
     "headings" : [
 
     ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "FlyerView.ScrollDirection"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewShouldScrollToTop(_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.scrollViewShouldScrollToTop(_:). ",
-    "summary" : "Inherited from UIScrollViewDelegate.scrollViewShouldScrollToTop(_:).",
-    "title" : "scrollViewShouldScrollToTop(_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/invalid"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "A catch-all for any other error ",
-    "summary" : "A catch-all for any other error",
-    "title" : "DFError.invalid"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/id"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "A non-globally-stable (unique and stable per-publish only) identifier for the Publication ",
-    "summary" : "A non-globally-stable (unique and stable per-publish only) identifier for the Publication",
-    "title" : "id"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/init(imageUrl:aspectRatio:products:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Initializes a new Publication.Page.Footer.Basebar object with the specified parameters. ",
-    "summary" : "Initializes a new Publication.Page.Footer.Basebar object with the specified parameters.",
-    "title" : "init(imageUrl:aspectRatio:products:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/title"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "A short, alphanumeric identifier for the Publication. Also known as “deal” (e.g. “ABC123”) ",
-    "summary" : "A short, alphanumeric identifier for the Publication. Also known as “deal” (e.g. “ABC123”)",
-    "title" : "title"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The API environments supported by the SDK ",
-    "summary" : "The API environments supported by the SDK",
-    "title" : "Environment"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/!=(_:_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
-    "summary" : "Inherited from Equatable.!=(_:_:).",
-    "title" : "!=(_:_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The basebar of a Publication.Page. When present, this is a full-width image that is pinned to the top of the Publication.Page.Footer. ",
-    "summary" : "The basebar of a Publication.Page. When present, this is a full-width image that is pinned to the top of the Publication.Page.Footer.",
-    "title" : "Publication.Page.Footer.Basebar"
-  },
-  {
-    "headings" : [
-
-    ],
     "kind" : "article",
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/RawRepresentable-Implementations"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "",
-    "summary" : "",
-    "title" : "RawRepresentable Implementations"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listPublications(storeId:language:date:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Retrieve a list of all active publications.  The store’s identifier The Publication’s display Language (defaults to english) The date to search for available Publications (defaults to today) A closure that returns Publication.Attributes for the available Publications. This closure runs on the main DispatchQueue. An empty list indicates a successful request, but there are no active publications based on the input parameters. A failure in retrieving publications is indicated by TODO",
-    "summary" : "Retrieve a list of all active publications.",
-    "title" : "listPublications(storeId:language:date:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/init(attributes:pages:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "<#Description#>  <#attributes description#> <#pages description#>",
-    "summary" : "<#Description#>",
-    "title" : "init(attributes:pages:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:with:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "getPublication(from:with:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection\/none"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "FlyerView.ScrollDirection.none"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewWillBeginZooming(_:with:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.scrollViewWillBeginZooming(_:with:). ",
-    "summary" : "Inherited from UIScrollViewDelegate.scrollViewWillBeginZooming(_:with:).",
-    "title" : "scrollViewWillBeginZooming(_:with:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category\/init(title:subcategories:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "init(title:subcategories:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/verbose(_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "verbose(_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/hash(into:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from RawRepresentable.hash(into:). ",
-    "summary" : "Inherited from RawRepresentable.hash(into:).",
-    "title" : "hash(into:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "<#Description#>  <#frame description#>",
-    "summary" : "<#Description#>",
-    "title" : "init(frame:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The footer of a Publication.Page. Typically this is where Publication.Page.Footer.Basebars and Disclaimers are displayed. Footers are page-width, pinned to the bottom of the page (below the Publication.Page.Content). ",
-    "summary" : "The footer of a Publication.Page. Typically this is where Publication.Page.Footer.Basebars and Disclaimers are displayed. Footers are page-width, pinned to the bottom of the page (below the Publication.Page.Content).",
-    "title" : "Publication.Page.Footer"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listFilters(for:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "listFilters(for:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/carousel"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "Publication.Page.BlockType.carousel"
-  },
-  {
-    "headings" : [
-      "Overview"
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "A custom view that displays the Digital Flyer. This view is the entrypoint for the Digital Flyer.  Overview Example usage: ",
-    "summary" : "A custom view that displays the Digital Flyer. This view is the entrypoint for the Digital Flyer.",
-    "title" : "FlyerView"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/notFound"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The request resulted in a 404 not found, typically due to an invalid publication id ",
-    "summary" : "The request resulted in a 404 not found, typically due to an invalid publication id",
-    "title" : "DFError.notFound"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/debug(_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "debug(_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "A logger that can be injected to log messages from the DigitalFlyer. ",
-    "summary" : "A logger that can be injected to log messages from the DigitalFlyer.",
-    "title" : "Logger"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingBanner"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The banner is empty during DigitalFlyer initialization ",
-    "summary" : "The banner is empty during DigitalFlyer initialization",
-    "title" : "DFError.missingBanner"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block\/rowSpan"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "rowSpan"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/publicationNotFound"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The request was not found, typically due to an invalid publication id ",
-    "summary" : "The request was not found, typically due to an invalid publication id",
-    "title" : "DFError.publicationNotFound"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "Publication.Page.Block"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "A page-centric container for a list of Publication.Page.Blocks. The content occupies the majority of the visible area of a page, and is located between the Publication.Page.Header and Publication.Page.Footer. ",
-    "summary" : "A page-centric container for a list of Publication.Page.Blocks. The content occupies the majority of the visible area of a page, and is located between the Publication.Page.Header and Publication.Page.Footer.",
-    "title" : "Publication.Page.Content"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:cellForItemAt:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from UICollectionViewDataSource.collectionView(_:cellForItemAt:). ",
-    "summary" : "Inherited from UICollectionViewDataSource.collectionView(_:cellForItemAt:).",
-    "title" : "collectionView(_:cellForItemAt:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/storeId"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The store that this Publication is associated with. This is the value that is passed in to listPublications ",
-    "summary" : "The store that this Publication is associated with. This is the value that is passed in to listPublications",
-    "title" : "storeId"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "Filters.Category"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/uat"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "Environment.uat"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:didSelectItemAt:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from UICollectionViewDelegate.collectionView(_:didSelectItemAt:). ",
-    "summary" : "Inherited from UICollectionViewDelegate.collectionView(_:didSelectItemAt:).",
-    "title" : "collectionView(_:didSelectItemAt:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/hashValue"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from RawRepresentable.hashValue. ",
-    "summary" : "Inherited from RawRepresentable.hashValue.",
-    "title" : "hashValue"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/footer-swift.property"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The footer of the page, if any. ",
-    "summary" : "The footer of the page, if any.",
-    "title" : "footer"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Click regions of a product inside a block. These values are percentages of the block’s width and height. ",
-    "summary" : "Click regions of a product inside a block. These values are percentages of the block’s width and height.",
-    "title" : "ClickRegion"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/init(basebar:disclaimer:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Initializes a new Publication.Page.Footer object with the specified parameters. ",
-    "summary" : "Initializes a new Publication.Page.Footer object with the specified parameters.",
-    "title" : "init(basebar:disclaimer:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Initializes a new Publication.Attributes object with the specified parameters. ",
-    "summary" : "Initializes a new Publication.Attributes object with the specified parameters.",
-    "title" : "init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:pageDidChangeTo:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Zero-based indexing for pageDidChange value - consumers will likely want to add 1 before display ",
-    "summary" : "Zero-based indexing for pageDidChange value - consumers will likely want to add 1 before display",
-    "title" : "flyerView(_:pageDidChangeTo:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/startDate"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The date at which the Publication becomes available (midnight local time) ",
-    "summary" : "The date at which the Publication becomes available (midnight local time)",
-    "title" : "startDate"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/disclaimer"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The disclaimer of a Publication.Page. When present, this is a text string that is pinned to the bottom of the Publication.Page.Footer. ",
-    "summary" : "The disclaimer of a Publication.Page. When present, this is a text string that is pinned to the bottom of the Publication.Page.Footer.",
-    "title" : "disclaimer"
-  },
-  {
-    "headings" : [
-      "Getting Started",
-      "Minimum Requirements"
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information. Getting Started The SDK can be installed using Swift Package Manager following the instructions at Installation, followed by Using the SDK for a quick summary of interacting with the SDK. Upgrading from a previous version? Use the Migration Guide. Minimum Requirements XCode (>= 15.0) iOS (>= 13.0)",
-    "summary" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
-    "title" : "TCDigitalFlyer"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "article",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/Equatable-Implementations"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions\/Equatable-Implementations"
       },
       "type" : "topLevelPage"
     },
@@ -1473,199 +76,7 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndDecelerating(_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.scrollViewDidEndDecelerating(_:). ",
-    "summary" : "Inherited from UIScrollViewDelegate.scrollViewDidEndDecelerating(_:).",
-    "title" : "scrollViewDidEndDecelerating(_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/showHeader"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Whether to show the Header on the first page. ",
-    "summary" : "Whether to show the Header on the first page.",
-    "title" : "showHeader"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/height"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "height"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/error(_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "error(_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/attributes-swift.property"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "<#Description#> ",
-    "summary" : "<#Description#>",
-    "title" : "attributes"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/video"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "Publication.Page.BlockType.video"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The languages supported by the SDK ",
-    "summary" : "The languages supported by the SDK",
-    "title" : "Language"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/init(grid:content:header:footer:pageNumber:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Initializes a new Publication.Page object with the specified parameters. ",
-    "summary" : "Initializes a new Publication.Page object with the specified parameters.",
-    "title" : "init(grid:content:header:footer:pageNumber:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingSubscriptionKey"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The subscription key is missing during DigitalFlyer initialization ",
-    "summary" : "The subscription key is missing during DigitalFlyer initialization",
-    "title" : "DFError.missingSubscriptionKey"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/thumbnailUrl"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "A URL to this Publication’s thumbnail image ",
-    "summary" : "A URL to this Publication’s thumbnail image",
-    "title" : "thumbnailUrl"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/aspectRatio"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "aspectRatio"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "article",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/Equatable-Implementations"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "",
-    "summary" : "",
-    "title" : "Equatable Implementations"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/content-swift.property"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/content-swift.property"
       },
       "type" : "topLevelPage"
     },
@@ -1681,13 +92,13 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category\/subcategories"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category\/title"
       },
       "type" : "topLevelPage"
     },
     "rawIndexableTextContent" : " ",
     "summary" : "",
-    "title" : "subcategories"
+    "title" : "title"
   },
   {
     "headings" : [
@@ -1697,13 +108,13 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/!=(_:_:)"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/init(showHeader:headerHeight:)"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
-    "summary" : "Inherited from Equatable.!=(_:_:).",
-    "title" : "!=(_:_:)"
+    "rawIndexableTextContent" : "Creates a new configuration with the given parameters. ",
+    "summary" : "Creates a new configuration with the given parameters.",
+    "title" : "init(showHeader:headerHeight:)"
   },
   {
     "headings" : [
@@ -1713,13 +124,13 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/flyerTitle"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : "A user-friendly, localized title for the Publication (e.g. “Weekly Flyer”) ",
-    "summary" : "A user-friendly, localized title for the Publication (e.g. “Weekly Flyer”)",
-    "title" : "flyerTitle"
+    "rawIndexableTextContent" : "The set of errors that can be thrown by the SDK ",
+    "summary" : "The set of errors that can be thrown by the SDK",
+    "title" : "DFError"
   },
   {
     "headings" : [
@@ -1729,29 +140,29 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/getPublication(from:with:)"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : "Inherited from Flyerable.getPublication(from:with:). ",
-    "summary" : "Inherited from Flyerable.getPublication(from:with:).",
-    "title" : "getPublication(from:with:)"
+    "rawIndexableTextContent" : "Inherited from UICollectionViewDataSource.collectionView(_:numberOfItemsInSection:). ",
+    "summary" : "Inherited from UICollectionViewDataSource.collectionView(_:numberOfItemsInSection:).",
+    "title" : "collectionView(_:numberOfItemsInSection:)"
   },
   {
     "headings" : [
 
     ],
-    "kind" : "symbol",
+    "kind" : "article",
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/clickRegions"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/RawRepresentable-Implementations"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : "A list of ClickRegions representing the locations in the Block that should associate to the product. ",
-    "summary" : "A list of ClickRegions representing the locations in the Block that should associate to the product.",
-    "title" : "clickRegions"
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "RawRepresentable Implementations"
   },
   {
     "headings" : [
@@ -1761,13 +172,13 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions"
       },
       "type" : "topLevelPage"
     },
     "rawIndexableTextContent" : " ",
     "summary" : "",
-    "title" : "Filters"
+    "title" : "FilterOptions"
   },
   {
     "headings" : [
@@ -1777,23 +188,7 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "Flyerable"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/width"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/width"
       },
       "type" : "topLevelPage"
     },
@@ -1809,29 +204,13 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/imageUrl"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/categories"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : "The URL for this Publication.Page.Footer.Basebars image. ",
-    "summary" : "The URL for this Publication.Page.Footer.Basebars image.",
-    "title" : "imageUrl"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "article",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "",
+    "rawIndexableTextContent" : " ",
     "summary" : "",
-    "title" : "UICollectionViewDataSource Implementations"
+    "title" : "categories"
   },
   {
     "headings" : [
@@ -1841,7 +220,439 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/localizedDescription"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/headerHeight"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "headerHeight"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The FlyerView configuration with defaults. ",
+    "summary" : "The FlyerView configuration with defaults.",
+    "title" : "FlyerView.Configuration"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/sku(_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A product’s click region was tapped - a SKU is emitted. ",
+    "summary" : "A product’s click region was tapped - a SKU is emitted.",
+    "title" : "FlyerView.Event.sku(_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/title"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A short, alphanumeric identifier for the Publication. Also known as “deal” (e.g. “ABC123”) ",
+    "summary" : "A short, alphanumeric identifier for the Publication. Also known as “deal” (e.g. “ABC123”)",
+    "title" : "title"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/!=(_:_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
+    "summary" : "Inherited from Equatable.!=(_:_:).",
+    "title" : "!=(_:_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/!=(_:_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
+    "summary" : "Inherited from Equatable.!=(_:_:).",
+    "title" : "!=(_:_:)"
+  },
+  {
+    "headings" : [
+      "Overview"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A custom view that displays the Digital Flyer. This view is the entrypoint for the Digital Flyer.  Overview Example usage: ",
+    "summary" : "A custom view that displays the Digital Flyer. This view is the entrypoint for the Digital Flyer.",
+    "title" : "FlyerView"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection\/!=(_:_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
+    "summary" : "Inherited from Equatable.!=(_:_:).",
+    "title" : "!=(_:_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/filters"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The set of Filters applied to make this Publication - this is required because there isn’t any other information returned from the API to inform the consumer that this is a filtered Publication, rather than the original one ",
+    "summary" : "The set of Filters applied to make this Publication - this is required because there isn’t any other information returned from the API to inform the consumer that this is a filtered Publication, rather than the original one",
+    "title" : "filters"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/id"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from Identifiable.id. ",
+    "summary" : "Inherited from Identifiable.id.",
+    "title" : "id"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/hash(into:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from RawRepresentable.hash(into:). ",
+    "summary" : "Inherited from RawRepresentable.hash(into:).",
+    "title" : "hash(into:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/error(_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "error(_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The Publication’s attributes - which are effectively the metadata for the Publication ",
+    "summary" : "The Publication’s attributes - which are effectively the metadata for the Publication",
+    "title" : "Publication.Attributes"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Publication.Page.BlockType"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/english"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Language.english"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:cellForItemAt:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from UICollectionViewDataSource.collectionView(_:cellForItemAt:). ",
+    "summary" : "Inherited from UICollectionViewDataSource.collectionView(_:cellForItemAt:).",
+    "title" : "collectionView(_:cellForItemAt:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "<#Description#>  <#frame description#>",
+    "summary" : "<#Description#>",
+    "title" : "init(frame:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/attributes-swift.property"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "<#Description#> ",
+    "summary" : "<#Description#>",
+    "title" : "attributes"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Click regions of a product inside a block. These values are percentages of the block’s width and height. ",
+    "summary" : "Click regions of a product inside a block. These values are percentages of the block’s width and height.",
+    "title" : "ClickRegion"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/!=(_:_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
+    "summary" : "Inherited from Equatable.!=(_:_:).",
+    "title" : "!=(_:_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/storeId"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The store that this Publication is associated with. This is the value that is passed in to listPublications ",
+    "summary" : "The store that this Publication is associated with. This is the value that is passed in to listPublications",
+    "title" : "storeId"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/footer-swift.property"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The footer of the page, if any. ",
+    "summary" : "The footer of the page, if any.",
+    "title" : "footer"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/clickRegions"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A list of ClickRegions representing the locations in the Block that should associate to the product. ",
+    "summary" : "A list of ClickRegions representing the locations in the Block that should associate to the product.",
+    "title" : "clickRegions"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:publication:configuration:onEvent:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Creates a new FlyerView with the given parameters. The view will be empty until a publication is set.  The frame of the view. The publication to display. The configuration to use. The handler to call when an event is emitted.",
+    "summary" : "Creates a new FlyerView with the given parameters. The view will be empty until a publication is set.",
+    "title" : "init(frame:publication:configuration:onEvent:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/Equatable-Implementations"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "Equatable Implementations"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/header-swift.property"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The header of the page, if any. ",
+    "summary" : "The header of the page, if any.",
+    "title" : "header"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The grid of items on a Publication.Page. ",
+    "summary" : "The grid of items on a Publication.Page.",
+    "title" : "Grid"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/localizedDescription"
       },
       "type" : "topLevelPage"
     },
@@ -1851,6 +662,20 @@
         "deprecated" : false,
         "introducedAt" : "8.0",
         "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "Mac Catalyst",
         "unavailable" : false
       },
       {
@@ -1887,87 +712,7 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/x"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "x"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block\/columnSpan"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "columnSpan"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/hash(into:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from RawRepresentable.hash(into:). ",
-    "summary" : "Inherited from RawRepresentable.hash(into:).",
-    "title" : "hash(into:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct\/blocks"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The list of Publication.Page.Blocks that are in this Content. ",
-    "summary" : "The list of Publication.Page.Blocks that are in this Content.",
-    "title" : "blocks"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "article",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/Equatable-Implementations"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "",
-    "summary" : "",
-    "title" : "Equatable Implementations"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct"
       },
       "type" : "topLevelPage"
     },
@@ -1983,13 +728,13 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/sku(_:)"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : "A product’s click region was tapped - a SKU is emitted. ",
-    "summary" : "A product’s click region was tapped - a SKU is emitted.",
-    "title" : "FlyerView.Event.sku(_:)"
+    "rawIndexableTextContent" : "The basebar of a Publication.Page. When present, this is a full-width image that is pinned to the top of the Publication.Page.Footer. ",
+    "summary" : "The basebar of a Publication.Page. When present, this is a full-width image that is pinned to the top of the Publication.Page.Footer.",
+    "title" : "Publication.Page.Footer.Basebar"
   },
   {
     "headings" : [
@@ -1999,13 +744,45 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/staging"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/language"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The language that this Publication is displayed in. This is the value that is passed in to listPublications ",
+    "summary" : "The language that this Publication is displayed in. This is the value that is passed in to listPublications",
+    "title" : "language"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:didSelectItemAt:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from UICollectionViewDelegate.collectionView(_:didSelectItemAt:). ",
+    "summary" : "Inherited from UICollectionViewDelegate.collectionView(_:didSelectItemAt:).",
+    "title" : "collectionView(_:didSelectItemAt:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block\/type"
       },
       "type" : "topLevelPage"
     },
     "rawIndexableTextContent" : " ",
     "summary" : "",
-    "title" : "Environment.staging"
+    "title" : "type"
   },
   {
     "headings" : [
@@ -2015,256 +792,13 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/warning(_:)"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/aspectRatio"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "warning(_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Retrieve the full Publication, including attributes and page content.  The Publication’s attributes, typically returned via listPublications(storeId:language:date:complete:) A closure that returns a Publication. This closure runs on the main DispatchQueue. A failure in retrieving the Publication is indicated by TODO",
-    "summary" : "Retrieve the full Publication, including attributes and page content.",
-    "title" : "getPublication(from:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/init(rawValue:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from RawRepresentable.init(rawValue:). ",
-    "summary" : "Inherited from RawRepresentable.init(rawValue:).",
-    "title" : "init(rawValue:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/unauthorized"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The request was not authorized, typically due to an invalid subscription key ",
-    "summary" : "The request was not authorized, typically due to an invalid subscription key",
-    "title" : "DFError.unauthorized"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/info(_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "info(_:)"
-  },
-  {
-    "headings" : [
-      "Overview",
-      "Initializing the SDK",
-      "Listing Available Publications",
-      "Retrieving and Rendering a Publication"
-    ],
-    "kind" : "article",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Transition existing apps from v1.x to 2.0.0 Overview The v2.0.0 update introduces substantial performance improvements for the SDK, driven by several optimizations and technical enhancements: Reduced time to first image when opening a flyer with the new rendering engine by re-writing manifest parsing Reduced total memory usage by 5-10x by eagerly caching to disk and evicting off-screen images from memory Improved scrolling responsiveness by moving most\/all download\/parsing\/rendering-related actions to worker threads. This results in less “janky” scrolling when viewing very large flyers Reduced bandwidth requirements by enabling HTTP Range Requests to allow partial downloads, instead of re-downloads Reduced likelihood of temporarily blank screens by dynamically changing download\/rendering priorities to prefer what should be currently on-screen, and deferring all off-screen images These updates will facilitate some upcoming performance enhancements, namely pre-fetching. Pre-fetching will allow the SDK to optionally download and cache images before they are needed, resulting in a much smoother user experience and an even lower time to first image. These improvements are the result of a significant re-write of the SDK’s rendering engine, and as such, we are releasing this as a breaking version change. Initializing the SDK In v1.x, the SDK was initialized via a singleton and using two methods. In v2.x, interaction with the SDK occurs through an instance of DigitalFlyer, and it’s up to the consumer to manage the lifecycle of this object however fits their workflow. Refer to init(subscriptionKey:client:banner:environment:) and Using the SDK for more information.  Listing Available Publications In v1.x, available Publications were retrieved via the onLandingResponse using static SDK parameters and helper methods. In lieu of this, v2.x provides a listPublications(storeId:language:date:completion:) method on the DigitalFlyer object, which returns a list of Publication.Attributes objects. Refer to Using the SDK for details.  Retrieving and Rendering a Publication The v1.x SDK did not have an explicit method for retrieving a Publication. Instead, the onLandingResponse callback provided an object that was used to populate the parameters of a VerticalView or horizontalController. The publication would be downloaded and rendered in one step (with a lot of boilerplate). In lieu of this, v2.x provides an explicit getPublication(from:completion:) method on the DigitalFlyer object, which returns a Publication object. This object is passed downstream to the FlyerView renderer, along with an optional FlyerView.Configuration object. Refer to Using the SDK for more details. ",
-    "summary" : "Transition existing apps from v1.x to 2.0.0",
-    "title" : "Migration Guide"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidZoom(_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.scrollViewDidZoom(_:). ",
-    "summary" : "Inherited from UIScrollViewDelegate.scrollViewDidZoom(_:).",
-    "title" : "scrollViewDidZoom(_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection\/up"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "FlyerView.ScrollDirection.up"
-  },
-  {
-    "headings" : [
-      "Return Value"
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/listFilters(for:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Retrieve the list of available filters for a given Publication.Attributes.  The Publication’s attributes, typically returned via listPublications(storeId:language:date:) Return Value A list of available filters for the given Publication",
-    "summary" : "Retrieve the list of available filters for a given Publication.Attributes.",
-    "title" : "listFilters(for:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The primary Publication object It contains the Publication.Attributes and an array of Publication.Page objects, which contain the page content. ",
-    "summary" : "The primary Publication object It contains the Publication.Attributes and an array of Publication.Page objects, which contain the page content.",
-    "title" : "Publication"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection\/!=(_:_:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
-    "summary" : "Inherited from Equatable.!=(_:_:).",
-    "title" : "!=(_:_:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Initializes a new Publication.Page.ClickableProduct object with the specified parameters. ",
-    "summary" : "Initializes a new Publication.Page.ClickableProduct object with the specified parameters.",
-    "title" : "init(sku:clickRegions:)"
-  },
-  {
-    "headings" : [
-      "Discussion"
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Creates a DigitalFlyer instance  The subscription key, as provided by TC The client’s name, as provided by TC An optional banner, as provided by TC (defaults to the value provided to client) The API Environment (defaults to live) Discussion DFError.missingSubscriptionKey if the subscription key is an empty string. DFError.missingClient if the client is an empty string. DFError.missingBanner if the banner is an empty string.",
-    "summary" : "Creates a DigitalFlyer instance",
-    "title" : "init(subscriptionKey:client:banner:environment:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/viewForZooming(in:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.viewForZooming(in:). ",
-    "summary" : "Inherited from UIScrollViewDelegate.viewForZooming(in:).",
-    "title" : "viewForZooming(in:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/image"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "Publication.Page.BlockType.image"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/logger-swift.var"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "logger"
+    "rawIndexableTextContent" : "The aspect ratio of this Publication.Page.Footer.Basebars image. This is used to determine the width\/height (secondary axis) of the Publication.Page.Footer.Basebar. ",
+    "summary" : "The aspect ratio of this Publication.Page.Footer.Basebars image. This is used to determine the width\/height (secondary axis) of the Publication.Page.Footer.Basebar.",
+    "title" : "aspectRatio"
   },
   {
     "headings" : [
@@ -2274,7 +808,7 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer"
       },
       "type" : "topLevelPage"
     },
@@ -2290,45 +824,13 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "A page within a Publication that contains a flexible grid of items. ",
-    "summary" : "A page within a Publication that contains a flexible grid of items.",
-    "title" : "Publication.Page"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The Publication’s attributes - which are effectively the metadata for the Publication ",
-    "summary" : "The Publication’s attributes - which are effectively the metadata for the Publication",
-    "title" : "Publication.Attributes"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/basebar-swift.property"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection"
       },
       "type" : "topLevelPage"
     },
     "rawIndexableTextContent" : " ",
     "summary" : "",
-    "title" : "basebar"
+    "title" : "FlyerView.ScrollDirection"
   },
   {
     "headings" : [
@@ -2338,237 +840,29 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/pages"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/id"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : "<#Description#> ",
-    "summary" : "<#Description#>",
-    "title" : "pages"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/pageNumber"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The page number, if any. ",
-    "summary" : "The page number, if any.",
-    "title" : "pageNumber"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "article",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "",
-    "summary" : "",
-    "title" : "RawRepresentable Implementations"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndZooming(_:with:atScale:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.scrollViewDidEndZooming(_:with:atScale:). ",
-    "summary" : "Inherited from UIScrollViewDelegate.scrollViewDidEndZooming(_:with:atScale:).",
-    "title" : "scrollViewDidEndZooming(_:with:atScale:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category\/title"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "title"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:viewForSupplementaryElementOfKind:at:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from UICollectionViewDataSource.collectionView(_:viewForSupplementaryElementOfKind:at:). ",
-    "summary" : "Inherited from UICollectionViewDataSource.collectionView(_:viewForSupplementaryElementOfKind:at:).",
-    "title" : "collectionView(_:viewForSupplementaryElementOfKind:at:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection\/down"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "FlyerView.ScrollDirection.down"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/columns"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The number of columns in the grid. ",
-    "summary" : "The number of columns in the grid.",
-    "title" : "columns"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/listPublications(storeId:language:date:completion:)"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Retrieve a list of all active publications.  The store’s identifier The Publication’s display Language (defaults to english) The date to search for available Publications (defaults to today) A closure that returns Publication.Attributes for the available Publications. This closure runs on the main DispatchQueue. An empty list indicates a successful request, but there are no active publications based on the input parameters. A failure in retrieving publications is indicated by TODO",
-    "summary" : "Retrieve a list of all active publications.",
-    "title" : "listPublications(storeId:language:date:completion:)"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/hashValue"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from RawRepresentable.hashValue. ",
-    "summary" : "Inherited from RawRepresentable.hashValue.",
-    "title" : "hashValue"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/endDate"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "The date after which the Publication is no longer available (11:59pm local time) ",
-    "summary" : "The date after which the Publication is no longer available (11:59pm local time)",
-    "title" : "endDate"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/y"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : " ",
-    "summary" : "",
-    "title" : "y"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "symbol",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "Inherited from Identifiable.id. ",
-    "summary" : "Inherited from Identifiable.id.",
+    "rawIndexableTextContent" : "A non-globally-stable (unique and stable per-publish only) identifier for the Publication ",
+    "summary" : "A non-globally-stable (unique and stable per-publish only) identifier for the Publication",
     "title" : "id"
   },
   {
     "headings" : [
 
     ],
-    "kind" : "article",
+    "kind" : "symbol",
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Error-Implementations"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/init(attributes:pages:)"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : "",
-    "summary" : "",
-    "title" : "Error Implementations"
-  },
-  {
-    "headings" : [
-
-    ],
-    "kind" : "article",
-    "location" : {
-      "reference" : {
-        "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/Equatable-Implementations"
-      },
-      "type" : "topLevelPage"
-    },
-    "rawIndexableTextContent" : "",
-    "summary" : "",
-    "title" : "Equatable Implementations"
+    "rawIndexableTextContent" : "<#Description#>  <#attributes description#> <#pages description#>",
+    "summary" : "<#Description#>",
+    "title" : "init(attributes:pages:)"
   },
   {
     "headings" : [
@@ -2578,13 +872,13 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/init(frame:publication:configuration:onEvent:)"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/debug(_:)"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : "Creates a new FlyerView with the given parameters. The view will be empty until a publication is set.  The frame of the view. The publication to display. The configuration to use. The handler to call when an event is emitted.",
-    "summary" : "Creates a new FlyerView with the given parameters. The view will be empty until a publication is set.",
-    "title" : "init(frame:publication:configuration:onEvent:)"
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "debug(_:)"
   },
   {
     "headings" : [
@@ -2594,7 +888,119 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/!=(_:_:)"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Publication.Page.Block"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "UICollectionViewDataSource Implementations"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/getPublication(from:completion:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Retrieve the full Publication, including attributes and page content.  The Publication’s attributes, typically returned via listPublications(storeId:language:date:completion:) A closure that returns a Publication. This closure runs on the main DispatchQueue. A failure in retrieving the Publication is indicated by TODO",
+    "summary" : "Retrieve the full Publication, including attributes and page content.",
+    "title" : "getPublication(from:completion:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/getPublication(from:with:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from Flyerable.getPublication(from:with:). ",
+    "summary" : "Inherited from Flyerable.getPublication(from:with:).",
+    "title" : "getPublication(from:with:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/numberOfSections(in:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from UICollectionViewDataSource.numberOfSections(in:). ",
+    "summary" : "Inherited from UICollectionViewDataSource.numberOfSections(in:).",
+    "title" : "numberOfSections(in:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A logger that can be injected to log messages from the DigitalFlyer. ",
+    "summary" : "A logger that can be injected to log messages from the DigitalFlyer.",
+    "title" : "Logger"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:pageDidChangeTo:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Zero-based indexing for pageDidChange value - consumers will likely want to add 1 before display ",
+    "summary" : "Zero-based indexing for pageDidChange value - consumers will likely want to add 1 before display",
+    "title" : "flyerView(_:pageDidChangeTo:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions\/!=(_:_:)"
       },
       "type" : "topLevelPage"
     },
@@ -2610,13 +1016,61 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/rows"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/basebar-swift.property"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : "The number of rows in the grid. ",
-    "summary" : "The number of rows in the grid.",
-    "title" : "rows"
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "basebar"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Header-swift.struct"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The header of a Publication.Page (currently unused) ",
+    "summary" : "The header of a Publication.Page (currently unused)",
+    "title" : "Publication.Page.Header"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct\/blocks"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The list of Publication.Page.Blocks that are in this Content. ",
+    "summary" : "The list of Publication.Page.Blocks that are in this Content.",
+    "title" : "blocks"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/y"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "y"
   },
   {
     "headings" : [
@@ -2626,7 +1080,7 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/Equatable-Implementations"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/Equatable-Implementations"
       },
       "type" : "topLevelPage"
     },
@@ -2636,19 +1090,22 @@
   },
   {
     "headings" : [
-
+      "Overview",
+      "Initializing the SDK",
+      "Listing Available Publications",
+      "Retrieving and Rendering a Publication"
     ],
     "kind" : "article",
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDelegate-Implementations"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide"
       },
       "type" : "topLevelPage"
     },
-    "rawIndexableTextContent" : "",
-    "summary" : "",
-    "title" : "UICollectionViewDelegate Implementations"
+    "rawIndexableTextContent" : "Transition existing apps from v1.x to 2.0.0 Overview The v2.0.0 update introduces substantial performance improvements for the SDK, driven by several optimizations and technical enhancements: Reduced time to first image when opening a flyer with the new rendering engine by re-writing manifest parsing Reduced total memory usage by 5-10x by eagerly caching to disk and evicting off-screen images from memory Improved scrolling responsiveness by moving most\/all download\/parsing\/rendering-related actions to worker threads. This results in less “janky” scrolling when viewing very large flyers Reduced bandwidth requirements by enabling HTTP Range Requests to allow partial downloads, instead of re-downloads Reduced likelihood of temporarily blank screens by dynamically changing download\/rendering priorities to prefer what should be currently on-screen, and deferring all off-screen images These updates will facilitate some upcoming performance enhancements, namely pre-fetching. Pre-fetching will allow the SDK to optionally download and cache images before they are needed, resulting in a much smoother user experience and an even lower time to first image. These improvements are the result of a significant re-write of the SDK’s rendering engine, and as such, we are releasing this as a breaking version change. Initializing the SDK In v1.x, the SDK was initialized via a singleton and using two methods. In v2.x, interaction with the SDK occurs through an instance of DigitalFlyer, and it’s up to the consumer to manage the lifecycle of this object however fits their workflow. Refer to init(subscriptionKey:client:banner:environment:) and Using the SDK for more information.  Listing Available Publications In v1.x, available Publications were retrieved via the onLandingResponse using static SDK parameters and helper methods. In lieu of this, v2.x provides a listPublications(storeId:language:date:completion:) method on the DigitalFlyer object, which returns a list of Publication.Attributes objects. Refer to Using the SDK for details.  Retrieving and Rendering a Publication The v1.x SDK did not have an explicit method for retrieving a Publication. Instead, the onLandingResponse callback provided an object that was used to populate the parameters of a VerticalView or horizontalController. The publication would be downloaded and rendered in one step (with a lot of boilerplate). In lieu of this, v2.x provides an explicit getPublication(from:completion:) method on the DigitalFlyer object, which returns a Publication object. This object is passed downstream to the FlyerView renderer, along with an optional FlyerView.Configuration object. Refer to Using the SDK for more details. ",
+    "summary" : "Transition existing apps from v1.x to 2.0.0",
+    "title" : "Migration Guide"
   },
   {
     "headings" : [
@@ -2658,7 +1115,7 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidScroll(_:)"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidScroll(_:)"
       },
       "type" : "topLevelPage"
     },
@@ -2670,11 +1127,143 @@
     "headings" : [
 
     ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A page-centric container for a list of Publication.Page.Blocks. The content occupies the majority of the visible area of a page, and is located between the Publication.Page.Header and Publication.Page.Footer. ",
+    "summary" : "A page-centric container for a list of Publication.Page.Blocks. The content occupies the majority of the visible area of a page, and is located between the Publication.Page.Header and Publication.Page.Footer.",
+    "title" : "Publication.Page.Content"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Retrieve the full Publication, including attributes and page content.  The Publication’s attributes, typically returned via listPublications(storeId:language:date:complete:)",
+    "summary" : "Retrieve the full Publication, including attributes and page content.",
+    "title" : "getPublication(from:)"
+  },
+  {
+    "headings" : [
+      "Overview",
+      "Authentication",
+      "macOS Keychain",
+      "netrc",
+      "Package.swift"
+    ],
     "kind" : "article",
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Equatable-Implementations"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/installation"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Using SPM to install the SDK as a binary target. Overview The latest iOS XCFramework resides in a private repository, accessible through Swift Package Manager. Upon registering your application with Transcontinental, you’ll receive an authentication token to download the SDK. Authentication The original mechanism to retrieve the SDK from a private SPM repository was to use a netrc file, however this broke in XCode 14.3. As of XCode 15, the primary authentication mechanism is to use the macOS Keychain. macOS Keychain The following steps will add your authentication details to the Keychain: Open the Keychain Access application (located in \/Applications\/Utilities\/Keychain Access.app) Create a new entry by clicking File > New Password Item (or ⌘N) Enter https:\/\/transfer.tds.transcontinental.ca as the Keychain Item Name (this is the URL of the private repository, and the https:\/\/ is required) Enter the provided authentication login as the Account Name Enter the provided authentication password as the Password Click Add netrc The netrc authentication method is used as a fallback for older versions of XCode, or if the macOS Keychain method cannot be used. Save your authentication details in a .netrc file located in your home directory (~\/.netrc). Replace my-authentication-login and my-authentication-password with the credentials provided to you:  Package.swift The Transcontinental (TC) SDK Package.swift file connects to the private XCFramework as a binaryTarget. Swift Package Manager uses netrc internally to download private binaries.  Add the dependency to your Package.swift or Package Dependencies (if using XCode for package management): ",
+    "summary" : "Using SPM to install the SDK as a binary target.",
+    "title" : "Installation"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/thumbnailUrl"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A URL to this Publication’s thumbnail image ",
+    "summary" : "A URL to this Publication’s thumbnail image",
+    "title" : "thumbnailUrl"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/imageUrl"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The URL for this Publication.Page.Footer.Basebars image. ",
+    "summary" : "The URL for this Publication.Page.Footer.Basebars image.",
+    "title" : "imageUrl"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Filters"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/viewForZooming(in:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.viewForZooming(in:). ",
+    "summary" : "Inherited from UIScrollViewDelegate.viewForZooming(in:).",
+    "title" : "viewForZooming(in:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate\/flyerView(_:didScroll:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "flyerView(_:didScroll:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/Equatable-Implementations"
       },
       "type" : "topLevelPage"
     },
@@ -2690,12 +1279,1485 @@
     "location" : {
       "reference" : {
         "interfaceLanguage" : "swift",
-        "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/discounts"
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/x"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "x"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidZoom(_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.scrollViewDidZoom(_:). ",
+    "summary" : "Inherited from UIScrollViewDelegate.scrollViewDidZoom(_:).",
+    "title" : "scrollViewDidZoom(_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/startDate"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The date at which the Publication becomes available (midnight local time) ",
+    "summary" : "The date at which the Publication becomes available (midnight local time)",
+    "title" : "startDate"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/init(x:y:width:height:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "init(x:y:width:height:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The events that can be emitted by the FlyerView. ",
+    "summary" : "The events that can be emitted by the FlyerView.",
+    "title" : "FlyerView.Event"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/!=(_:_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
+    "summary" : "Inherited from Equatable.!=(_:_:).",
+    "title" : "!=(_:_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The footer of a Publication.Page. Typically this is where Publication.Page.Footer.Basebars and Disclaimers are displayed. Footers are page-width, pinned to the bottom of the page (below the Publication.Page.Content). ",
+    "summary" : "The footer of a Publication.Page. Typically this is where Publication.Page.Footer.Basebars and Disclaimers are displayed. Footers are page-width, pinned to the bottom of the page (below the Publication.Page.Content).",
+    "title" : "Publication.Page.Footer"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/french"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Language.french"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/warning(_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "warning(_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/getPublication(from:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Retrieve the full Publication, including attributes and page content.  The Publication’s attributes, typically returned via listPublications(storeId:language:date:)",
+    "summary" : "Retrieve the full Publication, including attributes and page content.",
+    "title" : "getPublication(from:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/init(grid:content:header:footer:pageNumber:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Initializes a new Publication.Page object with the specified parameters. ",
+    "summary" : "Initializes a new Publication.Page object with the specified parameters.",
+    "title" : "init(grid:content:header:footer:pageNumber:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Initializes a new Publication.Page.ClickableProduct object with the specified parameters. ",
+    "summary" : "Initializes a new Publication.Page.ClickableProduct object with the specified parameters.",
+    "title" : "init(sku:clickRegions:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/staging"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Environment.staging"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/discounts"
       },
       "type" : "topLevelPage"
     },
     "rawIndexableTextContent" : " ",
     "summary" : "",
     "title" : "discounts"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions\/init(discount:categories:subCategories:searchText:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "init(discount:categories:subCategories:searchText:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/url(_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A product’s click region was tapped - an internal or external link is emitted. ",
+    "summary" : "A product’s click region was tapped - an internal or external link is emitted.",
+    "title" : "FlyerView.Event.url(_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:with:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "getPublication(from:with:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/Basebar-swift.struct\/init(imageUrl:aspectRatio:products:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Initializes a new Publication.Page.Footer.Basebar object with the specified parameters. ",
+    "summary" : "Initializes a new Publication.Page.Footer.Basebar object with the specified parameters.",
+    "title" : "init(imageUrl:aspectRatio:products:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/init(rawValue:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from RawRepresentable.init(rawValue:). ",
+    "summary" : "Inherited from RawRepresentable.init(rawValue:).",
+    "title" : "init(rawValue:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block\/columnSpan"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "columnSpan"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/Equatable-Implementations"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "Equatable Implementations"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/rows"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The number of rows in the grid. ",
+    "summary" : "The number of rows in the grid.",
+    "title" : "rows"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Delegate"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "FlyerView.Delegate"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/endDate"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The date after which the Publication is no longer available (11:59pm local time) ",
+    "summary" : "The date after which the Publication is no longer available (11:59pm local time)",
+    "title" : "endDate"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection\/up"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "FlyerView.ScrollDirection.up"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/Equatable-Implementations"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "Equatable Implementations"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/listPublications(storeId:language:date:completion:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Retrieve a list of all active publications.  The store’s identifier The Publication’s display Language (defaults to english) The date to search for available Publications (defaults to today) A closure that returns Publication.Attributes for the available Publications. This closure runs on the main DispatchQueue. An empty list indicates a successful request, but there are no active publications based on the input parameters. A failure in retrieving publications is indicated by TODO",
+    "summary" : "Retrieve a list of all active publications.",
+    "title" : "listPublications(storeId:language:date:completion:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/init(basebar:disclaimer:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Initializes a new Publication.Page.Footer object with the specified parameters. ",
+    "summary" : "Initializes a new Publication.Page.Footer object with the specified parameters.",
+    "title" : "init(basebar:disclaimer:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/height"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "height"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Initializes a new Publication.Attributes object with the specified parameters. ",
+    "summary" : "Initializes a new Publication.Attributes object with the specified parameters.",
+    "title" : "init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/pageNumber"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The page number, if any. ",
+    "summary" : "The page number, if any.",
+    "title" : "pageNumber"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category\/init(title:subcategories:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "init(title:subcategories:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listFilters(for:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "listFilters(for:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category\/subcategories"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "subcategories"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "UIScrollViewDelegate Implementations"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/grid"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The grid of items on the page. ",
+    "summary" : "The grid of items on the page.",
+    "title" : "grid"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The languages supported by the SDK ",
+    "summary" : "The languages supported by the SDK",
+    "title" : "Language"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection\/down"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "FlyerView.ScrollDirection.down"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/notFound"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The request resulted in a 404 not found, typically due to an invalid publication id ",
+    "summary" : "The request resulted in a 404 not found, typically due to an invalid publication id",
+    "title" : "DFError.notFound"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewWillBeginZooming(_:with:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.scrollViewWillBeginZooming(_:with:). ",
+    "summary" : "Inherited from UIScrollViewDelegate.scrollViewWillBeginZooming(_:with:).",
+    "title" : "scrollViewWillBeginZooming(_:with:)"
+  },
+  {
+    "headings" : [
+      "Getting Started",
+      "Minimum Requirements"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information. Getting Started The SDK can be installed using Swift Package Manager following the instructions at Installation, followed by Using the SDK for a quick summary of interacting with the SDK. Upgrading from a previous version? Use the Migration Guide. Minimum Requirements XCode (>= 16.0) iOS (>= 13.0)",
+    "summary" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+    "title" : "TCDigitalFlyer"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/flyerTitle"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A user-friendly, localized title for the Publication (e.g. “Weekly Flyer”) ",
+    "summary" : "A user-friendly, localized title for the Publication (e.g. “Weekly Flyer”)",
+    "title" : "flyerTitle"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Configuration\/showHeader"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Whether to show the Header on the first page. ",
+    "summary" : "Whether to show the Header on the first page.",
+    "title" : "showHeader"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/listPublications(storeId:language:date:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Retrieve a list of all active publications.  The store’s identifier The Publication’s display Language (defaults to english) The date to search for available Publications (defaults to today)",
+    "summary" : "Retrieve a list of all active publications.",
+    "title" : "listPublications(storeId:language:date:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from Identifiable.id. ",
+    "summary" : "Inherited from Identifiable.id.",
+    "title" : "id"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/invalid"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A catch-all for any other error ",
+    "summary" : "A catch-all for any other error",
+    "title" : "DFError.invalid"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/!=(_:_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
+    "summary" : "Inherited from Equatable.!=(_:_:).",
+    "title" : "!=(_:_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/hashValue"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from RawRepresentable.hashValue. ",
+    "summary" : "Inherited from RawRepresentable.hashValue.",
+    "title" : "hashValue"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Environment.live"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/unauthorized"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The request was not authorized, typically due to an invalid subscription key ",
+    "summary" : "The request was not authorized, typically due to an invalid subscription key",
+    "title" : "DFError.unauthorized"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Content-swift.struct\/init(blocks:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Initializes a new Publication.Page.Content object with the specified parameters. ",
+    "summary" : "Initializes a new Publication.Page.Content object with the specified parameters.",
+    "title" : "init(blocks:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/pages"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "<#Description#> ",
+    "summary" : "<#Description#>",
+    "title" : "pages"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/uat"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Environment.uat"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingSubscriptionKey"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The subscription key is missing during DigitalFlyer initialization ",
+    "summary" : "The subscription key is missing during DigitalFlyer initialization",
+    "title" : "DFError.missingSubscriptionKey"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The primary Publication object It contains the Publication.Attributes and an array of Publication.Page objects, which contain the page content. ",
+    "summary" : "The primary Publication object It contains the Publication.Attributes and an array of Publication.Page objects, which contain the page content.",
+    "title" : "Publication"
+  },
+  {
+    "headings" : [
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Creates a DigitalFlyer instance  The subscription key, as provided by TC The client’s name, as provided by TC An optional banner, as provided by TC (defaults to the value provided to client) The API Environment (defaults to live) Discussion DFError.missingSubscriptionKey if the subscription key is an empty string. DFError.missingClient if the client is an empty string. DFError.missingBanner if the banner is an empty string.",
+    "summary" : "Creates a DigitalFlyer instance",
+    "title" : "init(subscriptionKey:client:banner:environment:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Equatable-Implementations"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "Equatable Implementations"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingBanner"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The banner is empty during DigitalFlyer initialization ",
+    "summary" : "The banner is empty during DigitalFlyer initialization",
+    "title" : "DFError.missingBanner"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDelegate-Implementations"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "UICollectionViewDelegate Implementations"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/carousel"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Publication.Page.BlockType.carousel"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection\/none"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "FlyerView.ScrollDirection.none"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndDecelerating(_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.scrollViewDidEndDecelerating(_:). ",
+    "summary" : "Inherited from UIScrollViewDelegate.scrollViewDidEndDecelerating(_:).",
+    "title" : "scrollViewDidEndDecelerating(_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Flyerable"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/hash(into:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from RawRepresentable.hash(into:). ",
+    "summary" : "Inherited from RawRepresentable.hash(into:).",
+    "title" : "hash(into:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/BlockType\/video"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Publication.Page.BlockType.video"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/Category"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "Filters.Category"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/publicationNotFound"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The request was not found, typically due to an invalid publication id ",
+    "summary" : "The request was not found, typically due to an invalid publication id",
+    "title" : "DFError.publicationNotFound"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The API environments supported by the SDK ",
+    "summary" : "The API environments supported by the SDK",
+    "title" : "Environment"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Equatable-Implementations"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "Equatable Implementations"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol\/verbose(_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "verbose(_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/init(rows:columns:aspectRatio:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Initializes a new Publication.Page.Grid object with the specified parameters. ",
+    "summary" : "Initializes a new Publication.Page.Grid object with the specified parameters.",
+    "title" : "init(rows:columns:aspectRatio:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:viewForSupplementaryElementOfKind:at:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from UICollectionViewDataSource.collectionView(_:viewForSupplementaryElementOfKind:at:). ",
+    "summary" : "Inherited from UICollectionViewDataSource.collectionView(_:viewForSupplementaryElementOfKind:at:).",
+    "title" : "collectionView(_:viewForSupplementaryElementOfKind:at:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "RawRepresentable Implementations"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/Error-Implementations"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "Error Implementations"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/logger-swift.var"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "logger"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Footer-swift.struct\/disclaimer"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The disclaimer of a Publication.Page. When present, this is a text string that is pinned to the bottom of the Publication.Page.Footer. ",
+    "summary" : "The disclaimer of a Publication.Page. When present, this is a text string that is pinned to the bottom of the Publication.Page.Footer.",
+    "title" : "disclaimer"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/sku"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The SKU (product identifier). ",
+    "summary" : "The SKU (product identifier).",
+    "title" : "sku"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewShouldScrollToTop(_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.scrollViewShouldScrollToTop(_:). ",
+    "summary" : "Inherited from UIScrollViewDelegate.scrollViewShouldScrollToTop(_:).",
+    "title" : "scrollViewShouldScrollToTop(_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndZooming(_:with:atScale:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from UIScrollViewDelegate.scrollViewDidEndZooming(_:with:atScale:). ",
+    "summary" : "Inherited from UIScrollViewDelegate.scrollViewDidEndZooming(_:with:atScale:).",
+    "title" : "scrollViewDidEndZooming(_:with:atScale:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/aspectRatio"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "aspectRatio"
+  },
+  {
+    "headings" : [
+      "Return Value"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/listFilters(for:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Retrieve the list of available filters for a given Publication.Attributes.  The Publication’s attributes, typically returned via listPublications(storeId:language:date:) Return Value A list of available filters for the given Publication",
+    "summary" : "Retrieve the list of available filters for a given Publication.Attributes.",
+    "title" : "listFilters(for:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingClient"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The client is missing during DigitalFlyer initialization ",
+    "summary" : "The client is missing during DigitalFlyer initialization",
+    "title" : "DFError.missingClient"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/logoUrl"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A URL to the for the Banner’s logo image ",
+    "summary" : "A URL to the for the Banner’s logo image",
+    "title" : "logoUrl"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language\/!=(_:_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
+    "summary" : "Inherited from Equatable.!=(_:_:).",
+    "title" : "!=(_:_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Filters\/init(categories:discounts:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "init(categories:discounts:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/ScrollDirection\/Equatable-Implementations"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "",
+    "summary" : "",
+    "title" : "Equatable Implementations"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid\/columns"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The number of columns in the grid. ",
+    "summary" : "The number of columns in the grid.",
+    "title" : "columns"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/init(rawValue:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from RawRepresentable.init(rawValue:). ",
+    "summary" : "Inherited from RawRepresentable.init(rawValue:).",
+    "title" : "init(rawValue:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A page within a Publication that contains a flexible grid of items. ",
+    "summary" : "A page within a Publication that contains a flexible grid of items.",
+    "title" : "Publication.Page"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/hashValue"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from RawRepresentable.hashValue. ",
+    "summary" : "Inherited from RawRepresentable.hashValue.",
+    "title" : "hashValue"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listPublications(storeId:language:date:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Retrieve a list of all active publications.  The store’s identifier The Publication’s display Language (defaults to english) The date to search for available Publications (defaults to today)",
+    "summary" : "Retrieve a list of all active publications.",
+    "title" : "listPublications(storeId:language:date:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/!=(_:_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Inherited from Equatable.!=(_:_:). ",
+    "summary" : "Inherited from Equatable.!=(_:_:).",
+    "title" : "!=(_:_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block\/rowSpan"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "rowSpan"
   }
 ]

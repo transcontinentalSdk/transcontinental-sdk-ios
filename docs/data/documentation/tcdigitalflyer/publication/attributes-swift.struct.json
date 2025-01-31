@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
       "isActive" : true,
       "type" : "reference"
     },
@@ -21,14 +21,14 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -96,8 +96,9 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/SQ",
-        "doc:\/\/TCDigitalFlyer\/SH"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8CopyableP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -114,29 +115,35 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/endDate",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/flyerTitle",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/id",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/language",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/logoUrl",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/startDate",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/storeId",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/thumbnailUrl",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/title"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/endDate",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/filters",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/flyerTitle",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/id",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/language",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/logoUrl",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/startDate",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/storeId",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/thumbnailUrl",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/title"
       ],
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/Equatable-Implementations"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/Equatable-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -155,38 +162,38 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/SH": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/SH",
+"doc://tcdigitalflyer.TCDigitalFlyer/SH": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH",
   "title" : "Swift.Hashable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/SQ": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/SQ",
+"doc://tcdigitalflyer.TCDigitalFlyer/SQ": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
   "title" : "Swift.Equatable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
   "abstract" : [
     {
       "text" : "The primary ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
       "isActive" : true,
       "type" : "reference"
     },
@@ -233,7 +240,7 @@
       "text" : "Publication"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -246,14 +253,14 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct": {
   "abstract" : [
     {
       "text" : "The ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
       "isActive" : true,
       "type" : "reference"
     },
@@ -280,7 +287,7 @@
       "text" : "Attributes"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -293,18 +300,18 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/Equatable-Implementations": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/Equatable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/Equatable-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/Equatable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Equatable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/equatable-implementations"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/endDate": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/endDate": {
   "abstract" : [
     {
       "text" : "The date after which the ",
@@ -342,14 +349,72 @@
       "text" : "Date"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/endDate",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/endDate",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "endDate",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/enddate"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/flyerTitle": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/filters": {
+  "abstract" : [
+    {
+      "text" : "The set of Filters applied to make this Publication - this is required because there isn’t any other information returned",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "from the API to inform the consumer that this is a filtered ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ", rather than the original one",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "filters"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer13FilterOptionsV",
+      "text" : "FilterOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/filters",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "filters",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/filters"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/flyerTitle": {
   "abstract" : [
     {
       "text" : "A user-friendly, localized title for the ",
@@ -387,14 +452,14 @@
       "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/flyerTitle",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/flyerTitle",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "flyerTitle",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/flyertitle"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/id": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/id": {
   "abstract" : [
     {
       "text" : "A non-globally-stable (unique and stable per-publish only) identifier for the ",
@@ -428,14 +493,14 @@
       "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/id",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/id",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "id",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/id"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -610,17 +675,51 @@
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "filters"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer13FilterOptionsV",
+      "text" : "FilterOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isBlockedFlyer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:)",
+  "title" : "init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:)"
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:filters:isblockedflyer:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/language": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/language": {
   "abstract" : [
     {
       "text" : "The language that this ",
@@ -662,14 +761,14 @@
       "text" : "Language"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/language",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/language",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "language",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/language"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/logoUrl": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/logoUrl": {
   "abstract" : [
     {
       "text" : "A URL to the for the Banner’s logo image",
@@ -699,14 +798,14 @@
       "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/logoUrl",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/logoUrl",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "logoUrl",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/logourl"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/startDate": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/startDate": {
   "abstract" : [
     {
       "text" : "The date at which the ",
@@ -744,14 +843,14 @@
       "text" : "Date"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/startDate",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/startDate",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "startDate",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/startdate"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/storeId": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/storeId": {
   "abstract" : [
     {
       "text" : "The store that this ",
@@ -793,14 +892,14 @@
       "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/storeId",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/storeId",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "storeId",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/storeid"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/thumbnailUrl": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/thumbnailUrl": {
   "abstract" : [
     {
       "text" : "A URL to this ",
@@ -838,14 +937,14 @@
       "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/thumbnailUrl",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/thumbnailUrl",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "thumbnailUrl",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/thumbnailurl"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/title": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/title": {
   "abstract" : [
     {
       "text" : "A short, alphanumeric identifier for the ",
@@ -883,12 +982,17 @@
       "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/title",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/title",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "title",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/title"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/s8CopyableP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
 }
 }
 }

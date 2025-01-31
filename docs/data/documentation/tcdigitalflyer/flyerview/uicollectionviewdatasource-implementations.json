@@ -2,14 +2,14 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations"
   },
   "kind" : "article",
   "metadata" : {
@@ -32,12 +32,13 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:cellForItemAt:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:viewForSupplementaryElementOfKind:at:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/numberOfSections(in:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:cellForItemAt:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:viewForSupplementaryElementOfKind:at:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/numberOfSections(in:)"
       ],
       "title" : "Instance Methods"
     }
@@ -56,21 +57,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
   "abstract" : [
     {
       "text" : "A custom view that displays the Digital Flyer.",
@@ -99,7 +100,7 @@
       "text" : "FlyerView"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -112,7 +113,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:cellForItemAt:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:cellForItemAt:)": {
   "abstract" : [
 
   ],
@@ -165,14 +166,14 @@
       "text" : "UICollectionViewCell"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:cellForItemAt:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:cellForItemAt:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "collectionView(_:cellForItemAt:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/collectionview(_:cellforitemat:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:numberOfItemsInSection:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:numberOfItemsInSection:)": {
   "abstract" : [
 
   ],
@@ -225,14 +226,14 @@
       "text" : "Int"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:numberOfItemsInSection:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "collectionView(_:numberOfItemsInSection:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/collectionview(_:numberofitemsinsection:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:viewForSupplementaryElementOfKind:at:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:viewForSupplementaryElementOfKind:at:)": {
   "abstract" : [
 
   ],
@@ -302,14 +303,14 @@
       "text" : "UICollectionReusableView"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:viewForSupplementaryElementOfKind:at:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/collectionView(_:viewForSupplementaryElementOfKind:at:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "collectionView(_:viewForSupplementaryElementOfKind:at:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/collectionview(_:viewforsupplementaryelementofkind:at:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/numberOfSections(in:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/numberOfSections(in:)": {
   "abstract" : [
 
   ],
@@ -353,7 +354,7 @@
       "text" : "Int"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/numberOfSections(in:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/numberOfSections(in:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "numberOfSections(in:)",

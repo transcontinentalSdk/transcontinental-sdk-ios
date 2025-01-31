@@ -2,13 +2,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/logger-swift.var"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/logger-swift.var"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -78,7 +78,7 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol",
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:14TCDigitalFlyer6LoggerP",
               "text" : "Logger"
@@ -115,21 +115,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Logger-swift.protocol": {
   "abstract" : [
     {
       "text" : "A logger that can be injected to log messages from the DigitalFlyer.",
@@ -150,7 +150,7 @@
       "text" : "Logger"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Logger-swift.protocol",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -163,7 +163,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/logger-swift.protocol"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/logger-swift.var": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/logger-swift.var": {
   "abstract" : [
 
   ],
@@ -194,7 +194,7 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/logger-swift.var",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/logger-swift.var",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "logger",

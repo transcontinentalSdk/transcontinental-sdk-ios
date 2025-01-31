@@ -2,13 +2,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -75,7 +75,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer"
       ],
       "kind" : "relationships",
       "title" : "Conforming Types",
@@ -92,11 +92,13 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:with:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listFilters(for:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listPublications(storeId:language:date:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:with:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listFilters(for:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listPublications(storeId:language:date:)"
       ],
       "title" : "Instance Methods"
     }
@@ -115,21 +117,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
   "abstract" : [
     {
       "text" : "The entry-point for interacting with the SDK.",
@@ -150,7 +152,7 @@
       "text" : "DigitalFlyer"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -163,7 +165,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/digitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable": {
   "abstract" : [
 
   ],
@@ -181,7 +183,7 @@
       "text" : "Flyerable"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -194,14 +196,14 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerable"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable/getPublication(from:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable/getPublication(from:)": {
   "abstract" : [
     {
       "text" : "Retrieve the full ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
       "isActive" : true,
       "type" : "reference"
     },
@@ -275,7 +277,7 @@
       "text" : "Publication"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
@@ -283,7 +285,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerable\/getpublication(from:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable/getPublication(from:with:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable/getPublication(from:with:)": {
   "abstract" : [
 
   ],
@@ -369,7 +371,7 @@
       "text" : "Publication"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:with:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/getPublication(from:with:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
@@ -377,7 +379,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerable\/getpublication(from:with:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable/listFilters(for:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable/listFilters(for:)": {
   "abstract" : [
 
   ],
@@ -446,7 +448,7 @@
       "text" : "Filters"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listFilters(for:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listFilters(for:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
@@ -454,7 +456,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerable\/listfilters(for:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable/listPublications(storeId:language:date:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable/listPublications(storeId:language:date:)": {
   "abstract" : [
     {
       "text" : "Retrieve a list of all active publications.",
@@ -564,7 +566,7 @@
       "text" : "]"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listPublications(storeId:language:date:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Flyerable\/listPublications(storeId:language:date:)",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
@@ -572,14 +574,14 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerable\/listpublications(storeid:language:date:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
   "abstract" : [
     {
       "text" : "The primary ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
       "isActive" : true,
       "type" : "reference"
     },
@@ -626,7 +628,7 @@
       "text" : "Publication"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
   "kind" : "symbol",
   "navigatorTitle" : [
     {

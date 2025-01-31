@@ -16,19 +16,19 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:)"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:14TCDigitalFlyer11PublicationV10AttributesV2id5title10flyerTitle9startDate03endJ012thumbnailUrl04logoM07storeId8languageAESS_S2S10Foundation0J0VAQS3SAA8LanguageOtcfc",
+    "externalID" : "s:14TCDigitalFlyer11PublicationV10AttributesV2id5title10flyerTitle9startDate03endJ012thumbnailUrl04logoM07storeId8language7filters09isBlockedB0AESS_S2S10Foundation0J0VASS3SAA8LanguageOAA13FilterOptionsVSgSbSgtcfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -189,7 +189,41 @@
       },
       {
         "kind" : "text",
-        "text" : ")"
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "filters"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14TCDigitalFlyer13FilterOptionsV",
+        "text" : "FilterOptions"
+      },
+      {
+        "kind" : "text",
+        "text" : "?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "isBlockedFlyer"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : "?)"
       }
     ],
     "modules" : [
@@ -200,7 +234,7 @@
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
-    "title" : "init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:)"
+    "title" : "init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)"
   },
   "primaryContentSections" : [
     {
@@ -366,14 +400,49 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language",
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:14TCDigitalFlyer8LanguageO",
               "text" : "Language"
             },
             {
               "kind" : "text",
-              "text" : ")"
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "filters"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14TCDigitalFlyer13FilterOptionsV",
+              "text" : "FilterOptions"
+            },
+            {
+              "kind" : "text",
+              "text" : "? = nil, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "isBlockedFlyer"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : "? = nil)"
             }
           ]
         }
@@ -392,7 +461,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:)"
+        "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:filters:isblockedflyer:)"
       ],
       "traits" : [
         {
@@ -403,21 +472,52 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Language": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FilterOptions": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FilterOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FilterOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FilterOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/filteroptions"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Language": {
   "abstract" : [
     {
       "text" : "The languages supported by the SDK",
@@ -438,7 +538,7 @@
       "text" : "Language"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Language",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -451,14 +551,14 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/language"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication": {
   "abstract" : [
     {
       "text" : "The primary ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
       "isActive" : true,
       "type" : "reference"
     },
@@ -505,7 +605,7 @@
       "text" : "Publication"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -518,14 +618,14 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct": {
   "abstract" : [
     {
       "text" : "The ",
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
       "isActive" : true,
       "type" : "reference"
     },
@@ -552,7 +652,7 @@
       "text" : "Attributes"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -565,7 +665,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -740,15 +840,49 @@
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "filters"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer13FilterOptionsV",
+      "text" : "FilterOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isBlockedFlyer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:)",
+  "title" : "init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:)"
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:filters:isblockedflyer:)"
 }
 }
 }

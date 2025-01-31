@@ -8,13 +8,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -81,11 +81,11 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/s12CaseIterableP",
-        "doc:\/\/TCDigitalFlyer\/SQ",
-        "doc:\/\/TCDigitalFlyer\/SH",
-        "doc:\/\/TCDigitalFlyer\/s12IdentifiableP",
-        "doc:\/\/TCDigitalFlyer\/SY"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s12CaseIterableP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s12IdentifiableP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SY"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -102,30 +102,37 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/staging",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/uat"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/staging",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/uat"
       ],
       "title" : "Enumeration Cases"
     },
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/init(rawValue:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/init(rawValue:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id"
       ],
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Equatable-Implementations",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Equatable-Implementations",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -144,36 +151,36 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/SH": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/SH",
+"doc://tcdigitalflyer.TCDigitalFlyer/SH": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH",
   "title" : "Swift.Hashable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/SQ": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/SQ",
+"doc://tcdigitalflyer.TCDigitalFlyer/SQ": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
   "title" : "Swift.Equatable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/SY": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/SY",
+"doc://tcdigitalflyer.TCDigitalFlyer/SY": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SY",
   "title" : "Swift.RawRepresentable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
   "abstract" : [
     {
       "text" : "The API environments supported by the SDK",
@@ -194,7 +201,7 @@
       "text" : "Environment"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -207,29 +214,29 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/environment"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Equatable-Implementations": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/Equatable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Equatable-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/Equatable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Equatable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/environment\/equatable-implementations"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/RawRepresentable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/RawRepresentable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "RawRepresentable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/environment\/rawrepresentable-implementations"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/id": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/id": {
   "abstract" : [
 
   ],
@@ -256,14 +263,14 @@
       "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/id",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "id",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/environment\/id"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/init(rawValue:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/init(rawValue:)": {
   "abstract" : [
 
   ],
@@ -294,14 +301,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/init(rawValue:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/init(rawValue:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(rawValue:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/environment\/init(rawvalue:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live": {
   "abstract" : [
 
   ],
@@ -319,14 +326,14 @@
       "text" : "live"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "Environment.live",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/environment\/live"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/staging": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/staging": {
   "abstract" : [
 
   ],
@@ -344,14 +351,14 @@
       "text" : "staging"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/staging",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/staging",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "Environment.staging",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/environment\/staging"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/uat": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/uat": {
   "abstract" : [
 
   ],
@@ -369,20 +376,20 @@
       "text" : "uat"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/uat",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/uat",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "Environment.uat",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/environment\/uat"
 },
-"doc://TCDigitalFlyer/s12CaseIterableP": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/s12CaseIterableP",
+"doc://tcdigitalflyer.TCDigitalFlyer/s12CaseIterableP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s12CaseIterableP",
   "title" : "Swift.CaseIterable",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyer/s12IdentifiableP": {
-  "identifier" : "doc:\/\/TCDigitalFlyer\/s12IdentifiableP",
+"doc://tcdigitalflyer.TCDigitalFlyer/s12IdentifiableP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s12IdentifiableP",
   "title" : "Swift.Identifiable",
   "type" : "unresolvable"
 }

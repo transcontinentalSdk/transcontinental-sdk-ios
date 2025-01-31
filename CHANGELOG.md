@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.2.0] - 2025-01-31
+
+### Fixed
+
+- Swapping between regular and search modes is more consistent regardless of initial page state
+- Mitigated the effect of race condition on search text change
+- Searching static guidebooks renders similarly to the web flyer
+- XCode version bumped to 16.0 to fix CI compilation problems
+
 ## [2.1.3] - 2024-10-03
 
 ### Fixed

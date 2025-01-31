@@ -2,14 +2,14 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations"
   },
   "kind" : "article",
   "metadata" : {
@@ -32,15 +32,16 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndDecelerating(_:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndZooming(_:with:atScale:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidScroll(_:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidZoom(_:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewShouldScrollToTop(_:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewWillBeginZooming(_:with:)",
-        "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/viewForZooming(in:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndDecelerating(_:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndZooming(_:with:atScale:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidScroll(_:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidZoom(_:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewShouldScrollToTop(_:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewWillBeginZooming(_:with:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/viewForZooming(in:)"
       ],
       "title" : "Instance Methods"
     }
@@ -59,21 +60,21 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
       "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView": {
   "abstract" : [
     {
       "text" : "A custom view that displays the Digital Flyer.",
@@ -102,7 +103,7 @@
       "text" : "FlyerView"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -115,7 +116,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidEndDecelerating(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidEndDecelerating(_:)": {
   "abstract" : [
 
   ],
@@ -146,14 +147,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndDecelerating(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndDecelerating(_:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "scrollViewDidEndDecelerating(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidenddecelerating(_:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidEndZooming(_:with:atScale:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidEndZooming(_:with:atScale:)": {
   "abstract" : [
 
   ],
@@ -218,14 +219,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndZooming(_:with:atScale:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidEndZooming(_:with:atScale:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "scrollViewDidEndZooming(_:with:atScale:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidendzooming(_:with:atscale:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidScroll(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidScroll(_:)": {
   "abstract" : [
     {
       "text" : "The scrollView handles zooming and scrolling through the content, while the collectionView’s scrolling is explicitly disabled.",
@@ -275,14 +276,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidScroll(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidScroll(_:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "scrollViewDidScroll(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidscroll(_:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidZoom(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidZoom(_:)": {
   "abstract" : [
 
   ],
@@ -313,14 +314,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidZoom(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewDidZoom(_:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "scrollViewDidZoom(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewdidzoom(_:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewShouldScrollToTop(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewShouldScrollToTop(_:)": {
   "abstract" : [
 
   ],
@@ -356,14 +357,14 @@
       "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewShouldScrollToTop(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewShouldScrollToTop(_:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "scrollViewShouldScrollToTop(_:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewshouldscrolltotop(_:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewWillBeginZooming(_:with:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewWillBeginZooming(_:with:)": {
   "abstract" : [
 
   ],
@@ -411,14 +412,14 @@
       "text" : "?)"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewWillBeginZooming(_:with:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/scrollViewWillBeginZooming(_:with:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "scrollViewWillBeginZooming(_:with:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/scrollviewwillbeginzooming(_:with:)"
 },
-"doc://TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/viewForZooming(in:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/viewForZooming(in:)": {
   "abstract" : [
 
   ],
@@ -466,7 +467,7 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/viewForZooming(in:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/viewForZooming(in:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "viewForZooming(in:)",
