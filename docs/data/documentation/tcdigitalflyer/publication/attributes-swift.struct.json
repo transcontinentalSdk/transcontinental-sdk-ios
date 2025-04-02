@@ -118,7 +118,7 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:category:jobName:filters:isBlockedFlyer:)"
       ],
       "title" : "Initializers"
     },
@@ -126,10 +126,12 @@
       "anchor" : "Instance-Properties",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/category",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/endDate",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/filters",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/flyerTitle",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/id",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/jobName",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/language",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/logoUrl",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/startDate",
@@ -310,6 +312,51 @@
   "title" : "Equatable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/equatable-implementations"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/category": {
+  "abstract" : [
+    {
+      "text" : "The category assigned to each ",
+      "type" : "text"
+    },
+    {
+      "code" : "Publication",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " (e.g. “Weekly Flyer”)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "category"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/category",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "category",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/category"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/endDate": {
   "abstract" : [
@@ -500,7 +547,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/id"
 },
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:category:jobName:filters:isBlockedFlyer:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -679,6 +726,40 @@
     },
     {
       "kind" : "externalParam",
+      "text" : "category"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "jobName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
       "text" : "filters"
     },
     {
@@ -712,12 +793,49 @@
       "text" : "?)"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:category:jobName:filters:isBlockedFlyer:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:filters:isBlockedFlyer:)",
+  "title" : "init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:language:category:jobName:filters:isBlockedFlyer:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:filters:isblockedflyer:)"
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:category:jobname:filters:isblockedflyer:)"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/jobName": {
+  "abstract" : [
+    {
+      "text" : "A composite string that uniquely identifies a job",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jobName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/jobName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "jobName",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/jobname"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/language": {
   "abstract" : [

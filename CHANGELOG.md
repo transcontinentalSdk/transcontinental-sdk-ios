@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0] - 2025-04-02
+
+### Added
+
+- Added video playback occupying the full `FlyerView`, as well as full-screen
+- Updated `Publication.Attributes` to include `jobName` and `category`
+
 ## [2.2.0] - 2025-01-31
 
 ### Fixed

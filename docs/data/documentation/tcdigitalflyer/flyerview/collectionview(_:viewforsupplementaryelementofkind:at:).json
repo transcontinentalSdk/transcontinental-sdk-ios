@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
       ]
     ]
   },
@@ -309,17 +308,6 @@
   "title" : "FlyerView",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview"
-},
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UICollectionViewDataSource-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UICollectionViewDataSource-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "UICollectionViewDataSource Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/uicollectionviewdatasource-implementations"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/collectionView(_:viewForSupplementaryElementOfKind:at:)": {
   "abstract" : [

@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView",
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView"
       ]
     ]
   },
@@ -215,17 +214,6 @@
   "title" : "FlyerView",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview"
-},
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/UIScrollViewDelegate-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/UIScrollViewDelegate-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "UIScrollViewDelegate Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/uiscrollviewdelegate-implementations"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidZoom(_:)": {
   "abstract" : [

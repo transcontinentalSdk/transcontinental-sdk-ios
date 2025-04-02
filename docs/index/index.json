@@ -101,6 +101,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/delegate\/flyerview(_:didselectvideo:)",
+                    "title" : "func flyerView(FlyerView, didSelectVideo: URL)",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyer\/flyerview\/delegate\/flyerview(_:pagedidchangeto:)",
                     "title" : "func flyerView(FlyerView, pageDidChangeTo: Int)",
                     "type" : "method"
@@ -664,13 +669,18 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:filters:isblockedflyer:)",
-                    "title" : "init(id: String, title: String, flyerTitle: String, startDate: Date, endDate: Date, thumbnailUrl: String, logoUrl: String, storeId: String, language: Language, filters: FilterOptions?, isBlockedFlyer: Bool?)",
+                    "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:category:jobname:filters:isblockedflyer:)",
+                    "title" : "init(id: String, title: String, flyerTitle: String, startDate: Date, endDate: Date, thumbnailUrl: String, logoUrl: String, storeId: String, language: Language, category: String, jobName: String, filters: FilterOptions?, isBlockedFlyer: Bool?)",
                     "type" : "init"
                   },
                   {
                     "title" : "Instance Properties",
                     "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/category",
+                    "title" : "let category: String",
+                    "type" : "property"
                   },
                   {
                     "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/enddate",
@@ -690,6 +700,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/id",
                     "title" : "let id: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/jobname",
+                    "title" : "let jobName: String",
                     "type" : "property"
                   },
                   {
