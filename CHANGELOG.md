@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.x] - Unreleased
+
+## [2.3.1] - 2025-05-30
+
+### Added
+
+- Added support for `appear`/`fade` Carousel effects
+
+### Fixed
+
+- Fixed conditional top-padding when masthead is hidden
+
 ## [2.3.0] - 2025-04-02
 
 ### Added
