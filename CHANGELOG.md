@@ -2,6 +2,13 @@
 
 ## [2.x] - Unreleased
 
+## [2.3.2] - 2025-06-27
+
+### Fixed
+
+- Banner ads are excluded from `mobileUrl` fallback 
+- Disclaimers larger that 2 lines are collapsed and expanded on demand
+
 ## [2.3.1] - 2025-05-30
 
 ### Added
