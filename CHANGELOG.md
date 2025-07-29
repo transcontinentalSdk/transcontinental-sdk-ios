@@ -2,6 +2,12 @@
 
 ## [2.x] - Unreleased
 
+## [2.4.0] - 2025-07-29
+
+### Added
+
+- Added support for animated, transparent `webp` overlays
+
 ## [2.3.2] - 2025-06-27
 
 ### Fixed
