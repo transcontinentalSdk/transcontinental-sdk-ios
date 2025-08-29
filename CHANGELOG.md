@@ -2,6 +2,13 @@
 
 ## [2.x] - Unreleased
 
+## [2.4.1] - 2025-08-29
+
+### Fixed
+
+- Fixed the race condition on search text change
+- Fixed potential double-parsing of Publications, causing some extra latency on large flyers
+
 ## [2.4.0] - 2025-07-29
 
 ### Added
