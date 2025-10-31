@@ -2,6 +2,22 @@
 
 ## [2.x] - Unreleased
 
+## [2.4.3] - 2025-10-31
+
+### Added
+
+- Legal pages are collapsible on phones (collapsed by default)
+
+### Changed
+
+- "Cancel" button removed from the Search Bar
+- Filters can be cleared with the associated "x"
+
+### Fixed
+
+- Click regions in iOS 26 were not always laid out correctly
+- Filter buttons stay highlighted when there are applied filters
+
 ## [2.4.2] - 2025-09-30
 
 ### Added
