@@ -77,6 +77,12 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "mentions",
+      "mentions" : [
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v1"
+      ]
     }
   ],
   "schemaVersion" : {
@@ -338,6 +344,20 @@
   "title" : "showHeader",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/configuration\/showheader"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide-v1": {
+  "abstract" : [
+    {
+      "text" : "Transition existing apps from v1.x to 2.0.0",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v1",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Migration Guide",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/migration-guide-v1"
 }
 }
 }

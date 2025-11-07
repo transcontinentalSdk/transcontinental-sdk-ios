@@ -68,16 +68,7 @@
         {
           "inlineContent" : [
             {
-              "text" : "Upgrading from a previous version? Use the ",
-              "type" : "text"
-            },
-            {
-              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide",
-              "isActive" : true,
-              "type" : "reference"
-            },
-            {
-              "text" : ".",
+              "text" : "Upgrading from a previous version? Use one of the migration guides.",
               "type" : "text"
             }
           ],
@@ -96,7 +87,7 @@
                 {
                   "inlineContent" : [
                     {
-                      "text" : "XCode (>= 16.0)",
+                      "text" : "XCode (>= 16.1)",
                       "type" : "text"
                     }
                   ],
@@ -109,7 +100,7 @@
                 {
                   "inlineContent" : [
                     {
-                      "text" : "iOS (>= 13.0)",
+                      "text" : "iOS (>= 15.0)",
                       "type" : "text"
                     }
                   ],
@@ -144,9 +135,16 @@
     {
       "anchor" : "Migrating-from-v1x",
       "identifiers" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v1"
       ],
       "title" : "Migrating from v1.x"
+    },
+    {
+      "anchor" : "Migrating-from-v2x",
+      "identifiers" : [
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v2"
+      ],
+      "title" : "Migrating from v2.x"
     },
     {
       "anchor" : "Classes",
@@ -275,8 +273,9 @@
       "type" : "text"
     },
     {
-      "code" : "Block",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " that can be clicked on.",
@@ -554,8 +553,9 @@
       "type" : "text"
     },
     {
-      "code" : "Publication.Page",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",
@@ -681,16 +681,18 @@
       "type" : "text"
     },
     {
-      "code" : "Publication.Attributes",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " and an array of ",
       "type" : "text"
     },
     {
-      "code" : "Publication.Page",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " objects, which contain the page content.",
@@ -723,6 +725,128 @@
   "title" : "Publication",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : "’s attributes - which are effectively the metadata for the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Attributes"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Attributes"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Attributes",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
+  "abstract" : [
+    {
+      "text" : "A page within a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " that contains a flexible grid of items.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Block": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Block"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Block"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page.Block",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/block"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/installation": {
   "abstract" : [
@@ -776,19 +900,33 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/logger-swift.var"
 },
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide-v1": {
   "abstract" : [
     {
       "text" : "Transition existing apps from v1.x to 2.0.0",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v1",
   "kind" : "article",
   "role" : "article",
   "title" : "Migration Guide",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/migration-guide"
+  "url" : "\/documentation\/tcdigitalflyer\/migration-guide-v1"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide-v2": {
+  "abstract" : [
+    {
+      "text" : "Transition existing apps from v2.x to 3.0.0",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v2",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Migration Guide",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/migration-guide-v2"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/using-the-sdk": {
   "abstract" : [

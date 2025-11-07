@@ -77,16 +77,12 @@
         }
       ],
       "kind" : "declarations"
-    }
-  ],
-  "relationshipsSections" : [
+    },
     {
-      "identifiers" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ"
-      ],
-      "kind" : "relationships",
-      "title" : "Conforms To",
-      "type" : "conformsTo"
+      "kind" : "mentions",
+      "mentions" : [
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v2"
+      ]
     }
   ],
   "schemaVersion" : {
@@ -102,18 +98,10 @@
       "anchor" : "Enumeration-Cases",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/sku(_:)",
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/url(_:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/sku(_:productInfo:)",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/url(_:productInfo:)"
       ],
       "title" : "Enumeration Cases"
-    },
-    {
-      "anchor" : "Default-Implementations",
-      "generated" : true,
-      "identifiers" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/Equatable-Implementations"
-      ],
-      "title" : "Default Implementations"
     }
   ],
   "variants" : [
@@ -130,11 +118,6 @@
   ]
 , 
 "references": {
-"doc://tcdigitalflyer.TCDigitalFlyer/SQ": {
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
-  "title" : "Swift.Equatable",
-  "type" : "unresolvable"
-},
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
@@ -225,21 +208,10 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event"
 },
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/equatable-implementations"
-},
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event/sku(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event/sku(_:productInfo:)": {
   "abstract" : [
     {
-      "text" : "A product’s click region was tapped - a SKU is emitted.",
+      "text" : "A product’s click region was tapped - a SKU is emitted, along with a dictionary of arbitrary product information",
       "type" : "text"
     }
   ],
@@ -267,20 +239,45 @@
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "productInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/sku(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/sku(_:productInfo:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "FlyerView.Event.sku(_:)",
+  "title" : "FlyerView.Event.sku(_:productInfo:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/sku(_:)"
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/sku(_:productinfo:)"
 },
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event/url(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event/url(_:productInfo:)": {
   "abstract" : [
     {
-      "text" : "A product’s click region was tapped - an internal or external link is emitted.",
+      "text" : "A product’s click region was tapped - an internal or external link is emitted, along with a dictionary of arbitrary product information",
       "type" : "text"
     }
   ],
@@ -308,15 +305,54 @@
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "productInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/url(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/url(_:productInfo:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "FlyerView.Event.url(_:)",
+  "title" : "FlyerView.Event.url(_:productInfo:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/url(_:)"
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/url(_:productinfo:)"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide-v2": {
+  "abstract" : [
+    {
+      "text" : "Transition existing apps from v2.x to 3.0.0",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v2",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Migration Guide",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/migration-guide-v2"
 }
 }
 }

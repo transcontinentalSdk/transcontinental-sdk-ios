@@ -149,7 +149,7 @@
               "type" : "codeVoice"
             },
             {
-              "text" : " must be the same for all instances (TODO).",
+              "text" : " must be the same for all instances.",
               "type" : "text"
             }
           ],
@@ -549,7 +549,28 @@
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/getPublication(from:with:)": {
   "abstract" : [
-
+    {
+      "text" : "Retrieve a filtered ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " with the provided ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " applied (as determined by the API)..",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -752,8 +773,9 @@
       "type" : "text"
     },
     {
-      "code" : "Publication.Attributes",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",
@@ -1119,6 +1141,37 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/environment"
 },
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FilterOptions": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FilterOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FilterOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FilterOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FilterOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/filteroptions"
+},
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Flyerable": {
   "abstract" : [
 
@@ -1174,16 +1227,18 @@
       "type" : "text"
     },
     {
-      "code" : "Publication.Attributes",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " and an array of ",
       "type" : "text"
     },
     {
-      "code" : "Publication.Page",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " objects, which contain the page content.",
@@ -1216,6 +1271,97 @@
   "title" : "Publication",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : "’s attributes - which are effectively the metadata for the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Attributes"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Attributes"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Attributes",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
+  "abstract" : [
+    {
+      "text" : "A page within a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " that contains a flexible grid of items.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page"
 }
 }
 }

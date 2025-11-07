@@ -603,11 +603,11 @@
         {
           "code" : [
             "let flyerView = FlyerView(",
-            "        frame: self.view.frame,",
-            "        publication: publication,",
-            "        configuration: configuration",
-            "    ) { event in",
-            "        print(event)  \/\/ This closure will be called when an event is emitted",
+            "    frame: self.view.frame,",
+            "    publication: publication,",
+            "    configuration: configuration",
+            ") { event in",
+            "    print(event)  \/\/ This closure will be called when an event is emitted",
             "}",
             "",
             "\/\/ Add the FlyerView to your view hierarchy",
@@ -801,7 +801,7 @@
                       "type" : "codeVoice"
                     },
                     {
-                      "text" : " - The SKU of the product whose click region was tapped",
+                      "text" : " - The SKU of the product whose click region was tapped, along with a dictionary of arbitrary product information",
                       "type" : "text"
                     }
                   ],
@@ -818,7 +818,7 @@
                       "type" : "codeVoice"
                     },
                     {
-                      "text" : " - The URL of the internal or external link that was tapped",
+                      "text" : " - The URL of the internal or external link that was tapped, along with a dictionary of arbitrary product information",
                       "type" : "text"
                     }
                   ],

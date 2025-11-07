@@ -5,8 +5,9 @@
       "type" : "text"
     },
     {
-      "code" : "Publication.Page.ClickableProduct",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " object with the specified parameters.",
@@ -227,8 +228,9 @@
       "type" : "text"
     },
     {
-      "code" : "Block",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " that can be clicked on.",
@@ -269,8 +271,9 @@
       "type" : "text"
     },
     {
-      "code" : "Publication.Page.ClickableProduct",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " object with the specified parameters.",
@@ -327,6 +330,37 @@
   "title" : "init(sku:clickRegions:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickableproduct\/init(sku:clickregions:)"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Block": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Block"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page\/Block",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Block"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page.Block",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page\/block"
 }
 }
 }

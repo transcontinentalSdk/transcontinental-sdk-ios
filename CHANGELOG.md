@@ -1,6 +1,29 @@
 # Changelog
 
-## [2.x] - Unreleased
+## [3.x] - Unreleased
+
+## [3.0.0] - 2025-11-07
+
+This release includes a breaking change. Please refer to the [migration documentation](https://transcontinentalsdk.github.io/transcontinental-sdk-ios/documentation/tcdigitalflyer) for more information.
+
+### Added
+
+- Added support for arbitrarily-sized page grids
+- Improved rendering performance on larger, or more detailed, flyers
+
+### Changed
+
+- `Flyer.Event` signature includes a (default empty) dictionary
+
+### Fixed
+
+- Carousels no longer overlap neighbouring blocks on iPadOS 17/18
+- Category filter selection checkmark UI sometimes did not persist between interactions
+- Full-screen video play button icons are scaled by aspect ratio to prevent oval icons
+
+### Removed
+
+- `Equatable` was conformance temporarily removed from `FlyerView.Event` and `ClickRegion`, it will be re-added in the next minor/patch release
 
 ## [2.4.3] - 2025-10-31
 

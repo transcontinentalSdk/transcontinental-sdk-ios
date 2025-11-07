@@ -5,8 +5,9 @@
       "type" : "text"
     },
     {
-      "code" : "Publication.Page.Grid",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " object with the specified parameters.",
@@ -218,8 +219,9 @@
       "type" : "text"
     },
     {
-      "code" : "Publication.Page",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",
@@ -260,8 +262,9 @@
       "type" : "text"
     },
     {
-      "code" : "Publication.Page.Grid",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Grid",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : " object with the specified parameters.",
@@ -335,6 +338,49 @@
   "title" : "init(rows:columns:aspectRatio:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/grid\/init(rows:columns:aspectratio:)"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page": {
+  "abstract" : [
+    {
+      "text" : "A page within a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " that contains a flexible grid of items.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Page",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Page"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Publication.Page",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/page"
 }
 }
 }

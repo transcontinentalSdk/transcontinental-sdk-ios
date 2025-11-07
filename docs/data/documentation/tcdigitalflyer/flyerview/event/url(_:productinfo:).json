@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "A product’s click region was tapped - a SKU is emitted.",
+      "text" : "A product’s click region was tapped - an internal or external link is emitted, along with a dictionary of arbitrary product information",
       "type" : "text"
     }
   ],
@@ -16,11 +16,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/sku(_:)"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/url(_:productInfo:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:14TCDigitalFlyer0B4ViewC5EventO3skuyAESScAEmF",
+    "externalID" : "s:14TCDigitalFlyer0B4ViewC5EventO3urlyAESS_SDySSypGtcAEmF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -32,7 +32,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "sku"
+        "text" : "url"
       },
       {
         "kind" : "text",
@@ -45,7 +45,32 @@
       },
       {
         "kind" : "text",
-        "text" : ")"
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "productInfo"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : " : "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "Any"
+      },
+      {
+        "kind" : "text",
+        "text" : "])"
       }
     ],
     "modules" : [
@@ -56,7 +81,7 @@
     "role" : "symbol",
     "roleHeading" : "Case",
     "symbolKind" : "case",
-    "title" : "FlyerView.Event.sku(_:)"
+    "title" : "FlyerView.Event.url(_:productInfo:)"
   },
   "primaryContentSections" : [
     {
@@ -79,7 +104,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "sku"
+              "text" : "url"
             },
             {
               "kind" : "text",
@@ -92,7 +117,32 @@
             },
             {
               "kind" : "text",
-              "text" : ")"
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "productInfo"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "Any"
+            },
+            {
+              "kind" : "text",
+              "text" : "] = [:])"
             }
           ]
         }
@@ -111,7 +161,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/tcdigitalflyer\/flyerview\/event\/sku(_:)"
+        "\/documentation\/tcdigitalflyer\/flyerview\/event\/url(_:productinfo:)"
       ],
       "traits" : [
         {
@@ -212,10 +262,10 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event"
 },
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event/sku(_:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event/url(_:productInfo:)": {
   "abstract" : [
     {
-      "text" : "A product’s click region was tapped - a SKU is emitted.",
+      "text" : "A product’s click region was tapped - an internal or external link is emitted, along with a dictionary of arbitrary product information",
       "type" : "text"
     }
   ],
@@ -230,7 +280,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "sku"
+      "text" : "url"
     },
     {
       "kind" : "text",
@@ -243,15 +293,40 @@
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "productInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/sku(_:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event\/url(_:productInfo:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "FlyerView.Event.sku(_:)",
+  "title" : "FlyerView.Event.url(_:productInfo:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/sku(_:)"
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/url(_:productinfo:)"
 }
 }
 }

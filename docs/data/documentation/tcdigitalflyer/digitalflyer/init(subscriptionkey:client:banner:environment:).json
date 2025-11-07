@@ -289,8 +289,9 @@
                   "type" : "text"
                 },
                 {
-                  "code" : "live",
-                  "type" : "codeVoice"
+                  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live",
+                  "isActive" : true,
+                  "type" : "reference"
                 },
                 {
                   "text" : ")",
@@ -302,6 +303,12 @@
           ],
           "name" : "environment"
         }
+      ]
+    },
+    {
+      "kind" : "mentions",
+      "mentions" : [
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v1"
       ]
     },
     {
@@ -321,8 +328,9 @@
                   "type" : "text"
                 },
                 {
-                  "code" : "DFError.missingSubscriptionKey",
-                  "type" : "codeVoice"
+                  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingSubscriptionKey",
+                  "isActive" : true,
+                  "type" : "reference"
                 },
                 {
                   "text" : " if the subscription key is an empty string.",
@@ -345,8 +353,9 @@
                   "type" : "text"
                 },
                 {
-                  "code" : "DFError.missingClient",
-                  "type" : "codeVoice"
+                  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingClient",
+                  "isActive" : true,
+                  "type" : "reference"
                 },
                 {
                   "text" : " if the client is an empty string.",
@@ -369,8 +378,9 @@
                   "type" : "text"
                 },
                 {
-                  "code" : "DFError.missingBanner",
-                  "type" : "codeVoice"
+                  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingBanner",
+                  "isActive" : true,
+                  "type" : "reference"
                 },
                 {
                   "text" : " if the banner is an empty string.",
@@ -423,6 +433,117 @@
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/missingBanner": {
+  "abstract" : [
+    {
+      "text" : "The banner is empty during ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " initialization",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "missingBanner"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingBanner",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "DFError.missingBanner",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/dferror\/missingbanner"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/missingClient": {
+  "abstract" : [
+    {
+      "text" : "The client is missing during ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " initialization",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "missingClient"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingClient",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "DFError.missingClient",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/dferror\/missingclient"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/missingSubscriptionKey": {
+  "abstract" : [
+    {
+      "text" : "The subscription key is missing during ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " initialization",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "missingSubscriptionKey"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DFError\/missingSubscriptionKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "DFError.missingSubscriptionKey",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/dferror\/missingsubscriptionkey"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer": {
   "abstract" : [
@@ -596,6 +717,45 @@
   "title" : "Environment",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/environment"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Environment/live": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "live"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Environment\/live",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Environment.live",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/environment\/live"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide-v1": {
+  "abstract" : [
+    {
+      "text" : "Transition existing apps from v1.x to 2.0.0",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v1",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Migration Guide",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/migration-guide-v1"
 }
 }
 }

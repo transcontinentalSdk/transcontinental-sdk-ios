@@ -25,7 +25,16 @@
             "type" : "groupMarker"
           },
           {
-            "path" : "\/documentation\/tcdigitalflyer\/migration-guide",
+            "path" : "\/documentation\/tcdigitalflyer\/migration-guide-v1",
+            "title" : "Migration Guide",
+            "type" : "article"
+          },
+          {
+            "title" : "Migrating from v2.x",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/tcdigitalflyer\/migration-guide-v2",
             "title" : "Migration Guide",
             "type" : "article"
           },
@@ -174,34 +183,14 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/sku(_:)",
-                    "title" : "case sku(String)",
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/sku(_:productinfo:)",
+                    "title" : "case sku(String, productInfo: [String : Any])",
                     "type" : "case"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/url(_:)",
-                    "title" : "case url(String)",
+                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/url(_:productinfo:)",
+                    "title" : "case url(String, productInfo: [String : Any])",
                     "type" : "case"
-                  },
-                  {
-                    "title" : "Default Implementations",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "children" : [
-                      {
-                        "title" : "Operators",
-                        "type" : "groupMarker"
-                      },
-                      {
-                        "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/!=(_:_:)",
-                        "title" : "static func != (Self, Self) -> Bool",
-                        "type" : "op"
-                      }
-                    ],
-                    "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event\/equatable-implementations",
-                    "title" : "Equatable Implementations",
-                    "type" : "symbol"
                   }
                 ],
                 "path" : "\/documentation\/tcdigitalflyer\/flyerview\/event",
@@ -465,26 +454,6 @@
                 "path" : "\/documentation\/tcdigitalflyer\/clickregion\/y",
                 "title" : "let y: Double",
                 "type" : "property"
-              },
-              {
-                "title" : "Default Implementations",
-                "type" : "groupMarker"
-              },
-              {
-                "children" : [
-                  {
-                    "title" : "Operators",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/tcdigitalflyer\/clickregion\/!=(_:_:)",
-                    "title" : "static func != (Self, Self) -> Bool",
-                    "type" : "op"
-                  }
-                ],
-                "path" : "\/documentation\/tcdigitalflyer\/clickregion\/equatable-implementations",
-                "title" : "Equatable Implementations",
-                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/tcdigitalflyer\/clickregion",
@@ -777,6 +746,11 @@
                       {
                         "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/block\/columnspan",
                         "title" : "var columnSpan: Int",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/tcdigitalflyer\/publication\/page\/block\/origin",
+                        "title" : "var origin: (Int, Int)?",
                         "type" : "property"
                       },
                       {

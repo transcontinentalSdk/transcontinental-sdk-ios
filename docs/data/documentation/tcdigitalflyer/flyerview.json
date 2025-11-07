@@ -99,6 +99,12 @@
       "kind" : "declarations"
     },
     {
+      "kind" : "mentions",
+      "mentions" : [
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v1"
+      ]
+    },
+    {
       "content" : [
         {
           "anchor" : "overview",
@@ -153,13 +159,13 @@
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8SendableP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s16SendableMetatypeP",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIAccessibilityIdentification",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIActivityItemsConfigurationProviding",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIAppearance",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIAppearanceContainer",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UICollectionViewDataSource",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UICollectionViewDelegate",
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UICoordinateSpace",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIDynamicItem",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIFocusEnvironment",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIFocusItem",
@@ -171,7 +177,8 @@
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIScrollViewDelegate",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/5UIKit23UITraitChangeObservableP",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UITraitEnvironment",
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIUserActivityRestoring"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIUserActivityRestoring",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UICoordinateSpace"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -622,6 +629,20 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/flyerview\/init(frame:publication:configuration:onevent:)"
 },
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide-v1": {
+  "abstract" : [
+    {
+      "text" : "Transition existing apps from v1.x to 2.0.0",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v1",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Migration Guide",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/migration-guide-v1"
+},
 "doc://tcdigitalflyer.TCDigitalFlyer/objc(cs)UIView": {
   "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(cs)UIView",
   "title" : "UIKit.UIView",
@@ -674,7 +695,7 @@
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UICoordinateSpace": {
   "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UICoordinateSpace",
-  "title" : "UIKit.UICoordinateSpace",
+  "title" : "UIUtilities.UICoordinateSpace",
   "type" : "unresolvable"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIDynamicItem": {
@@ -730,6 +751,11 @@
 "doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)UIUserActivityRestoring": {
   "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)UIUserActivityRestoring",
   "title" : "UIKit.UIUserActivityRestoring",
+  "type" : "unresolvable"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
   "type" : "unresolvable"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/s23CustomStringConvertibleP": {

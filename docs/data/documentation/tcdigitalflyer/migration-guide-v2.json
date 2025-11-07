@@ -1,0 +1,353 @@
+{
+  "abstract" : [
+    {
+      "text" : "Transition existing apps from v2.x to 3.0.0",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v2"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyer"
+      }
+    ],
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Migration Guide"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The v3.0.0 update is a breaking API change in the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " enum, primarily due to ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "https:\/\/github.com\/swiftlang\/swift\/issues\/56990",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Overloaded enums will successfully compile without warnings, but an obscure warning is generated while pattern matching, and their behaviour at runtime is indeterminate based on pattern matching order which will lead to silent failures. This necessitated a breaking API change.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Warning",
+          "style" : "warning",
+          "type" : "aside"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The change brings the addition of a ",
+              "type" : "text"
+            },
+            {
+              "code" : "productInfo",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " dictionary to events, which will enable passing along small amounts of additional product information based on user interaction.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "Pattern-Matching-on-Flyer-Events",
+          "level" : 2,
+          "text" : "Pattern Matching on Flyer Events",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The breaking change depends on how events are currently handled in application code, however, code like this:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "\/\/ v2.x",
+            "let flyerView = FlyerView(",
+            "    frame: self.view.frame,",
+            "    publication: publication,",
+            "    configuration: configuration",
+            ") { event in",
+            "    switch event {",
+            "    case .sku(let sku):",
+            "        \/\/ ... handle sku event ...",
+            "    case .url(let url):",
+            "        \/\/ ... handle sku event ...",
+            "    default:",
+            "        \/\/ ... handle unknown\/future events ...",
+            "    }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Would need to be updated to this:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "\/\/ v3.x",
+            "let flyerView = FlyerView(",
+            "    frame: self.view.frame,",
+            "    publication: publication,",
+            "    configuration: configuration",
+            ") { event in",
+            "    switch event {",
+            "    case .sku(let sku, let productInfo):",
+            "        \/\/ ... handle sku event ...",
+            "    case .url(let url, let productInfo):",
+            "        \/\/ ... handle sku event ...",
+            "    default:",
+            "        \/\/ ... handle unknown\/future events ...",
+            "    }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Code in the original format may be flagged with the following warning depending on the version of Swift in use:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "code" : "Enum case 'sku' has 2 associated values; matching them as a tuple is deprecated",
+              "type" : "codeVoice"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "Equatable-removal",
+          "level" : 2,
+          "text" : "Equatable removal",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "There was a temporary removal of ",
+              "type" : "text"
+            },
+            {
+              "code" : "Equatable",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " support from ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " and ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ". These will be returned with a more performant implementation in an upcoming minor\/patch release scheduled for late November 2025.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyer\/migration-guide-v2"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
+  "abstract" : [
+    {
+      "text" : "The Transcontinental iOS SDK provides an easy way to interact with the Transcontinental Web API in order to access digital flyers. The SDK also provides pre-built UI components to allow users to browse through flyers and retrieve detailed product information.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion": {
+  "abstract" : [
+    {
+      "text" : "Click regions of a product inside a block.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "These values are percentages of the block’s width and height.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ClickRegion"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ClickRegion"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ClickRegion",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/clickregion"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/Event": {
+  "abstract" : [
+    {
+      "text" : "The events that can be emitted by the FlyerView.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Event"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/FlyerView\/Event",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Event"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerView.Event",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/flyerview\/event"
+},
+"https://github.com/swiftlang/swift/issues/56990": {
+  "identifier" : "https:\/\/github.com\/swiftlang\/swift\/issues\/56990",
+  "title" : "incomplete support for overloaded enums in Swift",
+  "titleInlineContent" : [
+    {
+      "text" : "incomplete support for overloaded enums in Swift",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/swiftlang\/swift\/issues\/56990"
+}
+}
+}

@@ -84,7 +84,8 @@
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s5ErrorP",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH",
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8SendableP"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8SendableP",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s16SendableMetatypeP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -474,6 +475,11 @@
   "title" : "DigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/digitalflyer"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/s5ErrorP": {
   "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s5ErrorP",

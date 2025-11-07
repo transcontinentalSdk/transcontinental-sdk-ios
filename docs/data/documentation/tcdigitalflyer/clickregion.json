@@ -84,16 +84,12 @@
         }
       ],
       "kind" : "declarations"
-    }
-  ],
-  "relationshipsSections" : [
+    },
     {
-      "identifiers" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ"
-      ],
-      "kind" : "relationships",
-      "title" : "Conforms To",
-      "type" : "conformsTo"
+      "kind" : "mentions",
+      "mentions" : [
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v2"
+      ]
     }
   ],
   "schemaVersion" : {
@@ -123,14 +119,6 @@
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/y"
       ],
       "title" : "Instance Properties"
-    },
-    {
-      "anchor" : "Default-Implementations",
-      "generated" : true,
-      "identifiers" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/Equatable-Implementations"
-      ],
-      "title" : "Default Implementations"
     }
   ],
   "variants" : [
@@ -147,11 +135,6 @@
   ]
 , 
 "references": {
-"doc://tcdigitalflyer.TCDigitalFlyer/SQ": {
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
-  "title" : "Swift.Equatable",
-  "type" : "unresolvable"
-},
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer": {
   "abstract" : [
     {
@@ -207,17 +190,6 @@
   "title" : "ClickRegion",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickregion"
-},
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickRegion\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/clickregion\/equatable-implementations"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickRegion/height": {
   "abstract" : [
@@ -443,6 +415,20 @@
   "title" : "y",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickregion\/y"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide-v2": {
+  "abstract" : [
+    {
+      "text" : "Transition existing apps from v2.x to 3.0.0",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v2",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Migration Guide",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/migration-guide-v2"
 }
 }
 }
