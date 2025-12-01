@@ -1,23 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "The scrollView handles zooming and scrolling through the content, while the collectionView’s scrolling is explicitly disabled.",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "UIScrollViewDelegate.scrollViewDidScroll(_:)",
+      "type" : "codeVoice"
     },
     {
-      "text" : "As scrolling occurs, we manually offset the collectionView so that it knows to calculate and render upcoming images",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "and to recycle off-screen images.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -143,42 +135,6 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "NOTE: Ensure only self.scrollView does the content manipulation, as this function is called any time the scrollView or collectionView",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "scroll, or have their ",
-              "type" : "text"
-            },
-            {
-              "code" : "contentOffset",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " updated (i.e. exactly what we do in this function).",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -261,26 +217,7 @@
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidScroll(_:)": {
   "abstract" : [
-    {
-      "text" : "The scrollView handles zooming and scrolling through the content, while the collectionView’s scrolling is explicitly disabled.",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "As scrolling occurs, we manually offset the collectionView so that it knows to calculate and render upcoming images",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "and to recycle off-screen images.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

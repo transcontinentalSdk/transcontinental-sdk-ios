@@ -13,6 +13,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
+    "extendedModule" : "TCDigitalFlyer",
     "externalID" : "s:14TCDigitalFlyer0B4ViewC15ScrollDirectionO",
     "fragments" : [
       {

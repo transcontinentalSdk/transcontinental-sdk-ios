@@ -228,26 +228,7 @@
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/FlyerView/scrollViewDidScroll(_:)": {
   "abstract" : [
-    {
-      "text" : "The scrollView handles zooming and scrolling through the content, while the collectionView’s scrolling is explicitly disabled.",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "As scrolling occurs, we manually offset the collectionView so that it knows to calculate and render upcoming images",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "and to recycle off-screen images.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

@@ -2,6 +2,17 @@
 
 ## [3.x] - Unreleased
 
+## [3.0.1] - 2025-12-01
+
+### Changed
+
+- Categories are retrieved from the same API as the Web SDK
+
+### Fixed
+
+- Pinch-to-zoom now uses pinch centroid coordinates as transform origin, rather than origin of page
+- Static guidebook search uses `tablet` layout instead of `mobile` layout
+
 ## [3.0.0] - 2025-11-07
 
 This release includes a breaking change. Please refer to the [migration documentation](https://transcontinentalsdk.github.io/transcontinental-sdk-ios/documentation/tcdigitalflyer) for more information.
@@ -23,7 +34,7 @@ This release includes a breaking change. Please refer to the [migration document
 
 ### Removed
 
-- `Equatable` was conformance temporarily removed from `FlyerView.Event` and `ClickRegion`, it will be re-added in the next minor/patch release
+- `Equatable` was conformance temporarily removed from `FlyerView.Event` and `ClickRegion`, it will be re-added in the next minor release
 
 ## [2.4.3] - 2025-10-31
 
