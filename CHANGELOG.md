@@ -2,6 +2,12 @@
 
 ## [3.x] - Unreleased
 
+## [3.0.2] - 2026-01-10
+
+### Fixed
+
+- Zoomed flyer should no longer jump to left of page when crossing page 1
+
 ## [3.0.1] - 2025-12-01
 
 ### Changed
