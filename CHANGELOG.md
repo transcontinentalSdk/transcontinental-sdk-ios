@@ -2,6 +2,12 @@
 
 ## [3.x] - Unreleased
 
+## [3.1.0] - 2026-02-06
+
+### Added
+
+- Added an opt-in Analytics subsystem
+
 ## [3.0.2] - 2026-01-10
 
 ### Fixed

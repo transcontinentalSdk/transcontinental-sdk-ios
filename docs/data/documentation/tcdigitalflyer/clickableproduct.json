@@ -100,7 +100,7 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:productData:)"
       ],
       "title" : "Initializers"
     },
@@ -286,7 +286,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickableproduct\/clickregions"
 },
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct/init(sku:clickRegions:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct/init(sku:clickRegions:productData:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -343,15 +343,41 @@
     },
     {
       "kind" : "text",
-      "text" : "])"
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "productData"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?]?)"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:productData:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(sku:clickRegions:)",
+  "title" : "init(sku:clickRegions:productData:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/clickableproduct\/init(sku:clickregions:)"
+  "url" : "\/documentation\/tcdigitalflyer\/clickableproduct\/init(sku:clickregions:productdata:)"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct/sku": {
   "abstract" : [

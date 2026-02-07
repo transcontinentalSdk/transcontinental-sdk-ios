@@ -1,3 +1,14 @@
 [
+  {
+    "notes" : [
 
+    ],
+    "severity" : 2,
+    "source" : "migration-guide-v1.md",
+    "start" : {
+      "column" : 25,
+      "line" : 23
+    },
+    "summary" : "'init(subscriptionKey:client:banner:environment:)' doesn't exist at '\/TCDigitalFlyer\/DigitalFlyer'"
+  }
 ]

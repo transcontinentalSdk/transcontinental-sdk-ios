@@ -24,11 +24,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:)"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:productData:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:14TCDigitalFlyer16ClickableProductV3sku12clickRegionsACSS_SayAA11ClickRegionVGtcfc",
+    "externalID" : "s:14TCDigitalFlyer16ClickableProductV3sku12clickRegions11productDataACSS_SayAA11ClickRegionVGSDyS2SSgGSgtcfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -70,7 +70,33 @@
       },
       {
         "kind" : "text",
-        "text" : "])"
+        "text" : "], "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "productData"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : " : "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : "?]?)"
       }
     ],
     "modules" : [
@@ -81,7 +107,7 @@
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
-    "title" : "init(sku:clickRegions:)"
+    "title" : "init(sku:clickRegions:productData:)"
   },
   "primaryContentSections" : [
     {
@@ -135,7 +161,33 @@
             },
             {
               "kind" : "text",
-              "text" : "])"
+              "text" : "], "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "productData"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : "?]? = nil)"
             }
           ]
         }
@@ -154,7 +206,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/tcdigitalflyer\/clickableproduct\/init(sku:clickregions:)"
+        "\/documentation\/tcdigitalflyer\/clickableproduct\/init(sku:clickregions:productdata:)"
       ],
       "traits" : [
         {
@@ -264,7 +316,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/clickableproduct"
 },
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct/init(sku:clickRegions:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/ClickableProduct/init(sku:clickRegions:productData:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -321,15 +373,41 @@
     },
     {
       "kind" : "text",
-      "text" : "])"
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "productData"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?]?)"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/ClickableProduct\/init(sku:clickRegions:productData:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(sku:clickRegions:)",
+  "title" : "init(sku:clickRegions:productData:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/clickableproduct\/init(sku:clickregions:)"
+  "url" : "\/documentation\/tcdigitalflyer\/clickableproduct\/init(sku:clickregions:productdata:)"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Page/Block": {
   "abstract" : [

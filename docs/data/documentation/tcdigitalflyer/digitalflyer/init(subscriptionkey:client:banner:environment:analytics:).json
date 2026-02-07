@@ -24,11 +24,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)"
+    "url" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:analytics:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:14TCDigitalFlyer07DigitalB0C15subscriptionKey6client6banner11environmentACSS_S2SSgAA11EnvironmentOtKcfc",
+    "externalID" : "s:14TCDigitalFlyer07DigitalB0C15subscriptionKey6client6banner11environment9analyticsACSS_S2SSgAA11EnvironmentOAA22AnalyticsConfigurationVSgtKcfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -104,7 +104,24 @@
       },
       {
         "kind" : "text",
-        "text" : ") "
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "analytics"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14TCDigitalFlyer22AnalyticsConfigurationV",
+        "text" : "AnalyticsConfiguration"
+      },
+      {
+        "kind" : "text",
+        "text" : "?) "
       },
       {
         "kind" : "keyword",
@@ -119,7 +136,7 @@
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
-    "title" : "init(subscriptionKey:client:banner:environment:)"
+    "title" : "init(subscriptionKey:client:banner:environment:analytics:)"
   },
   "primaryContentSections" : [
     {
@@ -207,7 +224,25 @@
             },
             {
               "kind" : "text",
-              "text" : " = .live) "
+              "text" : " = .live, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "analytics"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/AnalyticsConfiguration",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14TCDigitalFlyer22AnalyticsConfigurationV",
+              "text" : "AnalyticsConfiguration"
+            },
+            {
+              "kind" : "text",
+              "text" : "? = nil) "
             },
             {
               "kind" : "keyword",
@@ -302,13 +337,29 @@
             }
           ],
           "name" : "environment"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "An optional configuration to enable the opt-in Analytics subsystem. Defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "nil",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " (disabled)",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "analytics"
         }
-      ]
-    },
-    {
-      "kind" : "mentions",
-      "mentions" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v1"
       ]
     },
     {
@@ -409,7 +460,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:)"
+        "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:analytics:)"
       ],
       "traits" : [
         {
@@ -433,6 +484,40 @@
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/AnalyticsConfiguration": {
+  "abstract" : [
+    {
+      "text" : "Configuration object for the Analytics subsystem.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AnalyticsConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/AnalyticsConfiguration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AnalyticsConfiguration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AnalyticsConfiguration",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/analyticsconfiguration"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DFError/missingBanner": {
   "abstract" : [
@@ -579,7 +664,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/digitalflyer"
 },
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:analytics:)": {
   "abstract" : [
     {
       "text" : "Creates a ",
@@ -670,19 +755,36 @@
     },
     {
       "kind" : "text",
-      "text" : ") "
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "analytics"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer22AnalyticsConfigurationV",
+      "text" : "AnalyticsConfiguration"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) "
     },
     {
       "kind" : "keyword",
       "text" : "throws"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:analytics:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(subscriptionKey:client:banner:environment:)",
+  "title" : "init(subscriptionKey:client:banner:environment:analytics:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:)"
+  "url" : "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:analytics:)"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Environment": {
   "abstract" : [
@@ -742,20 +844,6 @@
   "title" : "Environment.live",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/environment\/live"
-},
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/migration-guide-v1": {
-  "abstract" : [
-    {
-      "text" : "Transition existing apps from v1.x to 2.0.0",
-      "type" : "text"
-    }
-  ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/migration-guide-v1",
-  "kind" : "article",
-  "role" : "article",
-  "title" : "Migration Guide",
-  "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/migration-guide-v1"
 }
 }
 }

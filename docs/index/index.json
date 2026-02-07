@@ -49,8 +49,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:)",
-                "title" : "init(subscriptionKey: String, client: String, banner: String?, environment: Environment) throws",
+                "path" : "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:analytics:)",
+                "title" : "init(subscriptionKey: String, client: String, banner: String?, environment: Environment, analytics: AnalyticsConfiguration?) throws",
                 "type" : "init"
               },
               {
@@ -423,6 +423,58 @@
           {
             "children" : [
               {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/analyticsconfiguration\/storage\/init(eventcapacity:)",
+                    "title" : "init(eventCapacity: Int)",
+                    "type" : "init"
+                  }
+                ],
+                "path" : "\/documentation\/tcdigitalflyer\/analyticsconfiguration\/storage",
+                "title" : "AnalyticsConfiguration.Storage",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyer\/analyticsconfiguration\/upload\/init(pollinterval:uploadinterval:eventcount:batchcount:)",
+                    "title" : "init(pollInterval: TimeInterval, uploadInterval: TimeInterval, eventCount: Int, batchCount: Int)",
+                    "type" : "init"
+                  }
+                ],
+                "path" : "\/documentation\/tcdigitalflyer\/analyticsconfiguration\/upload",
+                "title" : "AnalyticsConfiguration.Upload",
+                "type" : "struct"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/tcdigitalflyer\/analyticsconfiguration\/init(id:upload:storage:)",
+                "title" : "init(id: String, upload: Upload, storage: Storage) throws",
+                "type" : "init"
+              }
+            ],
+            "path" : "\/documentation\/tcdigitalflyer\/analyticsconfiguration",
+            "title" : "AnalyticsConfiguration",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
                 "title" : "Initializers",
                 "type" : "groupMarker"
               },
@@ -467,8 +519,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/tcdigitalflyer\/clickableproduct\/init(sku:clickregions:)",
-                "title" : "init(sku: String, clickRegions: [ClickRegion])",
+                "path" : "\/documentation\/tcdigitalflyer\/clickableproduct\/init(sku:clickregions:productdata:)",
+                "title" : "init(sku: String, clickRegions: [ClickRegion], productData: [String : String?]?)",
                 "type" : "init"
               },
               {
@@ -638,8 +690,8 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:language:category:jobname:filters:isblockedflyer:)",
-                    "title" : "init(id: String, title: String, flyerTitle: String, startDate: Date, endDate: Date, thumbnailUrl: String, logoUrl: String, storeId: String, language: Language, category: String, jobName: String, filters: FilterOptions?, isBlockedFlyer: Bool?)",
+                    "path" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:storename:language:category:jobname:filters:isblockedflyer:client:banner:zonedpublicationname:region:environment:)",
+                    "title" : "init(id: String, title: String, flyerTitle: String, startDate: Date, endDate: Date, thumbnailUrl: String, logoUrl: String, storeId: String, storeName: String, language: Language, category: String, jobName: String, filters: FilterOptions?, isBlockedFlyer: Bool?, client: String?, banner: String?, zonedPublicationName: String?, region: String?, environment: String?)",
                     "type" : "init"
                   },
                   {
@@ -1019,6 +1071,11 @@
               {
                 "path" : "\/documentation\/tcdigitalflyer\/dferror\/missingclient",
                 "title" : "case missingClient",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/tcdigitalflyer\/dferror\/missingidentifier",
+                "title" : "case missingIdentifier",
                 "type" : "case"
               },
               {
