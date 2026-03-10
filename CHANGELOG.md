@@ -2,6 +2,16 @@
 
 ## [3.x] - Unreleased
 
+## [3.2.0] - 2026-03-10
+
+### Changed
+
+- Releases are built with XCode 16.4
+
+### Fixed
+
+- Basebars should emit URLs instead of SKUs
+
 ## [3.1.0] - 2026-02-06
 
 ### Added
