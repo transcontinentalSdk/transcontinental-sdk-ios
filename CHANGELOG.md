@@ -2,6 +2,12 @@
 
 ## [3.x] - Unreleased
 
+## [3.3.0] - 2026-05-28
+
+### Added
+
+- Support for advanced filters, dynamically adjusted from the API
+
 ## [3.2.0] - 2026-03-10
 
 ### Changed
