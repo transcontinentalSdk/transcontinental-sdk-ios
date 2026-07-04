@@ -2,6 +2,17 @@
 
 ## [3.x] - Unreleased
 
+## [3.4.0] - 2026-07-04
+
+### Changed
+
+- Exposed additional product information via API
+- Small accessibility/style tweaks to filter buttons
+
+### Removed
+
+- Removed legacy storage token from CDN requests
+
 ## [3.3.0] - 2026-05-28
 
 ### Added
