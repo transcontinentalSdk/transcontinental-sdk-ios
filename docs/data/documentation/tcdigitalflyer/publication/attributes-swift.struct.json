@@ -73,7 +73,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -103,7 +105,6 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8CopyableP",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH"
       ],
@@ -125,7 +126,7 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:storeName:language:category:jobName:filters:isBlockedFlyer:client:banner:zonedPublicationName:region:environment:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:flyerId:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:storeName:language:category:jobName:filters:isBlockedFlyer:client:banner:zonedPublicationName:region:environment:)"
       ],
       "title" : "Initializers"
     },
@@ -136,6 +137,7 @@
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/category",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/endDate",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/filters",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/flyerId",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/flyerTitle",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/id",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/jobName",
@@ -590,6 +592,40 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/filters"
 },
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/flyerId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "flyerId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/flyerId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "flyerId",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/flyerid"
+},
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/flyerTitle": {
   "abstract" : [
     {
@@ -678,7 +714,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/id"
 },
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:storeName:language:category:jobName:filters:isBlockedFlyer:client:banner:zonedPublicationName:region:environment:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/init(id:flyerId:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:storeName:language:category:jobName:filters:isBlockedFlyer:client:banner:zonedPublicationName:region:environment:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -705,6 +741,23 @@
     {
       "kind" : "externalParam",
       "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flyerId"
     },
     {
       "kind" : "text",
@@ -1026,12 +1079,12 @@
       "text" : "?)"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:storeName:language:category:jobName:filters:isBlockedFlyer:client:banner:zonedPublicationName:region:environment:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/Publication\/Attributes-swift.struct\/init(id:flyerId:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:storeName:language:category:jobName:filters:isBlockedFlyer:client:banner:zonedPublicationName:region:environment:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(id:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:storeName:language:category:jobName:filters:isBlockedFlyer:client:banner:zonedPublicationName:region:environment:)",
+  "title" : "init(id:flyerId:title:flyerTitle:startDate:endDate:thumbnailUrl:logoUrl:storeId:storeName:language:category:jobName:filters:isBlockedFlyer:client:banner:zonedPublicationName:region:environment:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:storename:language:category:jobname:filters:isblockedflyer:client:banner:zonedpublicationname:region:environment:)"
+  "url" : "\/documentation\/tcdigitalflyer\/publication\/attributes-swift.struct\/init(id:flyerid:title:flyertitle:startdate:enddate:thumbnailurl:logourl:storeid:storename:language:category:jobname:filters:isblockedflyer:client:banner:zonedpublicationname:region:environment:)"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/Publication/Attributes-swift.struct/jobName": {
   "abstract" : [
@@ -1403,11 +1456,6 @@
   "title" : "Migration Guide",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/migration-guide-v1"
-},
-"doc://tcdigitalflyer.TCDigitalFlyer/s8CopyableP": {
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8CopyableP",
-  "title" : "Swift.Copyable",
-  "type" : "unresolvable"
 }
 }
 }

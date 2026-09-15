@@ -2,6 +2,17 @@
 
 ## [3.x] - Unreleased
 
+## [3.5.0] - 2026-09-15
+
+### Added
+
+- Support for API-driven, dynamic page inserts 
+
+### Fixed
+
+- Animations now correctly persist the last frame
+- Clickable animations now expose additional product information
+
 ## [3.4.0] - 2026-07-04
 
 ### Changed

@@ -57,7 +57,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -268,7 +270,7 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:analytics:)"
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:analytics:personalization:)"
       ],
       "title" : "Initializers"
     },
@@ -661,7 +663,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyer\/digitalflyer\/getpublication(from:with:)"
 },
-"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:analytics:)": {
+"doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/init(subscriptionKey:client:banner:environment:analytics:personalization:)": {
   "abstract" : [
     {
       "text" : "Creates a ",
@@ -769,6 +771,23 @@
     },
     {
       "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "personalization"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer28PersonalizationConfigurationV",
+      "text" : "PersonalizationConfiguration"
+    },
+    {
+      "kind" : "text",
       "text" : "?) "
     },
     {
@@ -776,12 +795,12 @@
       "text" : "throws"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:analytics:)",
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/documentation\/TCDigitalFlyer\/DigitalFlyer\/init(subscriptionKey:client:banner:environment:analytics:personalization:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(subscriptionKey:client:banner:environment:analytics:)",
+  "title" : "init(subscriptionKey:client:banner:environment:analytics:personalization:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:analytics:)"
+  "url" : "\/documentation\/tcdigitalflyer\/digitalflyer\/init(subscriptionkey:client:banner:environment:analytics:personalization:)"
 },
 "doc://tcdigitalflyer.TCDigitalFlyer/documentation/TCDigitalFlyer/DigitalFlyer/listFilters(for:)": {
   "abstract" : [

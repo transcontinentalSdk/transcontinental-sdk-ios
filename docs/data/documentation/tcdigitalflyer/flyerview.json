@@ -65,7 +65,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -149,6 +151,8 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)CLBodyIdentifiable",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)CMBodyIdentifiable",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)NSCoding",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)NSObject",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)CALayerDelegate",
@@ -157,6 +161,7 @@
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s28CustomDebugStringConvertibleP",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s23CustomStringConvertibleP",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SQ",
+        "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s9EscapableP",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/SH",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8SendableP",
         "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s16SendableMetatypeP",
@@ -653,6 +658,16 @@
   "title" : "QuartzCore.CALayerDelegate",
   "type" : "unresolvable"
 },
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)CLBodyIdentifiable": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)CLBodyIdentifiable",
+  "title" : "CoreLocation.CLBodyIdentifiable",
+  "type" : "unresolvable"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)CMBodyIdentifiable": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)CMBodyIdentifiable",
+  "title" : "CoreMotion.CMBodyIdentifiable",
+  "type" : "unresolvable"
+},
 "doc://tcdigitalflyer.TCDigitalFlyer/objc(pl)NSCoding": {
   "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/objc(pl)NSCoding",
   "title" : "Foundation.NSCoding",
@@ -781,6 +796,11 @@
 "doc://tcdigitalflyer.TCDigitalFlyer/s8SendableP": {
   "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s8SendableP",
   "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+},
+"doc://tcdigitalflyer.TCDigitalFlyer/s9EscapableP": {
+  "identifier" : "doc:\/\/tcdigitalflyer.TCDigitalFlyer\/s9EscapableP",
+  "title" : "Swift.Escapable",
   "type" : "unresolvable"
 }
 }
